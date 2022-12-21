@@ -1,0 +1,40 @@
+﻿@model IEnumerable<PostVM>
+
+@{
+    ViewData["Title"] = "Post List";
+}
+
+<h1>All Post </h1>
+<hr/>
+<section>
+    <h2><a asp-action="Detail" asp-route-id="1">Hello </a></h2>
+</section>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ViewCount)
+                </td>
+
+             
+            </tr>
+        }
+    </tbody>
+</table>
