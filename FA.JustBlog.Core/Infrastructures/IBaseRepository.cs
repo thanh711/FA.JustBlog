@@ -56,6 +56,14 @@ namespace FA.JustBlog.Core.Infrastructures
         /// <returns></returns>
         IEnumerable<TEntity> Find(Func<TEntity, bool> predicate);
 
-        //IEnumerable<TEntity> GetPaging(IOrderedEnumerable<TEntity> orderBy, int currentPage = PageConfig.CurentPage, int pageSize = PageConfig.PageSize, string filter = null);
+        /// <summary>
+        /// Get paging object 
+        /// </summary>
+        /// <param name="orderBy"></param>
+        /// <param name="currentPage"></param>
+        /// <param name="pageSize"></param>
+        /// <param name="filter"></param>
+        /// <returns></returns>
+        IEnumerable<TEntity> GetPaging(int currentPage, int pageSize,IOrderedEnumerable<TEntity> orderBy=null,  string filter = null);
     }
 }

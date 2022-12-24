@@ -19,7 +19,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddDbContext<JustBlogContext>(options =>
-    options.UseSqlServer(connectionString));
+    options.UseLazyLoadingProxies().UseSqlServer(connectionString));
+
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddAutoMapper(typeof(MapperConfig));
@@ -45,12 +46,24 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication();
+app.UseAuthentication(); 
 app.UseAuthorization();
 
+
+app.MapControllerRoute(name: "Posts",
+                pattern: "Post/{year}/{month}/{UrlSlug}",
+                defaults: new { controller = "Post", action = "Details" },
+                constraints: new { year = @"\d{4}", month = @"\d{2}" });
+app.MapControllerRoute(
+    name: "MyArea",
+    pattern: "{area:exists}/{controller=Posts}/{action=Index}/{id?}");
+
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Posts}/{action=Index}/{id?}");
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area=Admin}/{controller=Posts}/{action=Index}/{id?}");
 app.MapRazorPages();
 
 app.Run();

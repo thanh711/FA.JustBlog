@@ -9,6 +9,8 @@ namespace FA.JustBlog.MapperConfig
         public MapperConfig()
         {
             CreateMap<Post, PostVM>().ReverseMap();
+            CreateMap<Tag, TagVM>().ReverseMap();
+            CreateMap<Category, CategoryVM>().ReverseMap();
         }
     }
 }

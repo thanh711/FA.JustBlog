@@ -14,5 +14,6 @@ namespace FA.JustBlog.Core.IRepositories
     public interface ITagRepository : IBaseRepository<Tag>
     {
         Tag GetTagByUrlSlug(string urlSlug);
+        IList<Tag> GetTagByPostId(int id);
     }
 }

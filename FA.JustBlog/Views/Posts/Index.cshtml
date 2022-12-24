@@ -1,40 +1,83 @@
 ﻿@model IEnumerable<PostVM>
-
 @{
     ViewData["Title"] = "Post List";
+
+    List<PostVM> listTopView = mapper.Map<List<PostVM>>(unitOfWork.PostRepository.GetMostViewedPost(5));
+    List<PostVM> listLastest = mapper.Map<List<PostVM>>(unitOfWork.PostRepository.GetLatestPost(5));
+    List<TagVM> listtag = mapper.Map<List<TagVM>>(unitOfWork.TagRepository.GetPaging(1, 10));
+
 }
 
-<h1>All Post </h1>
-<hr/>
-<section>
-    <h2><a asp-action="Detail" asp-route-id="1">Hello </a></h2>
-</section>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
+<div class="row">
+    <div class="col-lg-9 mx-auto">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                @if (Model.Count() > 0)
+                {
+                    <section class="col-10">
+                        @foreach (var item in Model)
+                        {
+                            <!-- Post preview-->
+                            <article class="post-preview">
+                                <a asp-action="Details"
+                           asp-route-year="@item.PostedOn.Year"
+                           asp-route-month="@item.PostedOn.Month"
+                           asp-route-UrlSlug="@item.UrlSlug">
+                                    <h2 class="post-title text-underline-hover">@item.Title</h2>
+                                </a>
+                                <p class="post-meta">
+                                    <my-tag customer-name="@item.PostedOn"></my-tag>
+                                    with rate @item.Rate.ToString("0.##") by @item.ViewCount view(s)
+                                </p>
 
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Title)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ViewCount)
-                </td>
 
-             
-            </tr>
-        }
-    </tbody>
-</table>
+                                <p class="post-category">
+                                    Category
+                                    <span class="text-decoration-underline">
+                                        @{
+                                            var category = mapper.Map<CategoryVM>(unitOfWork.CategoryRepository.GetById(item.CategoryId));
+                                            var listPostTag = mapper.Map<List<TagVM>>(unitOfWork.TagRepository.GetTagByPostId(item.Id));
+                                        }
+                                        @category.Name
+                                    </span>
+                                </p>
+                                <p class="post-tag">
+                                    Tag:
+                                    @foreach (var postTag in listPostTag)
+                                    {
+                                        <span class="text-decoration-underline bg-dark text-white ">@postTag.Name</span>
+                                    }
+
+                                </p>
+                                <p>@item.ShortDescription</p>
+                            </article>
+                            <!-- Divider-->
+                            <hr />
+                        }
+                        <!-- Pager-->
+                        <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
+                    </section>
+                }
+                else
+                {
+                    <section class="col-10">
+                        <div class="alert alert-primary" role="alert">
+                            Ops! there is no post! <a asp-controller="Posts" asp-action="Index" class="alert-link">click here</a> to back to the home page.
+                        </div>
+                        <!-- Pager-->
+                    </section>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 mx-auto">
+
+        <partial name="_PartialAboutCard" />
+        <h3 class="pt-3">Most Viewed Posts</h3>
+        <partial name="_ListPosts" model="listTopView" />
+        <h3 class="pt-3">Lastest Posts</h3>
+        <partial name="_ListPosts" model="listLastest" />
+        <partial name="_PopularTags" model="listtag" />
+
+    </div>
+</div>

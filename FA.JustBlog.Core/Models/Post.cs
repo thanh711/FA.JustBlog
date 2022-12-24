@@ -39,12 +39,12 @@ namespace FA.JustBlog.Core.Models
 
         [NotMapped]
         public decimal Rate { get {
-                return (decimal)TotalRate / RateCount;
+                return (decimal)TotalRate / (RateCount==0?1: RateCount);
             } }
 
         [ForeignKey("Categorys")]
         public int CategoryId { get; set; }
-        public virtual Category Category { get; set; }
+        public virtual Category? Category { get; set; }
 
         public virtual ICollection<PostTagMap> PostTagMaps { get; set; }
 

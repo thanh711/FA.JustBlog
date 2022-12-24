@@ -20,7 +20,7 @@ namespace FA.JustBlog.Core.Models
         public string UrlSlug { get; set; }
 
         [StringLength(1024)]
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
         public virtual IList<Post> Posts { get; set; }
     }

@@ -1,0 +1,56 @@
+﻿@model PostVM
+
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Edit</h1>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div> 
+            <div class="form-group">
+                <label asp-for="ShortDescription" class="control-label"></label>
+                <textarea asp-for="ShortDescription" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="ShortDescription" class="text-danger" ></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PostContent" class="control-label"></label>
+                <textarea asp-for="PostContent" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="PostContent" class="text-danger"></span>
+            </div>  
+            <div class="form-group">
+                <label asp-for="Published" class="control-label"></label>
+                @Html.DropDownListFor(u => u.Published, new SelectList(Model.PublishedList, "Value", "Text"), 
+                new { @class = "form-control" })
+
+                <span asp-validation-for="Published" class="text-danger"></span>
+            </div>
+          
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label">Category</label>
+                @Html.DropDownListFor(u => u.CategoryId, new SelectList(Model.CategoryList, "Value", "Text"), 
+                new { @class = "form-control" })
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Id"/>
+            <input type="hidden" asp-for="PostedOn"/>
+            <input type="hidden" asp-for="UrlSlug" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div>
+    
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</div>
+

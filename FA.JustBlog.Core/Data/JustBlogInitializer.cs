@@ -3,6 +3,7 @@ using FA.JustBlog.Core.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,21 +18,25 @@ namespace FA.JustBlog.Core.Data
         /// <param name="builder"></param>
         public static void Seed(this ModelBuilder builder)
         {
+            var rand = new Random();
+        
+            int postIdCount = 50;
+
             #region Init Category Data
             List<Category> categories = new List<Category>();
-            for(int i = 1; i < 10; i++)
+            for (int i = 1; i < 20; i++)
             {
                 categories.Add(new Category
                 {
                     Id = i,
-                    Name = "Category Name "+i,
-                    UrlSlug = "Category UrlSlug " + i,
+                    Name = "Category " + i,
+                    UrlSlug = "category-urlslug " + i,
                     Description = "Category Description " + i,
                 });
             }
             builder.Entity<Category>().HasData(categories);
-           
-         
+
+
             #endregion
 
             #region Init Post Data
@@ -39,120 +44,121 @@ namespace FA.JustBlog.Core.Data
                 new Post
                 {
                     Id = 1,
-                    Title = "Post Title demo:" + 1,
-                    ShortDescription = "Post ShortDescription demo:" + 1,
-                    PostContent = "Post PostContent demo:" + 1,
-                    UrlSlug = "Post UrlSlug demo:" + 1,
+                    Title = "Ukraine's Zelenskiy tells U.S. Congress aid is 'not charity', urges more support",
+                    ShortDescription = "President Volodymyr Zelenskiy told the U.S. Congress that aid to Ukraine was an investment in democracy and \"not charity\" as he invoked American battles against the Nazis in World War Two to press for more assistance for his country's war effort.",
+                    PostContent = "WASHINGTON/KYIV, Dec 22 (Reuters) - President Volodymyr Zelenskiy told the U.S. Congress that aid to Ukraine was an investment in democracy and \"not charity\" as he invoked American battles against the Nazis in World War Two to press for more assistance for his country's war effort.\r\n\r\nZelenskiy's comments on Wednesday come as Republicans - some of whom have voiced increasing scepticism about sending so much aid to Ukraine - are set to take control of the U.S. House of Representatives from Democrats on Jan. 3.",
+                    UrlSlug = "post-urlslug-demo" + 1,
                     Published = Publish.Publised,
                     PostedOn = new DateTime(2020, 1, 1),
                     Modified = new DateTime(2020, 11, 1),
-                    CategoryId = 1,
+                    CategoryId = rand.Next(1, 10),
+                    RateCount = rand.Next(1, 100),
+                    ViewCount = rand.Next(1, 100),
+                    TotalRate = rand.Next(1, 200),
 
                 },
                 new Post
                 {
                     Id = 2,
-                    Title = "Post Title demo:" + 2,
-                    ShortDescription = "Post ShortDescription demo:" + 2,
-                    PostContent = "Post PostContent demo:" + 2,
-                    UrlSlug = "Post UrlSlug demo:" + 2,
+                    Title = "How 2022 shocked, rocked and rolled global markets",
+                    ShortDescription = "LONDON, Dec 22 (Reuters) - Trillions of dollars wiped off world stocks, bond market tantrums, whip-sawing currency and commodities and the collapse of a few crypto empires - 2022 has been perhaps the most turbulent year investors have ever seen, and for good reason",
+                    PostContent = "LONDON, Dec 22 (Reuters) - Trillions of dollars wiped off world stocks, bond market tantrums, whip-sawing currency and commodities and the collapse of a few crypto empires - 2022 has been perhaps the most turbulent year investors have ever seen, and for good reason.\r\n\r\nTallying the final numbers is useful but doesn't even come close to telling the whole story.\r\n\r\nYes, global equities are down $14 trillion and heading for their second worst year on record, but there have been nearly 300 interest rate hikes and a trio of 10%-plus rallies in that time making the volatility freakish.",
+                    UrlSlug = "post-urlslug-demo" + 2,
                     Published = Publish.Publised,
                     PostedOn = new DateTime(2020, 1, 2),
                     Modified = new DateTime(2020, 11, 2),
-                    CategoryId = 1,
+                    CategoryId = rand.Next(1, 10),
+                    RateCount = rand.Next(1, 100),
+                    ViewCount = rand.Next(1, 100),
+                    TotalRate = rand.Next(1, 200),
 
                 },
                 new Post
                 {
                     Id = 3,
-                    Title = "Post Title demo:" + 3,
-                    ShortDescription = "Post ShortDescription demo:" + 3,
-                    PostContent = "Post PostContent demo:" + 3,
-                    UrlSlug = "Post UrlSlug demo:" + 3,
+                    Title = "Banker bonuses go from boom to bust in jarring reversal",
+                    ShortDescription = "NEW YORK/LONDON, Dec 22 (Reuters) - Bankers in New York and London are bracing for year-end bonuses that recruiters estimate are 30% to 50% lower, while some may receive none at all as dealmaking sputters and economic gloom sets takes hold.",
+                    PostContent = "Post PostContent demo:",
+                    UrlSlug = "post-urlslug-demo" + 3,
                     Published = Publish.Publised,
                     PostedOn = new DateTime(2020, 2, 3),
                     Modified = new DateTime(2020, 11, 3),
-                    CategoryId = 1,
+                    CategoryId = rand.Next(1, 10),
+                    RateCount = rand.Next(1, 100),
+                    ViewCount = rand.Next(1, 100),
+                    TotalRate = rand.Next(1, 200),
 
                 },
                 new Post
                 {
                     Id = 4,
-                    Title = "Post Title demo:" + 4,
-                    ShortDescription = "Post ShortDescription demo:" + 4,
-                    PostContent = "Post PostContent demo:" + 4,
-                    UrlSlug = "Post UrlSlug demo:" + 4,
+                    Title = "Has green hydrogen sprung a leak?",
+                    ShortDescription = "A general view of hydrogen electrolysis plant called 'REFHYNE', one of the world's first green hydrogen plants, during a launch event at Shell's Rhineland refinery in Wesseling near Cologne, Germany, July 2, 2021. REUTERS/Thilo Schmuelgen",
+                    PostContent = "A general view of hydrogen electrolysis plant called 'REFHYNE', one of the world's first green hydrogen plants, during a launch event at Shell's Rhineland refinery in Wesseling near Cologne, Germany, July 2, 2021. REUTERS/Thilo Schmuelgen.A general view of hydrogen electrolysis plant called 'REFHYNE', one of the world's first green hydrogen plants, during a launch event at Shell's Rhineland refinery in Wesseling near Cologne, Germany, July 2, 2021. REUTERS/Thilo Schmuelgen",
+                    UrlSlug = "post-urlslug-demo" + 4,
                     Published = Publish.Publised,
                     PostedOn = new DateTime(2020, 3, 4),
                     Modified = new DateTime(2020, 11, 4),
-                    CategoryId = 1,
+                    CategoryId = rand.Next(1, 10),
+                    RateCount = rand.Next(1, 100),
+                    ViewCount = rand.Next(1, 100),
+                    TotalRate = rand.Next(1, 200),
 
                 },
                 new Post
                 {
                     Id = 5,
-                    Title = "Post Title demo:" + 5,
-                    ShortDescription = "Post ShortDescription demo:" + 5,
-                    PostContent = "Post PostContent demo:" + 5,
-                    UrlSlug = "Post UrlSlug demo:" + 5,
+                    Title = "Toshiba's preferred bidder to seal $10.6 bln loan deal this week -Yomiuri",
+                    ShortDescription = "President Volodymyr Zelenskiy told the U.S. Congress that aid to Ukraine was an investment in democracy and \"not charity\" as he invoked American battles against the Nazis in World War Two to press for more assistance for his country's war effort.",
+                    PostContent = "President Volodymyr Zelenskiy told the U.S. Congress that aid to Ukraine was an investment in democracy and \"not charity\" as he invoked American battles against the Nazis in World War Two to press for more assistance for his country's war effort.",
+                    UrlSlug = "post-urlslug-demo" + 5,
                     Published = Publish.Publised,
                     PostedOn = new DateTime(2020, 2, 5),
                     Modified = new DateTime(2020, 11, 5),
-                    CategoryId = 2,
+                    CategoryId = rand.Next(1, 10),
+                    RateCount = rand.Next(1, 100),
+                    ViewCount = rand.Next(1, 100),
+                    TotalRate = rand.Next(1, 200),
+                }
+                );
 
-                },
-                new Post
+
+            List<Post> posts = new List<Post>();
+            for (int i = 6; i < postIdCount; i++)
+            {
+                posts.Add(new Post
                 {
-                    Id = 6,
-                    Title = "Post Title demo:" + 6,
-                    ShortDescription = "Post ShortDescription demo:" + 6,
-                    PostContent = "Post PostContent demo:" + 6,
-                    UrlSlug = "Post UrlSlug demo:" + 6,
+                    Id = i,
+                    Title = "Post Title demo:" + i,
+                    ShortDescription = "Post ShortDescription demo:" + i,
+                    PostContent = "Post PostContent demo:" + i,
+                    UrlSlug = "post-urlslug-demo" + i,
                     Published = Publish.Publised,
-                    PostedOn = new DateTime(2020, 4, 6),
-                    Modified = new DateTime(2020, 11, 6),
-                    CategoryId = 2,
-
-                },
-                new Post
-                {
-                    Id = 7,
-                    Title = "Post Title demo:" + 7,
-                    ShortDescription = "Post ShortDescription demo:" + 7,
-                    PostContent = "Post PostContent demo:" + 7,
-                    UrlSlug = "Post UrlSlug demo:" + 7,
-                    Published = Publish.Unpublised,
-                    PostedOn = new DateTime(2020, 5, 7),
-                    Modified = new DateTime(2020, 11, 7),
-                    CategoryId = 3,
-
-                },
-                new Post
-                {
-                    Id = 8,
-                    Title = "Post Title demo:" + 8,
-                    ShortDescription = "Post ShortDescription demo:" + 8,
-                    PostContent = "Post PostContent demo:" + 8,
-                    UrlSlug = "Post UrlSlug demo:" + 8,
-                    Published = Publish.Unpublised,
-                    PostedOn = new DateTime(2020, 6, 8),
-                    Modified = new DateTime(2020, 11, 8),
-                    CategoryId = 4,
-
-                },
-                new Post
-                {
-                    Id = 9,
-                    Title = "Post Title demo:" + 9,
-                    ShortDescription = "Post ShortDescription demo:" + 9,
-                    PostContent = "Post PostContent demo:" + 9,
-                    UrlSlug = "Post UrlSlug demo:" + 9,
-                    Published = Publish.Unpublised,
-                    PostedOn = new DateTime(2020, 7, 9),
-                    Modified = new DateTime(2020, 11, 9),
-                    CategoryId = 4,
-
+                    PostedOn = GenerateRandomDate(),
+                    CategoryId = rand.Next(1, 10),
+                    RateCount = rand.Next(1,100),
+                    ViewCount = rand.Next(1, 100),
+                    TotalRate = rand.Next(1, 200),
                 });
+            }
+            for (int i = postIdCount; i < postIdCount+5; i++)
+            {
+                posts.Add(new Post
+                {
+                    Id = i,
+                    Title = "Post Title demo:" + i,
+                    ShortDescription = "Post ShortDescription demo:" + i,
+                    PostContent = "Post PostContent demo:" + i,
+                    UrlSlug = "post-urlslug-demo" + i,
+                    Published = Publish.Unpublised,
+                    PostedOn = GenerateRandomDate(),
+                    CategoryId = rand.Next(1, 10),
+                    RateCount = rand.Next(1, 100),
+                    ViewCount = rand.Next(1, 100),
+                    TotalRate = rand.Next(1, 200),
+                });
+            }
+            builder.Entity<Post>().HasData(posts);
             #endregion
 
             #region Init Tag Data
@@ -160,90 +166,182 @@ namespace FA.JustBlog.Core.Data
                new Tag
                {
                    Id = 1,
-                   Name = "Tag Name demo:" + 1,
-                   UrlSlug = "Tag UrlSlug demo:" + 1,
+                   Name = "instagram",
+                   UrlSlug = "tag-urlslug-demo" + 1,
                    Description = "Tag Description demo:" + 1,
                    Count = 1
                },
                 new Tag
                 {
                     Id = 2,
-                    Name = "Tag Name demo:" + 2,
-                    UrlSlug = "Tag UrlSlug demo:" + 2,
+                    Name = "love",
+                    UrlSlug = "tag-urlslug-demo" + 2,
                     Description = "Tag Description demo:" + 2,
                     Count = 2
                 },
                 new Tag
                 {
                     Id = 3,
-                    Name = "Tag Name demo:" + 3,
-                    UrlSlug = "Tag UrlSlug demo:" + 3,
+                    Name = "like",
+                    UrlSlug = "tag-urlslug-demo" + 3,
                     Description = "Tag Description demo:" + 3,
                     Count = 3
                 },
                 new Tag
                 {
                     Id = 4,
-                    Name = "Tag Name demo:" + 4,
-                    UrlSlug = "Tag UrlSlug demo:" + 4,
+                    Name = "instagood",
+                    UrlSlug = "tag-urlslug-demo" + 4,
                     Description = "Tag Description demo:" + 4,
                     Count = 4
                 },
                 new Tag
                 {
                     Id = 5,
-                    Name = "Tag Name demo:" + 5,
-                    UrlSlug = "Tag UrlSlug demo:" + 5,
+                    Name = "follow",
+                    UrlSlug = "tag-urlslug-demo" + 5,
                     Description = "Tag Description demo:" + 5,
                     Count = 5
                 },
                 new Tag
                 {
                     Id = 6,
-                    Name = "Tag Name demo:" + 6,
-                    UrlSlug = "Tag UrlSlug demo:" + 6,
+                    Name = "likeforlikes",
+                    UrlSlug = "tag-urlslug-demo" + 6,
                     Description = "Tag Description demo:" + 6,
                     Count = 6
                 },
                 new Tag
                 {
                     Id = 7,
-                    Name = "Tag Name demo:" + 7,
-                    UrlSlug = "Tag UrlSlug demo:" + 7,
+                    Name = "viral",
+                    UrlSlug = "tag-urlslug-demo" + 7,
                     Description = "Tag Description demo:" + 7,
                     Count = 7
                 },
                 new Tag
                 {
                     Id = 8,
-                    Name = "Tag Name demo:" + 8,
-                    UrlSlug = "Tag UrlSlug demo:" + 8,
+                    Name = "new",
+                    UrlSlug = "tag-urlslug-demo" + 8,
                     Description = "Tag Description demo:" + 8,
                     Count = 8
                 },
                 new Tag
                 {
                     Id = 9,
-                    Name = "Tag Name demo:" + 9,
-                    UrlSlug = "Tag UrlSlug demo:" + 9,
+                    Name = "photography",
+                    UrlSlug = "tag-urlslug-demo" + 9,
                     Description = "Tag Description demo:" + 9,
                     Count = 9
+                }
+                ,
+                new Tag
+                {
+                    Id = 10,
+                    Name = "meme",
+                    UrlSlug = "tag-urlslug-demo" + 10,
+                    Description = "Tag Description demo:" + 10,
+                    Count = 91
+                }
+                ,
+                new Tag
+                {
+                    Id = 11,
+                    Name = "girl",
+                    UrlSlug = "tag-urlslug-demo" + 11,
+                    Description = "Tag Description demo:" + 11,
+                    Count = 92
+                }
+                ,
+                new Tag
+                {
+                    Id = 12,
+                    Name = "explorepage",
+                    UrlSlug = "tag-urlslug-demo" + 12,
+                    Description = "Tag Description demo:" + 12,
+                    Count = 93
+                }
+                ,
+                new Tag
+                {
+                    Id = 13,
+                    Name = "india",
+                    UrlSlug = "tag-urlslug-demo" + 13,
+                    Description = "Tag Description demo:" + 13,
+                    Count = 94
+                }
+                ,
+                new Tag
+                {
+                    Id = 14,
+                    Name = "new",
+                    UrlSlug = "tag-urlslug-demo" + 14,
+                    Description = "Tag Description demo:" + 14,
+                    Count = 95
+                }
+                ,
+                new Tag
+                {
+                    Id = 15,
+                    Name = "car",
+                    UrlSlug = "tag-urlslug-demo" + 15,
+                    Description = "Tag Description demo:" + 15,
+                    Count = 96
                 }
                 );
             #endregion
 
             #region Init PostTagMap Data
-            builder.Entity<PostTagMap>().HasData(
-                new PostTagMap { PostId = 1, TagId = 1 },
-            new PostTagMap { PostId = 1, TagId = 2 },
-            new PostTagMap { PostId = 1, TagId = 3, },
-            new PostTagMap { PostId = 2, TagId = 1 },
-            new PostTagMap { PostId = 2, TagId = 2,},
-            new PostTagMap { PostId = 3, TagId = 3 },
-            new PostTagMap { PostId = 4, TagId = 1 },
-            new PostTagMap { PostId = 5, TagId = 5 }
-                );
+
+            List<PostTagMap> postTagMap = new List<PostTagMap>();
+
+            for (int i = 1; i < 150; i++)
+            {
+                postTagMap.Add(new PostTagMap { PostId = rand.Next(1, postIdCount) });
+            }
+            foreach (PostTagMap postTag in postTagMap)
+            {
+                int tagId;
+                bool isExist = true;
+
+                while (isExist)
+                {
+                    tagId = rand.Next(1,15);
+                    isExist = false;
+
+                    foreach (PostTagMap postTag1 in postTagMap)
+                    {
+                        if (postTag1.PostId == postTag.PostId && postTag1.TagId == tagId)
+                        {
+                            isExist = true;
+                            break;
+                        }
+                    }
+                    if (!isExist)
+                    {
+                        postTag.TagId = tagId;
+                    }
+                }
+            }
+            builder.Entity<PostTagMap>().HasData(postTagMap);
             #endregion
+        }
+
+        public static DateTime GenerateRandomDate(DateTime start)
+        {
+            var rand = new Random();
+            TimeSpan interval = DateTime.Now - start;
+            if (interval < TimeSpan.Zero)
+                return start;
+            DateTime dateTime = start.AddDays(rand.Next(interval.Days - 1))
+                .AddSeconds(rand.Next(86400));
+            return dateTime;
+        }
+        public static DateTime GenerateRandomDate()
+        {
+            DateTime dateTime = new DateTime(2000, 1, 1);
+            return GenerateRandomDate(dateTime);
         }
     }
 }

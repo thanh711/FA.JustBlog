@@ -60,9 +60,31 @@ namespace FA.JustBlog.Core.Infrastructures
             return null;
         }
 
+        public IEnumerable<TEntity> GetPaging(int currentPage, int pageSize,IOrderedEnumerable<TEntity> orderBy = null,  string filter = null)
+        {
+            if (orderBy == null)
+            {
+                return DbSet.Where(t => t.Status == Status.Actived)
+                               .Skip((currentPage - 1) * pageSize)
+                               .Take(pageSize);
+            }
+            return orderBy.Where(t => t.Status == Status.Actived)
+                .Skip((currentPage-1)* pageSize)
+                .Take(pageSize);
+        }
+
         public void Update(TEntity entity)
         {
+            BeforeSave(entity);
             DbSet.Update(entity);
+        }
+        public void BeforeSave(TEntity entity)
+        {
+            if (context.Entry(entity).State == EntityState.Added)
+            {
+                entity.CreateAt = DateTime.Now;
+            }
+            entity.UpdateAt = DateTime.Now;
         }
     }
 }

@@ -9,11 +9,9 @@ using System.Threading.Tasks;
 
 namespace FA.JustBlog.Core.Data
 {
+    
     public class JustBlogContext : DbContext
     {
-        public JustBlogContext()
-        {
-        }
 
         public JustBlogContext(DbContextOptions<JustBlogContext> options)
             : base(options)

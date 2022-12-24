@@ -1,0 +1,74 @@
+﻿@model IEnumerable<PostVM>
+@{
+    ViewData["Title"] = "Post List";
+
+    List<PostVM> listTopView = mapper.Map<List<PostVM>>(unitOfWork.PostRepository.GetMostViewedPost(5));
+    List<PostVM> listLastest = mapper.Map<List<PostVM>>(unitOfWork.PostRepository.GetLatestPost(5));
+    List<TagVM> listtag = mapper.Map<List<TagVM>>(unitOfWork.TagRepository.GetPaging(1, 10));
+
+}
+<a asp-action="Create" class="btn btn-success">Create</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostedOn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ViewCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RateCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Published)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostedOnTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ViewCount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RateCount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Published)
+                </td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Update" 
+                    asp-route-year="@item.PostedOn.Year"
+                   asp-route-month="@item.PostedOn.Month"
+                   asp-route-UrlSlug="@item.UrlSlug"><i class="fa-solid fa-pencil"></i> Update</a> |
+                    <a class="btn btn-info" asp-action="Details"
+                   asp-route-year="@item.PostedOn.Year"
+                   asp-route-month="@item.PostedOn.Month"
+                   asp-route-UrlSlug="@item.UrlSlug"><i class="fa-solid fa-circle-info"></i> Details</a> |
+                    <button data-id="@item.Id" class="btn btn-danger deleteBtn" type="button"><i class="fa-solid fa-trash-can"></i> Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts{
+    <script>
+        $(function () {
+            $('.table').DataTable();
+        })
+    </script>
+}

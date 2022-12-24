@@ -8,6 +8,33 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\assets\img\about-bg.jpg" />
+    <None Include="wwwroot\assets\img\contact-bg.jpg" />
+    <None Include="wwwroot\assets\img\home-bg.jpg" />
+    <None Include="wwwroot\assets\img\post-bg.jpg" />
+    <None Include="wwwroot\assets\img\post-sample-image.jpg" />
+    <None Include="wwwroot\admintemplate\401.html" />
+    <None Include="wwwroot\admintemplate\404.html" />
+    <None Include="wwwroot\admintemplate\500.html" />
+    <None Include="wwwroot\admintemplate\assets\demo\chart-area-demo.js" />
+    <None Include="wwwroot\admintemplate\assets\demo\chart-bar-demo.js" />
+    <None Include="wwwroot\admintemplate\assets\demo\chart-pie-demo.js" />
+    <None Include="wwwroot\admintemplate\assets\demo\datatables-demo.js" />
+    <None Include="wwwroot\admintemplate\assets\img\error-404-monochrome.svg" />
+    <None Include="wwwroot\admintemplate\charts.html" />
+    <None Include="wwwroot\admintemplate\css\styles.css" />
+    <None Include="wwwroot\admintemplate\index.html" />
+    <None Include="wwwroot\admintemplate\js\datatables-simple-demo.js" />
+    <None Include="wwwroot\admintemplate\js\scripts.js" />
+    <None Include="wwwroot\admintemplate\layout-sidenav-light.html" />
+    <None Include="wwwroot\admintemplate\layout-static.html" />
+    <None Include="wwwroot\admintemplate\login.html" />
+    <None Include="wwwroot\admintemplate\password.html" />
+    <None Include="wwwroot\admintemplate\register.html" />
+    <None Include="wwwroot\admintemplate\tables.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.10" />
@@ -15,10 +42,17 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.11" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FA.JustBlog.Common\FA.JustBlog.Common.csproj" />
     <ProjectReference Include="..\FA.JustBlog.Core\FA.JustBlog.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
   </ItemGroup>
 
 </Project>

@@ -11,7 +11,11 @@ namespace FA.JustBlog.Core.Infrastructures
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly JustBlogContext _context=new();
+        public UnitOfWork(JustBlogContext blogContext)
+        {
+            _context = blogContext;
+        }
+        private readonly JustBlogContext _context;
         private ICategoryRepository categoryRepository;
 
         public ICategoryRepository CategoryRepository
@@ -50,5 +54,7 @@ namespace FA.JustBlog.Core.Infrastructures
         {
             return _context.SaveChanges();
         }
+
+        
     }
 }

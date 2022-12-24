@@ -1,0 +1,86 @@
+﻿@model PostVM
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1> @Model.Title</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Title)
+         
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Title)
+            <hr />
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ShortDescription)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ShortDescription)<hr />
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.PostContent)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.PostContent)<hr />
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.PostedOn)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.PostedOn)<hr />
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Published)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Published)<hr />
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ViewCount)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ViewCount)<hr />
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.RateCount)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.RateCount)<hr />
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.TotalRate)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.TotalRate)<hr />
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.CategoryName)<hr />
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Rate)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Rate)<hr />
+        </dd>
+
+    </dl>
+</div>
+<div>
+    <a class="btn btn-warning" asp-action="Update"
+       asp-route-year="@Model.PostedOn.Year"
+       asp-route-month="@Model.PostedOn.Month"
+       asp-route-UrlSlug="@Model.UrlSlug"><i class="fa-solid fa-pencil"></i> Update</a>
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</div>

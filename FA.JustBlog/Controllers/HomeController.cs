@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
+
 namespace FA.JustBlog.Controllers
 {
     public class HomeController : Controller
