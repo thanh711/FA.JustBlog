@@ -5,6 +5,7 @@ using FA.JustBlog.Core.Models;
 using FA.JustBlog.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Extensions.Hosting;
 using System.Collections.Generic;
 
 namespace FA.JustBlog.Areas.Admin.Controllers
@@ -85,18 +86,36 @@ namespace FA.JustBlog.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(PostVM post)
         {
+            ModelState.Remove("Id");
             ModelState.Remove("CategoryName");
             ModelState.Remove("CategoryList");
+            ModelState.Remove("RateCount");
             ModelState.Remove("PublishedList");
             ModelState.Remove("CategoryName");
+            ModelState.Remove("UrlSlug");
             if (!ModelState.IsValid)
             {
                 return View(post);
             }
             else
             {
-                return Create(post);
+                Post post1 = mapper.Map<Post>(post);
+                post1.Category = null;
+                post1.UrlSlug = post.Title + Guid.NewGuid();
+                post1.PostedOn = DateTime.Now;
+                unitOfWork.PostRepository.Create(post1);
+                unitOfWork.SaveChanges();
+                return View(nameof(Details), post);
             }
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
+        {
+            unitOfWork.PostRepository.Delete(id);
+            unitOfWork.SaveChanges();
+            return RedirectToAction(nameof(Index));
         }
     }
 }

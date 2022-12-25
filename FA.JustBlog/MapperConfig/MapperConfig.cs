@@ -11,6 +11,7 @@ namespace FA.JustBlog.MapperConfig
             CreateMap<Post, PostVM>().ReverseMap();
             CreateMap<Tag, TagVM>().ReverseMap();
             CreateMap<Category, CategoryVM>().ReverseMap();
+            CreateMap<Comment, CommentVM>().ReverseMap();
         }
     }
 }

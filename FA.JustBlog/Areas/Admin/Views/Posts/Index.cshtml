@@ -1,11 +1,6 @@
 ﻿@model IEnumerable<PostVM>
 @{
     ViewData["Title"] = "Post List";
-
-    List<PostVM> listTopView = mapper.Map<List<PostVM>>(unitOfWork.PostRepository.GetMostViewedPost(5));
-    List<PostVM> listLastest = mapper.Map<List<PostVM>>(unitOfWork.PostRepository.GetLatestPost(5));
-    List<TagVM> listtag = mapper.Map<List<TagVM>>(unitOfWork.TagRepository.GetPaging(1, 10));
-
 }
 <a asp-action="Create" class="btn btn-success">Create</a>
 
@@ -51,24 +46,30 @@
                     @Html.DisplayFor(modelItem => item.Published)
                 </td>
                 <td>
-                    <a class="btn btn-warning" asp-action="Update" 
-                    asp-route-year="@item.PostedOn.Year"
+                    <a class="btn btn-warning" asp-action="Update"
+                   asp-route-year="@item.PostedOn.Year"
                    asp-route-month="@item.PostedOn.Month"
-                   asp-route-UrlSlug="@item.UrlSlug"><i class="fa-solid fa-pencil"></i> Update</a> |
+                   asp-route-UrlSlug="@item.UrlSlug"><i class="fa-solid fa-pencil"></i> Update</a> <br/>
                     <a class="btn btn-info" asp-action="Details"
                    asp-route-year="@item.PostedOn.Year"
                    asp-route-month="@item.PostedOn.Month"
-                   asp-route-UrlSlug="@item.UrlSlug"><i class="fa-solid fa-circle-info"></i> Details</a> |
-                    <button data-id="@item.Id" class="btn btn-danger deleteBtn" type="button"><i class="fa-solid fa-trash-can"></i> Delete</button>
+                   asp-route-UrlSlug="@item.UrlSlug"><i class="fa-solid fa-circle-info"></i> Details</a>  <br />
+                    <form asp-action="Delete" asp-route-id="@item.Id"
+                      onclick="return confirm('Are you sure you want to delete this?')">
+                        <button type="submit" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i> Delete</button>
+                    </form>
+
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+
 @section Scripts{
     <script>
         $(function () {
             $('.table').DataTable();
-        })
+                })
     </script>
 }

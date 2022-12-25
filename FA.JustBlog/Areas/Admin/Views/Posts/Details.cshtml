@@ -1,7 +1,7 @@
 ﻿@model PostVM
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Post Details";
 }
 
 <h1> @Model.Title</h1>
@@ -29,9 +29,8 @@
             @Html.DisplayNameFor(model => model.PostContent)
         </dt>
         <dd class="col-sm-9">
-            @Html.DisplayFor(model => model.PostContent)<hr />
+            @Html.Raw( Model.PostContent)<hr />
         </dd>
-
         <dt class="col-sm-3">
             @Html.DisplayNameFor(model => model.PostedOn)
         </dt>

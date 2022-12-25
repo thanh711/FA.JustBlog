@@ -1,10 +1,10 @@
 ﻿@model PostVM
 
 @{
-    ViewData["Title"] = "Update";
+    ViewData["Title"] = "Update Post";
 }
 
-<h1>Edit</h1>
+<h1>@Model.Title</h1>
 <hr />
 <div class="row">
     <div class="col-md-12">
@@ -20,11 +20,28 @@
                 <textarea asp-for="ShortDescription" class="form-control" rows="3"></textarea>
                 <span asp-validation-for="ShortDescription" class="text-danger" ></span>
             </div>
-            <div class="form-group">
+            @*<div class="form-group">
                 <label asp-for="PostContent" class="control-label"></label>
                 <textarea asp-for="PostContent" class="form-control" rows="3"></textarea>
                 <span asp-validation-for="PostContent" class="text-danger"></span>
-            </div>  
+            </div>*@
+            <div class="form-group">
+                <div class="form-outline mb-4">
+                    <label class="form-label" asp-for="PostContent"></label>
+                    <div>
+                        <textarea asp-for="PostContent" class="form-control"></textarea>
+                        <span asp-validation-for="PostContent" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+          
+            <div class="form-group">
+                <label asp-for="PostedOn" class="control-label"></label>
+                <input asp-for="PostedOn" class="form-control" />
+                <span asp-validation-for="PostedOn" class="text-danger"></span>
+            </div>
+
             <div class="form-group">
                 <label asp-for="Published" class="control-label"></label>
                 @Html.DropDownListFor(u => u.Published, new SelectList(Model.PublishedList, "Value", "Text"), 
@@ -40,7 +57,7 @@
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
             <input type="hidden" asp-for="Id"/>
-            <input type="hidden" asp-for="PostedOn"/>
+            @*<input type="hidden" asp-for="PostedOn"/>*@
             <input type="hidden" asp-for="UrlSlug" />
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-success" />
@@ -50,7 +67,12 @@
 </div>
 <br />
 <div>
-    
     <a asp-action="Index" class="btn btn-primary">Back to List</a>
 </div>
-
+@section Scripts{
+    <script>
+        tinymce.init({
+            selector: 'textarea#PostContent',
+        });
+    </script>
+}
