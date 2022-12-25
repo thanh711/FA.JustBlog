@@ -41,11 +41,7 @@ namespace FA.JustBlog.Areas.Admin.Controllers
             var item = mapper.Map<PostVM>(unitOfWork.PostRepository.FindPost(year, month, UrlSlug));
             if (item == null)
                 return NotFound();
-            item.CategoryList = unitOfWork.CategoryRepository.GetAll().Select(t=> new SelectListItem
-            {
-                Text=t.Name,
-                Value=t.Id.ToString()
-            });
+
             item.PublishedList = new List<SelectListItem> {
                        new SelectListItem { Value = Publish.Publised.ToString() , Text = "Publised" },
                        new SelectListItem { Value = Publish.Unpublised.ToString() , Text = "Unpublised" },
@@ -62,20 +58,19 @@ namespace FA.JustBlog.Areas.Admin.Controllers
             ModelState.Remove("CategoryName");
             if (!ModelState.IsValid)
             {
-                 return Update(post.PostedOn.Year, post.PostedOn.Month, post.UrlSlug);
+                return Update(post.PostedOn.Year, post.PostedOn.Month, post.UrlSlug);
             }
             else
             {
                 Post post1 = unitOfWork.PostRepository.FindPost(post.PostedOn.Year, post.PostedOn.Month, post.UrlSlug);
-              
-            post1.Title= post.Title;
-            post1.ShortDescription = post.ShortDescription;
-            post1.PostContent = post.PostContent;
-            post1.Published = post.Published;
-            post1.CategoryId = post.CategoryId;
-            unitOfWork.PostRepository.Update(post1);
-            unitOfWork.SaveChanges();
-            return View(nameof(Details), mapper.Map<PostVM>(post1));
+                post1.Title = post.Title;
+                post1.ShortDescription = post.ShortDescription;
+                post1.PostContent = post.PostContent;
+                post1.Published = post.Published;
+                post1.CategoryId = post.CategoryId;
+                unitOfWork.PostRepository.Update(post1);
+                unitOfWork.SaveChanges();
+                return View(nameof(Details), mapper.Map<PostVM>(post1));
             }
         }
         public IActionResult Create()
@@ -110,7 +105,6 @@ namespace FA.JustBlog.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public IActionResult Delete(int id)
         {
             unitOfWork.PostRepository.Delete(id);

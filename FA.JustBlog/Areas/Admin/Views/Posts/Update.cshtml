@@ -1,5 +1,4 @@
 ﻿@model PostVM
-
 @{
     ViewData["Title"] = "Update Post";
 }
@@ -14,17 +13,12 @@
                 <label asp-for="Title" class="control-label"></label>
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
-            </div> 
+            </div>
             <div class="form-group">
                 <label asp-for="ShortDescription" class="control-label"></label>
                 <textarea asp-for="ShortDescription" class="form-control" rows="3"></textarea>
-                <span asp-validation-for="ShortDescription" class="text-danger" ></span>
+                <span asp-validation-for="ShortDescription" class="text-danger"></span>
             </div>
-            @*<div class="form-group">
-                <label asp-for="PostContent" class="control-label"></label>
-                <textarea asp-for="PostContent" class="form-control" rows="3"></textarea>
-                <span asp-validation-for="PostContent" class="text-danger"></span>
-            </div>*@
             <div class="form-group">
                 <div class="form-outline mb-4">
                     <label class="form-label" asp-for="PostContent"></label>
@@ -34,8 +28,6 @@
                     </div>
                 </div>
             </div>
-
-          
             <div class="form-group">
                 <label asp-for="PostedOn" class="control-label"></label>
                 <input asp-for="PostedOn" class="form-control" />
@@ -44,19 +36,25 @@
 
             <div class="form-group">
                 <label asp-for="Published" class="control-label"></label>
-                @Html.DropDownListFor(u => u.Published, new SelectList(Model.PublishedList, "Value", "Text"), 
+                @Html.DropDownListFor(u => u.Published,  new SelectList(new List<SelectListItem> {
+                new SelectListItem { Value = Publish.Publised.ToString() , Text = "Publised" },
+                new SelectListItem { Value = Publish.Unpublised.ToString() , Text = "Unpublised" },
+                }, "Value", "Text"),
                 new { @class = "form-control" })
-
                 <span asp-validation-for="Published" class="text-danger"></span>
             </div>
-          
             <div class="form-group">
                 <label asp-for="CategoryId" class="control-label">Category</label>
-                @Html.DropDownListFor(u => u.CategoryId, new SelectList(Model.CategoryList, "Value", "Text"), 
+                @Html.DropDownListFor(u => u.CategoryId, 
+                    new SelectList(unitOfWork.CategoryRepository.GetAll().Select(t => new SelectListItem
+                {
+                Text = t.Name,
+                Value = t.Id.ToString()
+                }), "Value", "Text"),
                 new { @class = "form-control" })
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
-            <input type="hidden" asp-for="Id"/>
+            <input type="hidden" asp-for="Id" />
             @*<input type="hidden" asp-for="PostedOn"/>*@
             <input type="hidden" asp-for="UrlSlug" />
             <div class="form-group">
