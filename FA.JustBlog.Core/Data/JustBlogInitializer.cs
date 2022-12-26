@@ -326,6 +326,24 @@ namespace FA.JustBlog.Core.Data
             }
             builder.Entity<PostTagMap>().HasData(postTagMap);
             #endregion
+
+            #region Init Comment Data
+            List<Comment> comments = new List<Comment>();
+            for (int i = 1; i < 20; i++)
+            {
+                comments.Add(new Comment
+                {
+                    Id = i,
+                    Name = "comment name " + i,
+                    Email = "commentemail " + i+"@gmail.com",
+                    CommentHeader = "CommentHeader " + i,
+                    CommentText = "CommentText " + i,
+                    CommentTime = DateTime.Now,
+                    PostId = rand.Next(1, 50),
+                });
+            }
+            builder.Entity<Comment>().HasData(comments);
+            #endregion
         }
 
         public static DateTime GenerateRandomDate(DateTime start)
