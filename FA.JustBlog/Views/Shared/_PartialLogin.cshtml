@@ -3,26 +3,40 @@
 @inject UserManager<IdentityUser> UserManager
 
 
-    @if (SignInManager.IsSignedIn(User))
-    {
+@if (SignInManager.IsSignedIn(User))
+{
     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" asp-area="Admin" asp-controller="Posts" asp-action="Index">Posts Management</a></li>
-        <li class="nav-item">
+    <li class="nav-item">
         <a class="nav-link px-lg-3 py-3 py-lg-4" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">@User.Identity?.Name!</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link px-lg-3 py-3 py-lg-4" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">Logout</a>
-          @*  <form class="form-inline " asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button type="submit" class="nav-link btn btn-link  text-white">Logout</button>
-            </form>*@
-        </li>
-    }
-    else
-    {
-        <li class="nav-item">
+    </li>
+    <li class="nav-item">
+        @*<a class="nav-link px-lg-3 py-3 py-lg-4" asp-area="Identity" asp-page="/Account/Logout">Logout</a>*@
+        <form class="form-inline " asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Login", "Account", new { area = "Identity" })">
+            <button type="submit" class="my-logout">Logout</button>
+        </form>
+    </li>
+}
+else
+{
+    <li class="nav-item">
         <a class="nav-link px-lg-3 py-3 py-lg-4" asp-area="Identity" asp-page="/Account/Register">Register</a>
-        </li>
-        <li class="nav-item">
+    </li>
+    <li class="nav-item">
         <a class="nav-link px-lg-3 py-3 py-lg-4" asp-area="Identity" asp-page="/Account/Login">Login</a>
-        </li>
-    }
+    </li>
+}
 
+<form id="logout-form" method="post" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })">
+    <input type="hidden" id="leaveTypeId" name="Id" />
+</form>
+
+@section Scripts{
+    <script>
+        $(function () {
+            $('#log-out-atag').click(function (e) {
+                console.log('ok')
+                $('#logout-form').submit();
+            });
+        })
+    </script>
+}

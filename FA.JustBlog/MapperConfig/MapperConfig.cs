@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using FA.JustBlog.Core.Models;
-using FA.JustBlog.Models;
+using FA.JustBlog.Common.ViewModels;
 
 namespace FA.JustBlog.MapperConfig
 {

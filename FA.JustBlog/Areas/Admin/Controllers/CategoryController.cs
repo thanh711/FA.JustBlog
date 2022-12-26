@@ -1,14 +1,10 @@
 ﻿using AutoMapper;
+using FA.JustBlog.Common.ViewModels;
 using FA.JustBlog.Core.Constants;
-using FA.JustBlog.Core.Enum;
 using FA.JustBlog.Core.Infrastructures;
 using FA.JustBlog.Core.Models;
-using FA.JustBlog.Models;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.Extensions.Hosting;
 
 namespace FA.JustBlog.Areas.Admin.Controllers
 {
@@ -24,12 +20,15 @@ namespace FA.JustBlog.Areas.Admin.Controllers
             this.unitOfWork = unitOfWork;
             this.mapper = mapper;
         }
+        [Authorize(Roles = Roles.Contributor + "," + Roles.BlogOwner)]
         public IActionResult Create()
         {
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = Roles.Contributor + "," + Roles.BlogOwner)]
         public IActionResult Create(CategoryVM model)
         {
             ModelState.Remove("Id");
@@ -48,20 +47,9 @@ namespace FA.JustBlog.Areas.Admin.Controllers
                 return View(nameof(Details), mapper.Map<CategoryVM>(category));
             }
         }
-        public IActionResult Index()
-        {
-            var list = mapper.Map<List<CategoryVM>>(unitOfWork.CategoryRepository.GetAll());
 
-            return View(list);
-        }
 
-        public IActionResult Details(int id)
-        {
-            var item = mapper.Map<CategoryVM>(unitOfWork.CategoryRepository.GetById(id));
-            if (item == null)
-                return NotFound();
-            return View(item);
-        }
+        [Authorize(Roles = Roles.Contributor + "," + Roles.BlogOwner)]
         public IActionResult Update(int id)
         {
             var item = mapper.Map<CategoryVM>(unitOfWork.CategoryRepository.GetById(id));
@@ -69,8 +57,10 @@ namespace FA.JustBlog.Areas.Admin.Controllers
                 return NotFound();
             return View(item);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = Roles.Contributor + "," + Roles.BlogOwner)]
         public IActionResult Update(CategoryVM model)
         {
             ModelState.Remove("Posts");
@@ -89,7 +79,27 @@ namespace FA.JustBlog.Areas.Admin.Controllers
             }
             return View();
         }
+
+        [Authorize(Roles = Roles.Contributor + "," + Roles.BlogOwner + "," + Roles.User)]
+        public IActionResult Details(int id)
+        {
+            var item = mapper.Map<CategoryVM>(unitOfWork.CategoryRepository.GetById(id));
+            if (item == null)
+                return NotFound();
+            return View(item);
+        }
+
+        [Authorize(Roles = Roles.Contributor + "," + Roles.BlogOwner + "," + Roles.User)]
+        public IActionResult Index()
+        {
+            var list = mapper.Map<List<CategoryVM>>(unitOfWork.CategoryRepository.GetAll());
+
+            return View(list);
+        }
+       
+      
         [HttpPost]
+        [Authorize(Roles = Roles.BlogOwner)]
         public IActionResult Delete(int id)
         {
             unitOfWork.CategoryRepository.Delete(id);

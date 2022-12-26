@@ -7,6 +7,22 @@
     .text-underline-hover:hover {
         text-decoration: underline;
     }
+.my-logout {
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    display: block;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Clean Blog v6.0.8 (https://startbootstrap.com/theme/clean-blog)

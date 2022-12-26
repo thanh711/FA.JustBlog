@@ -1,4 +1,4 @@
-﻿namespace FA.JustBlog.Models
+﻿namespace FA.JustBlog.Common.ViewModels
 {
     public class CommentVM
     {

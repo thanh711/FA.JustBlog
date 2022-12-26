@@ -2,7 +2,7 @@
 using FA.JustBlog.Core.Infrastructures;
 using FA.JustBlog.Core.IRepositories;
 using FA.JustBlog.Core.Repositories;
-using FA.JustBlog.Models;
+using FA.JustBlog.Common.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Xml.Linq;
 

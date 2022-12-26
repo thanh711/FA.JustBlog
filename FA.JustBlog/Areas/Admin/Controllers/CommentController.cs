@@ -2,7 +2,7 @@
 using FA.JustBlog.Core.Constants;
 using FA.JustBlog.Core.Infrastructures;
 using FA.JustBlog.Core.Models;
-using FA.JustBlog.Models;
+using FA.JustBlog.Common.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

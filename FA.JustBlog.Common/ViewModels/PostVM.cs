@@ -1,10 +1,10 @@
-﻿using FA.JustBlog.Core.Enum;
-using FA.JustBlog.Core.Models;
+﻿
+using FA.JustBlog.Core.Enum;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
-using System.Xml.Linq;
 
-namespace FA.JustBlog.Models
+
+namespace FA.JustBlog.Common.ViewModels
 {
     public class PostVM
     {
