@@ -1,8 +1,11 @@
 ﻿using AutoMapper;
+using FA.JustBlog.Core.Constants;
 using FA.JustBlog.Core.Enum;
 using FA.JustBlog.Core.Infrastructures;
 using FA.JustBlog.Core.Models;
 using FA.JustBlog.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Hosting;
@@ -10,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 namespace FA.JustBlog.Areas.Admin.Controllers
 {
     [Area("Admin")]
+   
     public class CategoryController : AdminController
     {
         private readonly IUnitOfWork unitOfWork;

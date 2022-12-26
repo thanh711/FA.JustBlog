@@ -10,7 +10,7 @@
                         <a asp-action="Details" 
                         asp-route-year="@item.PostedOn.Year"
                        asp-route-month="@item.PostedOn.Month"
-                       asp-route-title="@item.UrlSlug" class=" text-underline-hover fw-bold ">@item.Title</a>
+                       asp-route-UrlSlug="@item.UrlSlug" class=" text-underline-hover fw-bold ">@item.Title</a>
                     </div>
                     <small class="text-muted">
                         @(string.Format("{0}", Math.Round(Math.Abs(((DateTime.Now - item.PostedOn).TotalDays))).ToString()))

@@ -1,5 +1,7 @@
-﻿using FA.JustBlog.Core.Enum;
+﻿using FA.JustBlog.Core.Constants;
+using FA.JustBlog.Core.Enum;
 using FA.JustBlog.Core.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -344,6 +346,8 @@ namespace FA.JustBlog.Core.Data
             }
             builder.Entity<Comment>().HasData(comments);
             #endregion
+
+           
         }
 
         public static DateTime GenerateRandomDate(DateTime start)

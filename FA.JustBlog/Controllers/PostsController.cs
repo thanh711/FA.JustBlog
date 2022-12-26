@@ -4,6 +4,7 @@ using FA.JustBlog.Core.IRepositories;
 using FA.JustBlog.Core.Repositories;
 using FA.JustBlog.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Xml.Linq;
 
 namespace FA.JustBlog.Controllers
 {
@@ -20,8 +21,8 @@ namespace FA.JustBlog.Controllers
 
         public IActionResult Index()
         {
-            var list = mapper.Map<List<PostVM>>(unitOfWork.PostRepository.GetPaging(1, 5));
-            
+            var list = mapper.Map<List<PostVM>>(unitOfWork.PostRepository.GetPaging(1, 6)); 
+
             return View(list);
         }
         public IActionResult LastestPost()
@@ -31,11 +32,14 @@ namespace FA.JustBlog.Controllers
 
             return View(nameof(Index), list);
         }
-        public IActionResult GetPostByCategory(string category)
+        public IActionResult GetPostByCategory(string name)
         {
-            var list = mapper.Map<List<PostVM>>(unitOfWork.PostRepository.GetPostsByCategory(category));
-
-
+            var list = mapper.Map<List<PostVM>>(unitOfWork.PostRepository.GetPostsByCategory(name));
+            return View(nameof(Index), list);
+        }
+        public IActionResult GetPostByTag(string name)
+        {
+            var list = mapper.Map<List<PostVM>>(unitOfWork.PostRepository.GetPostsByTag(name));
             return View(nameof(Index), list);
         }
         public IActionResult Details(int year, int month, string UrlSlug)

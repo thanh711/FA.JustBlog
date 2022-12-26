@@ -38,17 +38,33 @@
                                             var category = mapper.Map<CategoryVM>(unitOfWork.CategoryRepository.GetById(item.CategoryId));
                                             var listPostTag = mapper.Map<List<TagVM>>(unitOfWork.TagRepository.GetTagByPostId(item.Id));
                                         }
-                                        @category.Name
+                                        <a asp-action="GetPostByCategory"
+                                   asp-route-name="@category.Name">
+                                            <span >@category.Name</span>
+                                        </a>
+                                        
                                     </span>
                                 </p>
-                                <p class="post-tag">
-                                    Tag:
-                                    @foreach (var postTag in listPostTag)
-                                    {
-                                        <span class="text-decoration-underline bg-dark text-white ">@postTag.Name</span>
-                                    }
+                                @if (listPostTag.Count() > 0)
+                                {
+                                    <p class="post-tag">
+                                        Tag:
+                                        @foreach (var postTag in listPostTag)
+                                        {
+                                            <a asp-action="GetPostByTag"
+                               asp-route-name="@postTag.Name">
+                                                <span class="text-decoration-underline bg-dark text-white ">@postTag.Name</span>
+                                            </a>
+                                        }
+                                    </p>
+                                }
+                                else
+                                {
+                                    <p class="post-tag text-decoration-line-through">
+                                        Tag:
+                                    </p>
+                                }
 
-                                </p>
                                 <p>@item.ShortDescription</p>
                             </article>
                             <!-- Divider-->

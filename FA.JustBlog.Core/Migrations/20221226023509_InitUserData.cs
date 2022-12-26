@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace FA.JustBlog.Core.Migrations
 {
-    public partial class UpdateDemoData3 : Migration
+    public partial class InitUserData : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -18,11 +18,6 @@ namespace FA.JustBlog.Core.Migrations
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
                 keyValues: new object[] { 9, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 13, 1 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -42,22 +37,12 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 27, 1 });
+                keyValues: new object[] { 30, 1 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 40, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 42, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 47, 1 });
+                keyValues: new object[] { 36, 1 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -72,1255 +57,17 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 22, 2 });
+                keyValues: new object[] { 8, 2 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 24, 2 });
+                keyValues: new object[] { 11, 2 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 31, 2 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 33, 2 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 34, 2 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 39, 2 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 43, 2 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 47, 2 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 5, 3 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 13, 3 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 15, 3 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 20, 3 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 22, 3 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 25, 3 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 36, 3 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 37, 3 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 41, 3 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 48, 3 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 5, 4 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 14, 4 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 18, 4 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 19, 4 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 23, 4 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 24, 4 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 27, 4 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 38, 4 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 41, 4 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 47, 4 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 10, 5 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 14, 5 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 18, 5 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 29, 5 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 31, 5 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 39, 5 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 42, 5 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 43, 5 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 1, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 11, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 19, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 22, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 28, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 30, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 33, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 40, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 46, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 49, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 5, 7 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 6, 7 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 7, 7 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 13, 7 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 17, 7 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 27, 7 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 31, 7 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 41, 7 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 45, 7 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 46, 7 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 6, 8 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 8, 8 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 32, 8 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 42, 8 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 12, 9 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 17, 9 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 18, 9 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 24, 9 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 33, 9 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 1, 10 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 7, 10 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 8, 10 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 14, 10 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 28, 10 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 31, 10 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 36, 10 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 42, 10 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 6, 11 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 16, 11 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 31, 11 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 34, 11 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 35, 11 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 42, 11 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 46, 11 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 47, 11 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 1, 12 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 4, 12 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 11, 12 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 12, 12 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 18, 12 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 23, 12 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 34, 12 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 38, 12 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 45, 12 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 47, 12 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 1, 13 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 2, 13 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 6, 13 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 14, 13 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 17, 13 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 27, 13 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 41, 13 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 47, 13 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 5, 14 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 7, 14 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 14, 14 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 27, 14 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 28, 14 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 45, 14 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 47, 14 });
-
-            migrationBuilder.InsertData(
-                table: "Comments",
-                columns: new[] { "Id", "CommentHeader", "CommentText", "CommentTime", "Email", "Name", "PostId" },
-                values: new object[,]
-                {
-                    { 1, "CommentHeader 1", "CommentText 1", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5906), "commentemail 1@gmail.com", "comment name 1", 7 },
-                    { 2, "CommentHeader 2", "CommentText 2", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5912), "commentemail 2@gmail.com", "comment name 2", 47 },
-                    { 3, "CommentHeader 3", "CommentText 3", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5914), "commentemail 3@gmail.com", "comment name 3", 33 },
-                    { 4, "CommentHeader 4", "CommentText 4", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5915), "commentemail 4@gmail.com", "comment name 4", 14 },
-                    { 5, "CommentHeader 5", "CommentText 5", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5917), "commentemail 5@gmail.com", "comment name 5", 3 },
-                    { 6, "CommentHeader 6", "CommentText 6", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5959), "commentemail 6@gmail.com", "comment name 6", 7 },
-                    { 7, "CommentHeader 7", "CommentText 7", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5961), "commentemail 7@gmail.com", "comment name 7", 15 },
-                    { 8, "CommentHeader 8", "CommentText 8", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5962), "commentemail 8@gmail.com", "comment name 8", 17 },
-                    { 9, "CommentHeader 9", "CommentText 9", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5964), "commentemail 9@gmail.com", "comment name 9", 1 },
-                    { 10, "CommentHeader 10", "CommentText 10", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5967), "commentemail 10@gmail.com", "comment name 10", 19 },
-                    { 11, "CommentHeader 11", "CommentText 11", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5969), "commentemail 11@gmail.com", "comment name 11", 20 },
-                    { 12, "CommentHeader 12", "CommentText 12", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5971), "commentemail 12@gmail.com", "comment name 12", 36 },
-                    { 13, "CommentHeader 13", "CommentText 13", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5973), "commentemail 13@gmail.com", "comment name 13", 30 },
-                    { 14, "CommentHeader 14", "CommentText 14", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5975), "commentemail 14@gmail.com", "comment name 14", 23 },
-                    { 15, "CommentHeader 15", "CommentText 15", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5976), "commentemail 15@gmail.com", "comment name 15", 27 },
-                    { 16, "CommentHeader 16", "CommentText 16", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5978), "commentemail 16@gmail.com", "comment name 16", 31 },
-                    { 17, "CommentHeader 17", "CommentText 17", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5980), "commentemail 17@gmail.com", "comment name 17", 30 },
-                    { 18, "CommentHeader 18", "CommentText 18", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5982), "commentemail 18@gmail.com", "comment name 18", 1 },
-                    { 19, "CommentHeader 19", "CommentText 19", new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5984), "commentemail 19@gmail.com", "comment name 19", 25 }
-                });
-
-            migrationBuilder.InsertData(
-                table: "PostTagMaps",
-                columns: new[] { "PostId", "TagId" },
-                values: new object[,]
-                {
-                    { 1, 1 },
-                    { 3, 1 },
-                    { 4, 1 },
-                    { 7, 1 },
-                    { 10, 1 },
-                    { 14, 1 },
-                    { 21, 1 },
-                    { 29, 1 },
-                    { 31, 1 },
-                    { 32, 1 },
-                    { 39, 1 },
-                    { 49, 1 },
-                    { 3, 2 },
-                    { 14, 2 },
-                    { 20, 2 },
-                    { 25, 2 },
-                    { 35, 2 },
-                    { 37, 2 },
-                    { 38, 2 },
-                    { 41, 2 },
-                    { 2, 3 },
-                    { 7, 3 },
-                    { 10, 3 }
-                });
-
-            migrationBuilder.InsertData(
-                table: "PostTagMaps",
-                columns: new[] { "PostId", "TagId" },
-                values: new object[,]
-                {
-                    { 9, 4 },
-                    { 11, 4 },
-                    { 21, 4 },
-                    { 26, 4 },
-                    { 44, 4 },
-                    { 45, 4 },
-                    { 1, 5 },
-                    { 2, 5 },
-                    { 4, 5 },
-                    { 6, 5 },
-                    { 9, 5 },
-                    { 12, 5 },
-                    { 13, 5 },
-                    { 21, 5 },
-                    { 22, 5 },
-                    { 23, 5 },
-                    { 32, 5 },
-                    { 46, 5 },
-                    { 6, 6 },
-                    { 13, 6 },
-                    { 15, 6 },
-                    { 21, 6 },
-                    { 27, 6 },
-                    { 29, 6 },
-                    { 34, 6 },
-                    { 37, 6 },
-                    { 39, 6 },
-                    { 45, 6 },
-                    { 10, 7 },
-                    { 22, 7 },
-                    { 24, 7 },
-                    { 33, 7 },
-                    { 37, 7 },
-                    { 49, 7 },
-                    { 1, 8 },
-                    { 10, 8 },
-                    { 22, 8 },
-                    { 28, 8 },
-                    { 29, 8 },
-                    { 30, 8 },
-                    { 31, 8 },
-                    { 38, 8 }
-                });
-
-            migrationBuilder.InsertData(
-                table: "PostTagMaps",
-                columns: new[] { "PostId", "TagId" },
-                values: new object[,]
-                {
-                    { 44, 8 },
-                    { 45, 8 },
-                    { 1, 9 },
-                    { 11, 9 },
-                    { 25, 9 },
-                    { 30, 9 },
-                    { 32, 9 },
-                    { 45, 9 },
-                    { 46, 9 },
-                    { 4, 10 },
-                    { 9, 10 },
-                    { 19, 10 },
-                    { 21, 10 },
-                    { 29, 10 },
-                    { 44, 10 },
-                    { 5, 11 },
-                    { 7, 11 },
-                    { 14, 11 },
-                    { 15, 11 },
-                    { 21, 11 },
-                    { 24, 11 },
-                    { 30, 11 },
-                    { 33, 11 },
-                    { 38, 11 },
-                    { 49, 11 },
-                    { 13, 12 },
-                    { 14, 12 },
-                    { 21, 12 },
-                    { 24, 12 },
-                    { 25, 12 },
-                    { 29, 12 },
-                    { 39, 12 },
-                    { 4, 13 },
-                    { 11, 13 },
-                    { 13, 13 },
-                    { 16, 13 },
-                    { 31, 13 },
-                    { 34, 13 },
-                    { 35, 13 },
-                    { 40, 13 },
-                    { 46, 13 },
-                    { 49, 13 }
-                });
-
-            migrationBuilder.InsertData(
-                table: "PostTagMaps",
-                columns: new[] { "PostId", "TagId" },
-                values: new object[,]
-                {
-                    { 1, 14 },
-                    { 15, 14 },
-                    { 16, 14 },
-                    { 18, 14 },
-                    { 23, 14 },
-                    { 24, 14 },
-                    { 29, 14 },
-                    { 35, 14 },
-                    { 37, 14 },
-                    { 38, 14 },
-                    { 46, 14 }
-                });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 1,
-                columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 7, 83, 61, 14 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 2,
-                columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 7, 46, 6, 14 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 3,
-                columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 5, 18, 66, 82 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 4,
-                columns: new[] { "RateCount", "TotalRate" },
-                values: new object[] { 11, 22 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 5,
-                columns: new[] { "CategoryId", "RateCount", "TotalRate" },
-                values: new object[] { 1, 43, 116 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 6,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 9, new DateTime(2003, 3, 18, 16, 19, 23, 0, DateTimeKind.Unspecified), 68, 58, 36 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 7,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 6, new DateTime(2006, 4, 20, 1, 12, 42, 0, DateTimeKind.Unspecified), 35, 70, 92 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 8,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 6, new DateTime(2019, 5, 15, 2, 30, 1, 0, DateTimeKind.Unspecified), 86, 16, 10 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 9,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 3, new DateTime(2018, 2, 14, 3, 19, 19, 0, DateTimeKind.Unspecified), 6, 159, 8 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 10,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 5, new DateTime(2001, 1, 25, 13, 3, 42, 0, DateTimeKind.Unspecified), 68, 122, 31 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 11,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2000, 5, 1, 17, 51, 32, 0, DateTimeKind.Unspecified), 95, 97, 43 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 12,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 5, new DateTime(2007, 1, 23, 13, 30, 0, 0, DateTimeKind.Unspecified), 25, 173, 48 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 13,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 6, new DateTime(2022, 3, 15, 8, 20, 18, 0, DateTimeKind.Unspecified), 30, 71, 66 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 14,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2005, 2, 13, 1, 1, 52, 0, DateTimeKind.Unspecified), 10, 127, 3 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 15,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 2, new DateTime(2006, 6, 7, 1, 12, 7, 0, DateTimeKind.Unspecified), 61, 31, 57 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 16,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 4, new DateTime(2001, 9, 7, 12, 23, 2, 0, DateTimeKind.Unspecified), 50, 16, 22 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 17,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2022, 4, 15, 14, 27, 0, 0, DateTimeKind.Unspecified), 19, 49, 2 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 18,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 4, new DateTime(2012, 8, 1, 15, 23, 54, 0, DateTimeKind.Unspecified), 66, 125, 77 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 19,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 9, new DateTime(2017, 3, 2, 15, 26, 47, 0, DateTimeKind.Unspecified), 80, 83, 63 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 20,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2004, 3, 11, 22, 22, 41, 0, DateTimeKind.Unspecified), 88, 3, 31 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 21,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2013, 6, 21, 15, 23, 0, 0, DateTimeKind.Unspecified), 29, 167, 69 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 22,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 2, new DateTime(2020, 1, 14, 1, 22, 18, 0, DateTimeKind.Unspecified), 8, 105, 51 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 23,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2006, 6, 26, 23, 38, 4, 0, DateTimeKind.Unspecified), 7, 51, 39 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 24,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 5, new DateTime(2019, 9, 2, 8, 19, 15, 0, DateTimeKind.Unspecified), 7, 33, 24 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 25,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 4, new DateTime(2020, 7, 5, 18, 0, 11, 0, DateTimeKind.Unspecified), 71, 101, 78 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 26,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 5, new DateTime(2003, 6, 20, 10, 38, 1, 0, DateTimeKind.Unspecified), 45, 59, 35 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 27,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 6, new DateTime(2014, 9, 26, 9, 2, 1, 0, DateTimeKind.Unspecified), 1, 74, 23 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 28,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 2, new DateTime(2013, 11, 26, 13, 34, 24, 0, DateTimeKind.Unspecified), 83, 2, 28 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 29,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2015, 10, 23, 18, 37, 11, 0, DateTimeKind.Unspecified), 70, 119, 14 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 30,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 3, new DateTime(2010, 6, 17, 5, 59, 57, 0, DateTimeKind.Unspecified), 9, 192, 34 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 31,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 6, new DateTime(2018, 4, 11, 16, 18, 55, 0, DateTimeKind.Unspecified), 70, 114, 15 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 32,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 5, new DateTime(2003, 8, 24, 1, 52, 32, 0, DateTimeKind.Unspecified), 63, 190, 92 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 33,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2014, 4, 18, 10, 7, 2, 0, DateTimeKind.Unspecified), 8, 60, 98 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 34,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 2, new DateTime(2004, 9, 10, 0, 24, 19, 0, DateTimeKind.Unspecified), 67, 28, 52 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 35,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2005, 3, 4, 21, 33, 44, 0, DateTimeKind.Unspecified), 44, 169, 66 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 36,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2013, 5, 28, 17, 14, 12, 0, DateTimeKind.Unspecified), 31, 181, 80 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 37,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 5, new DateTime(2021, 11, 23, 16, 2, 25, 0, DateTimeKind.Unspecified), 77, 193, 37 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 38,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2015, 10, 18, 9, 50, 28, 0, DateTimeKind.Unspecified), 66, 153, 8 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 39,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 3, new DateTime(2010, 5, 20, 0, 57, 12, 0, DateTimeKind.Unspecified), 6, 76, 17 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 40,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 3, new DateTime(2019, 3, 9, 0, 4, 6, 0, DateTimeKind.Unspecified), 51, 192, 17 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 41,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2014, 11, 19, 5, 35, 54, 0, DateTimeKind.Unspecified), 92, 156, 59 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 42,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 7, new DateTime(2003, 4, 20, 2, 14, 5, 0, DateTimeKind.Unspecified), 79, 149, 82 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 43,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2007, 5, 6, 7, 30, 38, 0, DateTimeKind.Unspecified), 17, 190, 32 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 44,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 3, new DateTime(2016, 11, 17, 8, 18, 28, 0, DateTimeKind.Unspecified), 34, 58, 88 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 45,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 3, new DateTime(2020, 9, 20, 6, 6, 35, 0, DateTimeKind.Unspecified), 64, 73, 67 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 46,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 7, new DateTime(2014, 9, 21, 6, 1, 15, 0, DateTimeKind.Unspecified), 82, 95, 33 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 47,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 4, new DateTime(2018, 6, 10, 2, 49, 22, 0, DateTimeKind.Unspecified), 50, 62, 17 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 48,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 9, new DateTime(2012, 4, 11, 18, 9, 17, 0, DateTimeKind.Unspecified), 46, 91, 19 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 49,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 5, new DateTime(2013, 10, 10, 9, 58, 36, 0, DateTimeKind.Unspecified), 61, 173, 6 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 50,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 9, new DateTime(2016, 8, 6, 19, 31, 35, 0, DateTimeKind.Unspecified), 84, 164, 79 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 51,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 7, new DateTime(2017, 5, 23, 10, 28, 8, 0, DateTimeKind.Unspecified), 85, 177, 69 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 52,
-                columns: new[] { "CategoryId", "PostedOn", "TotalRate", "ViewCount" },
-                values: new object[] { 5, new DateTime(2018, 10, 25, 2, 30, 11, 0, DateTimeKind.Unspecified), 20, 14 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 53,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 4, new DateTime(2006, 8, 23, 5, 48, 59, 0, DateTimeKind.Unspecified), 94, 190, 45 });
-
-            migrationBuilder.UpdateData(
-                table: "Posts",
-                keyColumn: "Id",
-                keyValue: 54,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2009, 7, 29, 2, 17, 29, 0, DateTimeKind.Unspecified), 62, 100, 72 });
-        }
-
-        protected override void Down(MigrationBuilder migrationBuilder)
-        {
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 1);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 2);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 3);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 4);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 5);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 6);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 7);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 8);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 9);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 10);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 11);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 12);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 13);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 14);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 15);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 16);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 17);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 18);
-
-            migrationBuilder.DeleteData(
-                table: "Comments",
-                keyColumn: "Id",
-                keyValue: 19);
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 1, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 3, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 4, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 7, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 10, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 14, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 21, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 29, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 31, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 32, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 39, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 49, 1 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 3, 2 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 14, 2 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 20, 2 });
+                keyValues: new object[] { 12, 2 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1330,22 +77,37 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 35, 2 });
+                keyValues: new object[] { 28, 2 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 37, 2 });
+                keyValues: new object[] { 32, 2 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 38, 2 });
+                keyValues: new object[] { 34, 2 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 41, 2 });
+                keyValues: new object[] { 36, 2 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 45, 2 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 48, 2 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 49, 2 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1360,52 +122,87 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 10, 3 });
+                keyValues: new object[] { 9, 3 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 9, 4 });
+                keyValues: new object[] { 15, 3 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 11, 4 });
+                keyValues: new object[] { 17, 3 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 21, 4 });
+                keyValues: new object[] { 29, 3 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 26, 4 });
+                keyValues: new object[] { 38, 3 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 44, 4 });
+                keyValues: new object[] { 48, 3 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 45, 4 });
+                keyValues: new object[] { 49, 3 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 1, 5 });
+                keyValues: new object[] { 4, 4 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 2, 5 });
+                keyValues: new object[] { 12, 4 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 4, 5 });
+                keyValues: new object[] { 19, 4 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 20, 4 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 22, 4 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 27, 4 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 36, 4 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 38, 4 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 41, 4 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 48, 4 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1415,22 +212,7 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 9, 5 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 12, 5 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 13, 5 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 21, 5 });
+                keyValues: new object[] { 8, 5 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1440,47 +222,32 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 23, 5 });
+                keyValues: new object[] { 27, 5 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 32, 5 });
+                keyValues: new object[] { 29, 5 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 46, 5 });
+                keyValues: new object[] { 34, 5 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 6, 6 });
+                keyValues: new object[] { 3, 6 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 13, 6 });
+                keyValues: new object[] { 24, 6 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 15, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 21, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 27, 6 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 29, 6 });
+                keyValues: new object[] { 28, 6 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1490,47 +257,57 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 37, 6 });
+                keyValues: new object[] { 36, 6 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 39, 6 });
+                keyValues: new object[] { 41, 6 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 45, 6 });
+                keyValues: new object[] { 2, 7 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 10, 7 });
+                keyValues: new object[] { 8, 7 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 22, 7 });
+                keyValues: new object[] { 11, 7 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 24, 7 });
+                keyValues: new object[] { 14, 7 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 33, 7 });
+                keyValues: new object[] { 21, 7 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 37, 7 });
+                keyValues: new object[] { 25, 7 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 49, 7 });
+                keyValues: new object[] { 27, 7 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 45, 7 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 48, 7 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1540,17 +317,27 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 10, 8 });
+                keyValues: new object[] { 4, 8 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 22, 8 });
+                keyValues: new object[] { 6, 8 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 28, 8 });
+                keyValues: new object[] { 12, 8 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 15, 8 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 20, 8 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1560,57 +347,72 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 30, 8 });
+                keyValues: new object[] { 40, 8 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 31, 8 });
+                keyValues: new object[] { 46, 8 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 38, 8 });
+                keyValues: new object[] { 49, 8 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 44, 8 });
+                keyValues: new object[] { 6, 9 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 45, 8 });
+                keyValues: new object[] { 10, 9 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 1, 9 });
+                keyValues: new object[] { 12, 9 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 11, 9 });
+                keyValues: new object[] { 16, 9 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 25, 9 });
+                keyValues: new object[] { 17, 9 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 30, 9 });
+                keyValues: new object[] { 22, 9 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 32, 9 });
+                keyValues: new object[] { 28, 9 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 45, 9 });
+                keyValues: new object[] { 40, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 41, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 43, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 44, 9 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1625,37 +427,47 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 9, 10 });
+                keyValues: new object[] { 7, 10 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 19, 10 });
+                keyValues: new object[] { 14, 10 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 21, 10 });
+                keyValues: new object[] { 25, 10 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 29, 10 });
+                keyValues: new object[] { 33, 10 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 44, 10 });
+                keyValues: new object[] { 41, 10 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 5, 11 });
+                keyValues: new object[] { 2, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 4, 11 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
                 keyValues: new object[] { 7, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 12, 11 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1670,47 +482,32 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 21, 11 });
+                keyValues: new object[] { 41, 11 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 24, 11 });
+                keyValues: new object[] { 46, 11 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 30, 11 });
+                keyValues: new object[] { 48, 11 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 33, 11 });
+                keyValues: new object[] { 2, 12 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 38, 11 });
+                keyValues: new object[] { 6, 12 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 49, 11 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 13, 12 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 14, 12 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 21, 12 });
+                keyValues: new object[] { 12, 12 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1720,12 +517,12 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 25, 12 });
+                keyValues: new object[] { 28, 12 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 29, 12 });
+                keyValues: new object[] { 35, 12 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1735,17 +532,22 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 4, 13 });
+                keyValues: new object[] { 44, 12 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 11, 13 });
+                keyValues: new object[] { 45, 12 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 13, 13 });
+                keyValues: new object[] { 12, 13 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 14, 13 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1755,37 +557,27 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 31, 13 });
+                keyValues: new object[] { 25, 13 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 34, 13 });
+                keyValues: new object[] { 32, 13 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 35, 13 });
+                keyValues: new object[] { 36, 13 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 40, 13 });
+                keyValues: new object[] { 8, 14 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 46, 13 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 49, 13 });
-
-            migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 1, 14 });
+                keyValues: new object[] { 12, 14 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1800,12 +592,1350 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 18, 14 });
+                keyValues: new object[] { 30, 14 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 23, 14 });
+                keyValues: new object[] { 36, 14 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 43, 14 });
+
+            migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[,]
+                {
+                    { "0e01b5da-60a1-426e-b306-edbecd1aa228", "99f8340c-b829-40f6-8994-e318aea1e78c", "Contributor", "CONTRIBUTOR" },
+                    { "12fc2c0e-99bf-447d-9b4d-45996a250f16", "0f66d418-0b01-4bc9-9c8c-55688aad4086", "User", "USER" },
+                    { "d6039682-54c4-434a-920a-d91b3888d18d", "59509ff5-1968-4d56-9111-7db964ad9cea", "BlogOwner", "BLOGOWNER" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUsers",
+                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                values: new object[,]
+                {
+                    { "29a1edd8-8a04-4ad4-9cc3-a0402f533017", 0, "5de86cbb-383e-4c0c-bb1b-544a87949f1f", "thanhs3@user.com", true, false, null, "THANHS3@USER.COM", "THANHS3@USER.COM", "AQAAAAEAACcQAAAAECfwYDigeTttUbysQOdkkDxJiODwCewN2mLOTSdyiYASj3VvDG9eTWuWXXuaeAWyQQ==", null, false, "c26f7001-4a03-4316-b1dc-2ed2c1a7e092", false, "thanhs3@user.com" },
+                    { "350a7ff5-dddc-4642-b377-52bfb6ad30e8", 0, "56fc213b-3138-43e6-9a5c-79bd1f1ce12c", "thanhb1@blogOwner.com", true, false, null, "THANHB1@BLOGOWNER.COM", "THANHB1@BLOGOWNER.COM", "AQAAAAEAACcQAAAAEGSv4IZ0f6Yd8QJUT1eJ+7cStpHxFcuLEA7BBBqHqgE88M5AUUh94Im87aW/bH31qA==", null, false, "3f0e7965-438a-4586-a0b0-fb576d3287dc", false, "thanhb1@blogOwner.com" },
+                    { "5c286ddc-e0fd-4a35-bada-c33ba1dc90ed", 0, "4e711efb-37b9-414e-8119-6030ff40952f", "thanhs2@user.com", true, false, null, "THANHS2@USER.COM", "THANHS2@USER.COM", "AQAAAAEAACcQAAAAEMrCoJzpobMnK+urSLhKU7O/swyioNoVG8rDerYNM/T0nuhRmJpd2GIsA48FCqNR7w==", null, false, "bd7011b5-08ee-4e53-a22a-6a429748aa98", false, "thanhs2@user.com" },
+                    { "7d1cb70a-6c6f-4920-b353-30f5a97e9767", 0, "919eb6bf-a5b7-4a89-9476-c9e59eeba085", "thanhc2@contributor.com", true, false, null, "THANHC2@CONTRIBUTOR.COM", "THANHC2@CONTRIBUTOR.COM", "AQAAAAEAACcQAAAAEHB80ZZNIC6UICMcyVUXkxXEa1tyMutf/9U5q38bylgcthjFvB5qwdjmFJPzY3Gu3w==", null, false, "811e298c-ad69-428f-8df6-6e1d7b0e3e28", false, "thanhc2@contributor.com" },
+                    { "9f09f22c-2b9a-4899-90bf-9772e03edb55", 0, "a73553d0-f9ba-4cdf-9f5f-b75a78f8c097", "thanhb2@blogOwner.com", true, false, null, "THANHB2@BLOGOWNER.COM", "THANHB2@BLOGOWNER.COM", "AQAAAAEAACcQAAAAEPlZ0KScK+k/tgGsS+HIyIAy5n8/FvvjrpOnN5C+6WmAD3Jt63epp6zQO51CnT9xOA==", null, false, "4a645c4e-9944-4248-aaa2-20e003a9cd33", false, "thanhb2@blogOwner.com" },
+                    { "a2d6f7a5-7249-407c-8518-effb9df83f4d", 0, "98e65832-6f11-42ac-ae60-7495f29f9b67", "thanhc1@contributor.com", true, false, null, "THANHC1@CONTRIBUTOR.COM", "THANHC1@CONTRIBUTOR.COM", "AQAAAAEAACcQAAAAEECMCkafSWEN6vKSxTaxj143pMWRoGuXRDfYSXuT4XaqvpLx65dtQZqvF9NhktnoWg==", null, false, "ac7c5799-b0d0-4d76-844b-658f2761f62a", false, "thanhc1@contributor.com" },
+                    { "dd10f17b-6c30-43c8-b326-c69a807ba2c5", 0, "7b9c4918-35d1-4ade-a4ae-6ba0484db81b", "thanhs1@user.com", true, false, null, "THANHS1@USER.COM", "THANHS1@USER.COM", "AQAAAAEAACcQAAAAEGoxLv99cLjk1ZgUyjH0iciPiiyg2bcUv+AHN305OvW8XNTaadbqibvmfIjPdYtdeA==", null, false, "703e520c-fc90-4e03-860b-7d91f11381b0", false, "thanhs1@user.com" },
+                    { "e6e01470-3dcd-41b3-9eac-b11cdc461330", 0, "af896ee4-7571-430b-bddf-bf7dd64ee606", "thanhc3@contributor.com", true, false, null, "THANHC3@CONTRIBUTOR.COM", "THANHC3@CONTRIBUTOR.COM", "AQAAAAEAACcQAAAAEFTv1nZWguTU4icNQs98F5/+9RVbcnHCXgdDonsiWBSK02nzO8KmJtqTS+opOpWNnw==", null, false, "32b52f0e-8e69-4803-aa40-02b2a4b2996c", false, "thanhc3@contributor.com" },
+                    { "e99efd43-0141-4f63-bae0-c4b1a772fbf4", 0, "d5f2c8c6-7cb0-4d73-8d74-9f21f8339ec2", "thanhb3@blogOwner.com", true, false, null, "THANHB3@BLOGOWNER.COM", "THANHB3@BLOGOWNER.COM", "AQAAAAEAACcQAAAAEE2UFbE0RNrIlIKBbUAgTOPujQEzI87zQcEfSK9DwE3G+qWkqyKXUctP3GQ06Et/Dw==", null, false, "6237433a-2237-4770-b5d3-e7298fcb43de", false, "thanhb3@blogOwner.com" }
+                });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 1,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3870), 19 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 2,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3875), 28 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 3,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3876), 27 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 4,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3878), 21 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 5,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3880), 29 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 6,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3882), 20 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 7,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3884), 48 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 8,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3886), 18 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 9,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3919), 7 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 10,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3923), 29 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 11,
+                column: "CommentTime",
+                value: new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3925));
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 12,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3927), 29 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 13,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3928), 1 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 14,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3930), 21 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 15,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3932), 28 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 16,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3933), 10 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 17,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3935), 6 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 18,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3938), 6 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 19,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 35, 9, 50, DateTimeKind.Local).AddTicks(3940), 14 });
+
+            migrationBuilder.InsertData(
+                table: "PostTagMaps",
+                columns: new[] { "PostId", "TagId" },
+                values: new object[,]
+                {
+                    { 12, 1 },
+                    { 13, 1 },
+                    { 17, 1 },
+                    { 18, 1 },
+                    { 19, 1 },
+                    { 29, 1 },
+                    { 33, 1 },
+                    { 38, 1 },
+                    { 43, 1 },
+                    { 44, 1 },
+                    { 49, 1 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "PostTagMaps",
+                columns: new[] { "PostId", "TagId" },
+                values: new object[,]
+                {
+                    { 3, 2 },
+                    { 17, 2 },
+                    { 26, 2 },
+                    { 27, 2 },
+                    { 39, 2 },
+                    { 6, 3 },
+                    { 21, 3 },
+                    { 24, 3 },
+                    { 30, 3 },
+                    { 37, 3 },
+                    { 45, 3 },
+                    { 14, 4 },
+                    { 37, 4 },
+                    { 42, 4 },
+                    { 5, 5 },
+                    { 18, 5 },
+                    { 25, 5 },
+                    { 30, 5 },
+                    { 38, 5 },
+                    { 45, 5 },
+                    { 6, 6 },
+                    { 7, 6 },
+                    { 18, 6 },
+                    { 23, 6 },
+                    { 25, 6 },
+                    { 27, 6 },
+                    { 37, 6 },
+                    { 45, 6 },
+                    { 47, 6 },
+                    { 4, 7 },
+                    { 10, 7 },
+                    { 15, 7 },
+                    { 17, 7 },
+                    { 33, 7 },
+                    { 34, 7 },
+                    { 36, 7 },
+                    { 41, 7 },
+                    { 47, 7 },
+                    { 9, 8 },
+                    { 13, 8 },
+                    { 14, 8 },
+                    { 16, 8 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "PostTagMaps",
+                columns: new[] { "PostId", "TagId" },
+                values: new object[,]
+                {
+                    { 17, 8 },
+                    { 26, 8 },
+                    { 30, 8 },
+                    { 35, 8 },
+                    { 38, 8 },
+                    { 47, 8 },
+                    { 2, 9 },
+                    { 3, 9 },
+                    { 14, 9 },
+                    { 15, 9 },
+                    { 23, 9 },
+                    { 24, 9 },
+                    { 25, 9 },
+                    { 30, 9 },
+                    { 36, 9 },
+                    { 39, 9 },
+                    { 10, 10 },
+                    { 13, 10 },
+                    { 16, 10 },
+                    { 19, 10 },
+                    { 22, 10 },
+                    { 26, 10 },
+                    { 29, 10 },
+                    { 38, 10 },
+                    { 40, 10 },
+                    { 44, 10 },
+                    { 6, 11 },
+                    { 9, 11 },
+                    { 10, 11 },
+                    { 18, 11 },
+                    { 19, 11 },
+                    { 24, 11 },
+                    { 25, 11 },
+                    { 26, 11 },
+                    { 32, 11 },
+                    { 37, 11 },
+                    { 38, 11 },
+                    { 43, 11 },
+                    { 45, 11 },
+                    { 4, 12 },
+                    { 13, 12 },
+                    { 14, 12 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "PostTagMaps",
+                columns: new[] { "PostId", "TagId" },
+                values: new object[,]
+                {
+                    { 16, 12 },
+                    { 20, 12 },
+                    { 23, 12 },
+                    { 26, 12 },
+                    { 31, 12 },
+                    { 33, 12 },
+                    { 37, 12 },
+                    { 38, 12 },
+                    { 42, 12 },
+                    { 49, 12 },
+                    { 1, 13 },
+                    { 11, 13 },
+                    { 18, 13 },
+                    { 29, 13 },
+                    { 33, 13 },
+                    { 37, 13 },
+                    { 41, 13 },
+                    { 42, 13 },
+                    { 43, 13 },
+                    { 10, 14 },
+                    { 11, 14 },
+                    { 19, 14 },
+                    { 24, 14 },
+                    { 49, 14 }
+                });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 1,
+                columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 9, 5, 11, 98 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 2,
+                columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 1, 21, 34, 24 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 3,
+                columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 8, 49, 33, 29 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 4,
+                columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 5, 46, 95, 26 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 5,
+                columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 9, 7, 21, 10 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 6,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 8, new DateTime(2009, 5, 18, 19, 38, 45, 0, DateTimeKind.Unspecified), 90, 34, 16 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 7,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 5, new DateTime(2001, 10, 22, 23, 57, 54, 0, DateTimeKind.Unspecified), 43, 199, 95 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 8,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 4, new DateTime(2011, 4, 27, 20, 53, 0, 0, DateTimeKind.Unspecified), 15, 137, 78 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 9,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 3, new DateTime(2013, 6, 5, 0, 32, 38, 0, DateTimeKind.Unspecified), 88, 5, 76 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 10,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 2, new DateTime(2021, 9, 26, 23, 0, 16, 0, DateTimeKind.Unspecified), 13, 22, 52 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 11,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 9, new DateTime(2019, 11, 22, 14, 36, 4, 0, DateTimeKind.Unspecified), 49, 115, 75 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 12,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 3, new DateTime(2022, 7, 28, 23, 20, 38, 0, DateTimeKind.Unspecified), 40, 22, 8 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 13,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 3, new DateTime(2021, 3, 8, 5, 45, 16, 0, DateTimeKind.Unspecified), 55, 88, 20 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 14,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 4, new DateTime(2001, 12, 22, 8, 51, 1, 0, DateTimeKind.Unspecified), 63, 135, 35 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 15,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "ViewCount" },
+                values: new object[] { 7, new DateTime(2004, 3, 19, 22, 30, 36, 0, DateTimeKind.Unspecified), 90, 96 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 16,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 8, new DateTime(2005, 9, 10, 18, 26, 10, 0, DateTimeKind.Unspecified), 33, 18, 23 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 17,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 4, new DateTime(2016, 9, 23, 6, 55, 28, 0, DateTimeKind.Unspecified), 87, 155, 57 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 18,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 9, new DateTime(2003, 9, 28, 1, 34, 56, 0, DateTimeKind.Unspecified), 47, 84, 30 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 19,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 8, new DateTime(2020, 5, 10, 15, 23, 56, 0, DateTimeKind.Unspecified), 61, 52, 74 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 20,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 7, new DateTime(2020, 10, 9, 12, 38, 9, 0, DateTimeKind.Unspecified), 74, 45, 97 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 21,
+                columns: new[] { "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { new DateTime(2008, 11, 7, 7, 43, 13, 0, DateTimeKind.Unspecified), 81, 189, 24 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 22,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 1, new DateTime(2021, 4, 22, 3, 0, 46, 0, DateTimeKind.Unspecified), 69, 29, 7 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 23,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 6, new DateTime(2018, 9, 19, 0, 44, 36, 0, DateTimeKind.Unspecified), 59, 186, 24 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 24,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 9, new DateTime(2006, 5, 9, 23, 25, 0, 0, DateTimeKind.Unspecified), 97, 109, 6 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 25,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 7, new DateTime(2000, 9, 4, 20, 10, 16, 0, DateTimeKind.Unspecified), 4, 13, 68 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 26,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 4, new DateTime(2016, 5, 29, 6, 24, 45, 0, DateTimeKind.Unspecified), 69, 187, 95 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 27,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 2, new DateTime(2002, 9, 5, 15, 17, 40, 0, DateTimeKind.Unspecified), 71, 125, 13 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 28,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 5, new DateTime(2015, 12, 21, 8, 35, 19, 0, DateTimeKind.Unspecified), 23, 39, 36 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 29,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 2, new DateTime(2022, 6, 7, 20, 38, 53, 0, DateTimeKind.Unspecified), 3, 75, 67 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 30,
+                columns: new[] { "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { new DateTime(2022, 4, 28, 22, 52, 57, 0, DateTimeKind.Unspecified), 75, 72, 47 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 31,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 4, new DateTime(2015, 5, 6, 16, 46, 21, 0, DateTimeKind.Unspecified), 79, 167, 30 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 32,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 7, new DateTime(2011, 8, 7, 4, 45, 47, 0, DateTimeKind.Unspecified), 4, 63, 26 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 33,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 5, new DateTime(2019, 7, 18, 13, 44, 49, 0, DateTimeKind.Unspecified), 99, 82, 55 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 34,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 2, new DateTime(2005, 5, 15, 1, 2, 20, 0, DateTimeKind.Unspecified), 4, 160, 55 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 35,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 2, new DateTime(2001, 12, 6, 3, 17, 55, 0, DateTimeKind.Unspecified), 15, 19, 8 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 36,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 9, new DateTime(2011, 6, 9, 6, 1, 47, 0, DateTimeKind.Unspecified), 56, 159, 22 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 37,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 3, new DateTime(2014, 10, 13, 1, 30, 42, 0, DateTimeKind.Unspecified), 86, 119, 72 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 38,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 9, new DateTime(2016, 2, 29, 20, 24, 14, 0, DateTimeKind.Unspecified), 98, 153, 54 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 39,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 3, new DateTime(2017, 1, 2, 12, 26, 57, 0, DateTimeKind.Unspecified), 56, 168, 23 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 40,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 7, new DateTime(2014, 8, 12, 16, 32, 33, 0, DateTimeKind.Unspecified), 23, 71, 65 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 41,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 5, new DateTime(2017, 10, 29, 22, 25, 12, 0, DateTimeKind.Unspecified), 85, 186, 81 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 42,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 2, new DateTime(2000, 12, 31, 21, 0, 28, 0, DateTimeKind.Unspecified), 54, 110, 97 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 43,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 7, new DateTime(2003, 8, 12, 4, 39, 44, 0, DateTimeKind.Unspecified), 64, 167, 5 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 44,
+                columns: new[] { "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { new DateTime(2001, 4, 16, 2, 46, 31, 0, DateTimeKind.Unspecified), 15, 96, 91 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 45,
+                columns: new[] { "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { new DateTime(2008, 9, 20, 3, 31, 37, 0, DateTimeKind.Unspecified), 93, 162, 47 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 46,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 6, new DateTime(2002, 12, 18, 13, 47, 12, 0, DateTimeKind.Unspecified), 26, 20, 98 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 47,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 3, new DateTime(2016, 11, 19, 18, 17, 52, 0, DateTimeKind.Unspecified), 68, 7, 20 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 48,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 1, new DateTime(2011, 1, 5, 12, 58, 4, 0, DateTimeKind.Unspecified), 75, 71, 88 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 49,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 1, new DateTime(2021, 8, 18, 1, 29, 27, 0, DateTimeKind.Unspecified), 76, 52, 82 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 50,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 9, new DateTime(2008, 7, 5, 2, 45, 24, 0, DateTimeKind.Unspecified), 48, 91, 55 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 51,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 6, new DateTime(2021, 5, 15, 19, 27, 41, 0, DateTimeKind.Unspecified), 4, 126, 26 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 52,
+                columns: new[] { "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { new DateTime(2003, 10, 29, 0, 39, 2, 0, DateTimeKind.Unspecified), 26, 122, 10 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 53,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 4, new DateTime(2005, 3, 24, 11, 49, 14, 0, DateTimeKind.Unspecified), 90, 136, 6 });
+
+            migrationBuilder.UpdateData(
+                table: "Posts",
+                keyColumn: "Id",
+                keyValue: 54,
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 9, new DateTime(2006, 5, 26, 2, 16, 8, 0, DateTimeKind.Unspecified), 21, 21, 79 });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUserRoles",
+                columns: new[] { "RoleId", "UserId" },
+                values: new object[,]
+                {
+                    { "12fc2c0e-99bf-447d-9b4d-45996a250f16", "29a1edd8-8a04-4ad4-9cc3-a0402f533017" },
+                    { "d6039682-54c4-434a-920a-d91b3888d18d", "350a7ff5-dddc-4642-b377-52bfb6ad30e8" },
+                    { "12fc2c0e-99bf-447d-9b4d-45996a250f16", "5c286ddc-e0fd-4a35-bada-c33ba1dc90ed" },
+                    { "0e01b5da-60a1-426e-b306-edbecd1aa228", "7d1cb70a-6c6f-4920-b353-30f5a97e9767" },
+                    { "d6039682-54c4-434a-920a-d91b3888d18d", "9f09f22c-2b9a-4899-90bf-9772e03edb55" },
+                    { "0e01b5da-60a1-426e-b306-edbecd1aa228", "a2d6f7a5-7249-407c-8518-effb9df83f4d" },
+                    { "12fc2c0e-99bf-447d-9b4d-45996a250f16", "dd10f17b-6c30-43c8-b326-c69a807ba2c5" },
+                    { "0e01b5da-60a1-426e-b306-edbecd1aa228", "e6e01470-3dcd-41b3-9eac-b11cdc461330" },
+                    { "d6039682-54c4-434a-920a-d91b3888d18d", "e99efd43-0141-4f63-bae0-c4b1a772fbf4" }
+                });
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DeleteData(
+                table: "AspNetUserRoles",
+                keyColumns: new[] { "RoleId", "UserId" },
+                keyValues: new object[] { "12fc2c0e-99bf-447d-9b4d-45996a250f16", "29a1edd8-8a04-4ad4-9cc3-a0402f533017" });
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUserRoles",
+                keyColumns: new[] { "RoleId", "UserId" },
+                keyValues: new object[] { "d6039682-54c4-434a-920a-d91b3888d18d", "350a7ff5-dddc-4642-b377-52bfb6ad30e8" });
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUserRoles",
+                keyColumns: new[] { "RoleId", "UserId" },
+                keyValues: new object[] { "12fc2c0e-99bf-447d-9b4d-45996a250f16", "5c286ddc-e0fd-4a35-bada-c33ba1dc90ed" });
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUserRoles",
+                keyColumns: new[] { "RoleId", "UserId" },
+                keyValues: new object[] { "0e01b5da-60a1-426e-b306-edbecd1aa228", "7d1cb70a-6c6f-4920-b353-30f5a97e9767" });
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUserRoles",
+                keyColumns: new[] { "RoleId", "UserId" },
+                keyValues: new object[] { "d6039682-54c4-434a-920a-d91b3888d18d", "9f09f22c-2b9a-4899-90bf-9772e03edb55" });
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUserRoles",
+                keyColumns: new[] { "RoleId", "UserId" },
+                keyValues: new object[] { "0e01b5da-60a1-426e-b306-edbecd1aa228", "a2d6f7a5-7249-407c-8518-effb9df83f4d" });
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUserRoles",
+                keyColumns: new[] { "RoleId", "UserId" },
+                keyValues: new object[] { "12fc2c0e-99bf-447d-9b4d-45996a250f16", "dd10f17b-6c30-43c8-b326-c69a807ba2c5" });
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUserRoles",
+                keyColumns: new[] { "RoleId", "UserId" },
+                keyValues: new object[] { "0e01b5da-60a1-426e-b306-edbecd1aa228", "e6e01470-3dcd-41b3-9eac-b11cdc461330" });
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUserRoles",
+                keyColumns: new[] { "RoleId", "UserId" },
+                keyValues: new object[] { "d6039682-54c4-434a-920a-d91b3888d18d", "e99efd43-0141-4f63-bae0-c4b1a772fbf4" });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 12, 1 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 13, 1 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 17, 1 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 18, 1 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 19, 1 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 29, 1 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 33, 1 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 38, 1 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 43, 1 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 44, 1 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 49, 1 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 3, 2 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 17, 2 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 26, 2 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 27, 2 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 39, 2 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 6, 3 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 21, 3 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 24, 3 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 30, 3 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 37, 3 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 45, 3 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 14, 4 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 37, 4 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 42, 4 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 5, 5 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 18, 5 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 25, 5 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 30, 5 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 38, 5 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 45, 5 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 6, 6 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 7, 6 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 18, 6 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 23, 6 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 25, 6 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 27, 6 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 37, 6 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 45, 6 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 47, 6 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 4, 7 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 10, 7 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 15, 7 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 17, 7 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 33, 7 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 34, 7 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 36, 7 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 41, 7 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 47, 7 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 9, 8 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 13, 8 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 14, 8 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 16, 8 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 17, 8 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 26, 8 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 30, 8 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 35, 8 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 38, 8 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 47, 8 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 2, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 3, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 14, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 15, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 23, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 24, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 25, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 30, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 36, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 39, 9 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 10, 10 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 13, 10 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 16, 10 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 19, 10 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 22, 10 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 26, 10 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 29, 10 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 38, 10 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 40, 10 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 44, 10 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 6, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 9, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 10, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 18, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 19, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 24, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 25, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 26, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 32, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 37, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 38, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 43, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 45, 11 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 4, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 13, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 14, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 16, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 20, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 23, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 26, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 31, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 33, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 37, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 38, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 42, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 49, 12 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 1, 13 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 11, 13 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 18, 13 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 29, 13 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 33, 13 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 37, 13 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 41, 13 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 42, 13 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 43, 13 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 10, 14 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 11, 14 });
+
+            migrationBuilder.DeleteData(
+                table: "PostTagMaps",
+                keyColumns: new[] { "PostId", "TagId" },
+                keyValues: new object[] { 19, 14 });
 
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
@@ -1815,27 +1945,200 @@ namespace FA.JustBlog.Core.Migrations
             migrationBuilder.DeleteData(
                 table: "PostTagMaps",
                 keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 29, 14 });
+                keyValues: new object[] { 49, 14 });
 
             migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 35, 14 });
+                table: "AspNetRoles",
+                keyColumn: "Id",
+                keyValue: "0e01b5da-60a1-426e-b306-edbecd1aa228");
 
             migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 37, 14 });
+                table: "AspNetRoles",
+                keyColumn: "Id",
+                keyValue: "12fc2c0e-99bf-447d-9b4d-45996a250f16");
 
             migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 38, 14 });
+                table: "AspNetRoles",
+                keyColumn: "Id",
+                keyValue: "d6039682-54c4-434a-920a-d91b3888d18d");
 
             migrationBuilder.DeleteData(
-                table: "PostTagMaps",
-                keyColumns: new[] { "PostId", "TagId" },
-                keyValues: new object[] { 46, 14 });
+                table: "AspNetUsers",
+                keyColumn: "Id",
+                keyValue: "29a1edd8-8a04-4ad4-9cc3-a0402f533017");
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUsers",
+                keyColumn: "Id",
+                keyValue: "350a7ff5-dddc-4642-b377-52bfb6ad30e8");
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUsers",
+                keyColumn: "Id",
+                keyValue: "5c286ddc-e0fd-4a35-bada-c33ba1dc90ed");
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUsers",
+                keyColumn: "Id",
+                keyValue: "7d1cb70a-6c6f-4920-b353-30f5a97e9767");
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUsers",
+                keyColumn: "Id",
+                keyValue: "9f09f22c-2b9a-4899-90bf-9772e03edb55");
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUsers",
+                keyColumn: "Id",
+                keyValue: "a2d6f7a5-7249-407c-8518-effb9df83f4d");
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUsers",
+                keyColumn: "Id",
+                keyValue: "dd10f17b-6c30-43c8-b326-c69a807ba2c5");
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUsers",
+                keyColumn: "Id",
+                keyValue: "e6e01470-3dcd-41b3-9eac-b11cdc461330");
+
+            migrationBuilder.DeleteData(
+                table: "AspNetUsers",
+                keyColumn: "Id",
+                keyValue: "e99efd43-0141-4f63-bae0-c4b1a772fbf4");
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 1,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8193), 17 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 2,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8198), 12 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 3,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8200), 5 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 4,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8202), 35 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 5,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8203), 22 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 6,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8247), 47 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 7,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8249), 2 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 8,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8250), 33 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 9,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8252), 17 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 10,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8256), 12 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 11,
+                column: "CommentTime",
+                value: new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8258));
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 12,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8259), 2 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 13,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8261), 34 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 14,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8263), 38 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 15,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8264), 44 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 16,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8266), 16 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 17,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8268), 9 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 18,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8271), 2 });
+
+            migrationBuilder.UpdateData(
+                table: "Comments",
+                keyColumn: "Id",
+                keyValue: 19,
+                columns: new[] { "CommentTime", "PostId" },
+                values: new object[] { new DateTime(2022, 12, 26, 9, 7, 4, 333, DateTimeKind.Local).AddTicks(8273), 15 });
 
             migrationBuilder.InsertData(
                 table: "PostTagMaps",
@@ -1844,95 +2147,76 @@ namespace FA.JustBlog.Core.Migrations
                 {
                     { 2, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 9, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 13, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 15, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 22, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 25, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 27, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 40, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 42, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 47, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 30, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 36, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 1, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 7, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 22, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 24, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 31, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 33, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 8, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 11, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 12, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 25, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 28, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 32, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 34, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 39, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 43, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 47, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 5, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 13, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 36, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 45, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 48, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 49, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 2, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 7, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 9, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "PostTagMaps",
+                columns: new[] { "PostId", "TagId", "CreateAt", "Status" },
+                values: new object[,]
+                {
                     { 15, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 20, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 22, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 25, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 36, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 37, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 41, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 17, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 29, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 38, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 48, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 5, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 14, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 18, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 49, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 4, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 12, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 19, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 23, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 24, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 20, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 22, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 27, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 36, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 38, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 41, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 47, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 10, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 14, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 }
-                });
-
-            migrationBuilder.InsertData(
-                table: "PostTagMaps",
-                columns: new[] { "PostId", "TagId", "CreateAt", "Status" },
-                values: new object[,]
-                {
-                    { 18, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 48, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 6, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 8, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 22, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 27, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 29, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 31, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 39, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 42, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 43, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 1, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 11, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 19, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 22, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 34, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 3, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 24, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 28, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 30, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 33, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 40, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 46, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 49, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 5, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 6, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 7, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 13, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 17, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 34, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 36, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 41, 6, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 2, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 8, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 11, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 14, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 21, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 25, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 27, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 31, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 41, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 45, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 46, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 48, 7, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 1, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 4, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 6, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 8, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 32, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 42, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 12, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 17, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 18, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 24, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 33, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 1, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 7, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 8, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 14, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 28, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 31, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 36, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 }
+                    { 12, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 15, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 }
                 });
 
             migrationBuilder.InsertData(
@@ -1940,40 +2224,67 @@ namespace FA.JustBlog.Core.Migrations
                 columns: new[] { "PostId", "TagId", "CreateAt", "Status" },
                 values: new object[,]
                 {
-                    { 42, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 6, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 16, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 31, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 34, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 35, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 42, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 20, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 29, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 40, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 46, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 49, 8, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 6, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 10, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 12, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 16, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 17, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 22, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 28, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 40, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 41, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 43, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 44, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 46, 9, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 4, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 7, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 14, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 25, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 33, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 41, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 2, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 4, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 7, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 12, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 14, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 15, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 41, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 46, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 47, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 1, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 4, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 11, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 48, 11, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 2, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 6, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 12, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 18, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 23, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 34, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 38, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 24, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 28, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 35, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 39, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 44, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
                     { 45, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 47, 12, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 1, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 2, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 6, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 12, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "PostTagMaps",
+                columns: new[] { "PostId", "TagId", "CreateAt", "Status" },
+                values: new object[,]
+                {
                     { 14, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 17, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 27, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 41, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 47, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 5, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 7, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 14, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 27, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 28, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 45, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
-                    { 47, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 }
+                    { 16, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 25, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 32, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 36, 13, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 8, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 12, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 15, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 16, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 30, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 36, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 },
+                    { 43, 14, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0 }
                 });
 
             migrationBuilder.UpdateData(
@@ -1981,378 +2292,378 @@ namespace FA.JustBlog.Core.Migrations
                 keyColumn: "Id",
                 keyValue: 1,
                 columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 9, 51, 139, 53 });
+                values: new object[] { 3, 75, 118, 67 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 2,
                 columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, 97, 87, 13 });
+                values: new object[] { 6, 55, 104, 73 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 3,
                 columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 7, 94, 156, 37 });
+                values: new object[] { 9, 57, 118, 58 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 4,
-                columns: new[] { "RateCount", "TotalRate" },
-                values: new object[] { 69, 105 });
+                columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 4, 33, 127, 40 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 5,
-                columns: new[] { "CategoryId", "RateCount", "TotalRate" },
-                values: new object[] { 8, 16, 18 });
+                columns: new[] { "CategoryId", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { 1, 11, 9, 45 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 6,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2017, 1, 8, 0, 39, 22, 0, DateTimeKind.Unspecified), 89, 110, 79 });
+                values: new object[] { 4, new DateTime(2003, 8, 8, 2, 29, 36, 0, DateTimeKind.Unspecified), 5, 173, 2 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 7,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 4, new DateTime(2004, 8, 20, 9, 48, 24, 0, DateTimeKind.Unspecified), 11, 133, 5 });
+                values: new object[] { 6, new DateTime(2019, 11, 10, 18, 45, 54, 0, DateTimeKind.Unspecified), 84, 175, 21 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 8,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2013, 6, 15, 17, 0, 53, 0, DateTimeKind.Unspecified), 77, 117, 28 });
+                values: new object[] { 7, new DateTime(2012, 7, 21, 9, 22, 46, 0, DateTimeKind.Unspecified), 51, 172, 49 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 9,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 7, new DateTime(2011, 1, 3, 6, 30, 58, 0, DateTimeKind.Unspecified), 74, 67, 21 });
+                values: new object[] { 7, new DateTime(2009, 7, 30, 3, 38, 12, 0, DateTimeKind.Unspecified), 39, 117, 98 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 10,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 7, new DateTime(2022, 3, 21, 2, 21, 53, 0, DateTimeKind.Unspecified), 22, 159, 12 });
+                values: new object[] { 3, new DateTime(2002, 3, 16, 12, 37, 4, 0, DateTimeKind.Unspecified), 2, 136, 69 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 11,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2009, 4, 24, 18, 2, 46, 0, DateTimeKind.Unspecified), 82, 189, 84 });
+                values: new object[] { 7, new DateTime(2007, 1, 25, 22, 28, 33, 0, DateTimeKind.Unspecified), 92, 124, 18 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 12,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 4, new DateTime(2005, 11, 19, 10, 10, 39, 0, DateTimeKind.Unspecified), 70, 76, 84 });
+                values: new object[] { 9, new DateTime(2008, 8, 5, 21, 8, 40, 0, DateTimeKind.Unspecified), 15, 119, 94 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 13,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 7, new DateTime(2020, 6, 19, 3, 45, 44, 0, DateTimeKind.Unspecified), 70, 4, 20 });
+                values: new object[] { 7, new DateTime(2016, 10, 24, 20, 45, 2, 0, DateTimeKind.Unspecified), 18, 9, 29 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 14,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 9, new DateTime(2011, 5, 23, 7, 29, 48, 0, DateTimeKind.Unspecified), 84, 6, 26 });
+                values: new object[] { 5, new DateTime(2002, 10, 16, 6, 51, 27, 0, DateTimeKind.Unspecified), 6, 25, 29 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 15,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 4, new DateTime(2020, 2, 8, 22, 59, 6, 0, DateTimeKind.Unspecified), 3, 108, 2 });
+                columns: new[] { "CategoryId", "PostedOn", "RateCount", "ViewCount" },
+                values: new object[] { 5, new DateTime(2005, 8, 26, 22, 0, 47, 0, DateTimeKind.Unspecified), 24, 38 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 16,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2016, 8, 15, 5, 30, 29, 0, DateTimeKind.Unspecified), 37, 195, 58 });
+                values: new object[] { 2, new DateTime(2002, 11, 13, 1, 12, 16, 0, DateTimeKind.Unspecified), 96, 126, 39 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 17,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 2, new DateTime(2018, 5, 28, 7, 5, 44, 0, DateTimeKind.Unspecified), 52, 112, 98 });
+                values: new object[] { 8, new DateTime(2007, 4, 2, 15, 19, 55, 0, DateTimeKind.Unspecified), 75, 158, 61 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 18,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2013, 7, 14, 21, 48, 34, 0, DateTimeKind.Unspecified), 33, 22, 19 });
+                values: new object[] { 4, new DateTime(2019, 2, 20, 5, 47, 17, 0, DateTimeKind.Unspecified), 54, 45, 89 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 19,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 6, new DateTime(2018, 12, 12, 5, 53, 24, 0, DateTimeKind.Unspecified), 41, 9, 5 });
+                values: new object[] { 5, new DateTime(2010, 7, 7, 6, 42, 19, 0, DateTimeKind.Unspecified), 84, 58, 8 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 20,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 4, new DateTime(2000, 6, 29, 14, 0, 23, 0, DateTimeKind.Unspecified), 98, 159, 41 });
+                values: new object[] { 2, new DateTime(2005, 4, 23, 23, 18, 25, 0, DateTimeKind.Unspecified), 92, 160, 23 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 21,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2005, 8, 15, 9, 48, 4, 0, DateTimeKind.Unspecified), 17, 155, 34 });
+                columns: new[] { "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { new DateTime(2020, 1, 7, 16, 50, 2, 0, DateTimeKind.Unspecified), 54, 24, 57 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 22,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 6, new DateTime(2009, 3, 12, 10, 40, 30, 0, DateTimeKind.Unspecified), 48, 113, 84 });
+                values: new object[] { 3, new DateTime(2004, 12, 23, 19, 7, 53, 0, DateTimeKind.Unspecified), 32, 24, 22 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 23,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 7, new DateTime(2009, 3, 15, 6, 1, 39, 0, DateTimeKind.Unspecified), 92, 166, 79 });
+                values: new object[] { 1, new DateTime(2015, 1, 12, 2, 32, 14, 0, DateTimeKind.Unspecified), 55, 128, 20 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 24,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2015, 8, 25, 19, 51, 54, 0, DateTimeKind.Unspecified), 31, 47, 57 });
+                values: new object[] { 1, new DateTime(2006, 4, 1, 9, 49, 34, 0, DateTimeKind.Unspecified), 64, 39, 63 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 25,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 2, new DateTime(2016, 3, 1, 12, 46, 56, 0, DateTimeKind.Unspecified), 88, 79, 94 });
+                values: new object[] { 9, new DateTime(2017, 6, 6, 2, 13, 18, 0, DateTimeKind.Unspecified), 89, 86, 83 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 26,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 2, new DateTime(2013, 5, 13, 19, 50, 41, 0, DateTimeKind.Unspecified), 2, 142, 37 });
+                values: new object[] { 9, new DateTime(2010, 12, 6, 6, 59, 22, 0, DateTimeKind.Unspecified), 25, 170, 99 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 27,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2002, 8, 6, 17, 40, 53, 0, DateTimeKind.Unspecified), 12, 98, 80 });
+                values: new object[] { 9, new DateTime(2018, 2, 16, 3, 31, 42, 0, DateTimeKind.Unspecified), 64, 85, 97 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 28,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2014, 10, 20, 23, 15, 48, 0, DateTimeKind.Unspecified), 48, 189, 97 });
+                values: new object[] { 7, new DateTime(2000, 2, 12, 8, 46, 18, 0, DateTimeKind.Unspecified), 90, 109, 83 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 29,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 6, new DateTime(2011, 8, 18, 3, 29, 33, 0, DateTimeKind.Unspecified), 63, 25, 41 });
+                values: new object[] { 9, new DateTime(2014, 7, 12, 12, 42, 26, 0, DateTimeKind.Unspecified), 93, 126, 25 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 30,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 9, new DateTime(2021, 3, 6, 16, 8, 5, 0, DateTimeKind.Unspecified), 96, 12, 19 });
+                columns: new[] { "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { new DateTime(2000, 12, 11, 6, 45, 35, 0, DateTimeKind.Unspecified), 54, 119, 54 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 31,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 4, new DateTime(2008, 3, 6, 23, 51, 32, 0, DateTimeKind.Unspecified), 29, 126, 90 });
+                values: new object[] { 9, new DateTime(2020, 6, 13, 12, 6, 17, 0, DateTimeKind.Unspecified), 9, 31, 43 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 32,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 4, new DateTime(2012, 4, 30, 0, 6, 51, 0, DateTimeKind.Unspecified), 60, 144, 91 });
+                values: new object[] { 8, new DateTime(2004, 7, 24, 8, 35, 27, 0, DateTimeKind.Unspecified), 92, 151, 31 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 33,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 5, new DateTime(2006, 4, 21, 14, 6, 54, 0, DateTimeKind.Unspecified), 79, 8, 59 });
+                values: new object[] { 8, new DateTime(2011, 2, 23, 22, 25, 48, 0, DateTimeKind.Unspecified), 28, 187, 52 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 34,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 3, new DateTime(2021, 9, 7, 8, 23, 17, 0, DateTimeKind.Unspecified), 24, 164, 24 });
+                values: new object[] { 3, new DateTime(2009, 2, 8, 21, 54, 56, 0, DateTimeKind.Unspecified), 20, 127, 51 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 35,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 3, new DateTime(2000, 12, 3, 5, 9, 43, 0, DateTimeKind.Unspecified), 70, 47, 77 });
+                values: new object[] { 1, new DateTime(2020, 4, 5, 9, 57, 31, 0, DateTimeKind.Unspecified), 19, 181, 36 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 36,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 3, new DateTime(2016, 2, 7, 21, 15, 55, 0, DateTimeKind.Unspecified), 16, 116, 57 });
+                values: new object[] { 3, new DateTime(2022, 6, 21, 22, 36, 15, 0, DateTimeKind.Unspecified), 24, 36, 59 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 37,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2010, 7, 18, 14, 58, 1, 0, DateTimeKind.Unspecified), 63, 35, 65 });
+                values: new object[] { 8, new DateTime(2010, 2, 12, 22, 43, 6, 0, DateTimeKind.Unspecified), 57, 195, 85 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 38,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 2, new DateTime(2008, 10, 27, 3, 22, 22, 0, DateTimeKind.Unspecified), 75, 84, 65 });
+                values: new object[] { 7, new DateTime(2011, 6, 16, 7, 52, 6, 0, DateTimeKind.Unspecified), 50, 160, 56 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 39,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2004, 7, 25, 21, 40, 7, 0, DateTimeKind.Unspecified), 89, 145, 74 });
+                values: new object[] { 7, new DateTime(2021, 11, 7, 2, 15, 19, 0, DateTimeKind.Unspecified), 13, 50, 71 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 40,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2006, 7, 25, 7, 51, 28, 0, DateTimeKind.Unspecified), 12, 147, 63 });
+                values: new object[] { 5, new DateTime(2004, 4, 15, 10, 13, 8, 0, DateTimeKind.Unspecified), 94, 88, 57 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 41,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2008, 5, 17, 7, 43, 52, 0, DateTimeKind.Unspecified), 34, 61, 27 });
+                values: new object[] { 1, new DateTime(2019, 11, 2, 3, 35, 44, 0, DateTimeKind.Unspecified), 64, 93, 97 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 42,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 6, new DateTime(2002, 11, 25, 18, 49, 50, 0, DateTimeKind.Unspecified), 37, 48, 40 });
+                values: new object[] { 1, new DateTime(2021, 6, 25, 14, 16, 38, 0, DateTimeKind.Unspecified), 56, 27, 60 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 43,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 6, new DateTime(2000, 9, 4, 13, 12, 36, 0, DateTimeKind.Unspecified), 33, 27, 72 });
+                values: new object[] { 1, new DateTime(2015, 10, 13, 5, 25, 43, 0, DateTimeKind.Unspecified), 75, 136, 73 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 44,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2001, 1, 6, 6, 10, 43, 0, DateTimeKind.Unspecified), 72, 181, 28 });
+                columns: new[] { "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { new DateTime(2009, 6, 7, 13, 39, 16, 0, DateTimeKind.Unspecified), 82, 68, 28 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 45,
-                columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 7, new DateTime(2007, 2, 19, 10, 50, 25, 0, DateTimeKind.Unspecified), 23, 185, 4 });
+                columns: new[] { "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { new DateTime(2016, 5, 25, 14, 8, 55, 0, DateTimeKind.Unspecified), 27, 160, 21 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 46,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 5, new DateTime(2004, 5, 30, 14, 10, 24, 0, DateTimeKind.Unspecified), 69, 46, 71 });
+                values: new object[] { 5, new DateTime(2016, 12, 1, 3, 14, 50, 0, DateTimeKind.Unspecified), 66, 46, 69 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 47,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2012, 9, 16, 22, 37, 37, 0, DateTimeKind.Unspecified), 21, 48, 32 });
+                values: new object[] { 1, new DateTime(2003, 12, 30, 1, 9, 17, 0, DateTimeKind.Unspecified), 77, 144, 34 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 48,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 6, new DateTime(2013, 7, 3, 2, 41, 50, 0, DateTimeKind.Unspecified), 85, 174, 76 });
+                values: new object[] { 8, new DateTime(2019, 4, 19, 8, 10, 5, 0, DateTimeKind.Unspecified), 53, 125, 9 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 49,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 1, new DateTime(2001, 11, 20, 9, 10, 42, 0, DateTimeKind.Unspecified), 48, 70, 49 });
+                values: new object[] { 6, new DateTime(2020, 12, 17, 5, 34, 17, 0, DateTimeKind.Unspecified), 48, 9, 39 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 50,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 2, new DateTime(2006, 2, 28, 13, 57, 48, 0, DateTimeKind.Unspecified), 97, 191, 92 });
+                values: new object[] { 7, new DateTime(2005, 12, 18, 12, 20, 13, 0, DateTimeKind.Unspecified), 62, 67, 90 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 51,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 5, new DateTime(2004, 11, 4, 23, 48, 55, 0, DateTimeKind.Unspecified), 96, 51, 40 });
+                values: new object[] { 1, new DateTime(2016, 7, 5, 19, 1, 21, 0, DateTimeKind.Unspecified), 62, 185, 13 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 52,
-                columns: new[] { "CategoryId", "PostedOn", "TotalRate", "ViewCount" },
-                values: new object[] { 8, new DateTime(2015, 11, 25, 1, 33, 28, 0, DateTimeKind.Unspecified), 82, 8 });
+                columns: new[] { "PostedOn", "RateCount", "TotalRate", "ViewCount" },
+                values: new object[] { new DateTime(2017, 10, 10, 23, 30, 6, 0, DateTimeKind.Unspecified), 43, 21, 55 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 53,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 6, new DateTime(2010, 6, 10, 12, 26, 33, 0, DateTimeKind.Unspecified), 51, 100, 5 });
+                values: new object[] { 5, new DateTime(2012, 6, 1, 6, 2, 15, 0, DateTimeKind.Unspecified), 3, 61, 74 });
 
             migrationBuilder.UpdateData(
                 table: "Posts",
                 keyColumn: "Id",
                 keyValue: 54,
                 columns: new[] { "CategoryId", "PostedOn", "RateCount", "TotalRate", "ViewCount" },
-                values: new object[] { 7, new DateTime(2020, 10, 7, 9, 52, 49, 0, DateTimeKind.Unspecified), 26, 37, 77 });
+                values: new object[] { 2, new DateTime(2007, 5, 8, 6, 28, 52, 0, DateTimeKind.Unspecified), 92, 167, 24 });
         }
     }
 }

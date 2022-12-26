@@ -314,11 +314,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 1,
                             CommentHeader = "CommentHeader 1",
                             CommentText = "CommentText 1",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5906),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5133),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 1@gmail.com",
                             Name = "comment name 1",
-                            PostId = 7,
+                            PostId = 38,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -327,11 +327,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 2,
                             CommentHeader = "CommentHeader 2",
                             CommentText = "CommentText 2",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5912),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5139),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 2@gmail.com",
                             Name = "comment name 2",
-                            PostId = 47,
+                            PostId = 23,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -340,11 +340,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 3,
                             CommentHeader = "CommentHeader 3",
                             CommentText = "CommentText 3",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5914),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5141),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 3@gmail.com",
                             Name = "comment name 3",
-                            PostId = 33,
+                            PostId = 35,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -353,11 +353,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 4,
                             CommentHeader = "CommentHeader 4",
                             CommentText = "CommentText 4",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5915),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5142),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 4@gmail.com",
                             Name = "comment name 4",
-                            PostId = 14,
+                            PostId = 1,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -366,11 +366,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 5,
                             CommentHeader = "CommentHeader 5",
                             CommentText = "CommentText 5",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5917),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5144),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 5@gmail.com",
                             Name = "comment name 5",
-                            PostId = 3,
+                            PostId = 5,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -379,11 +379,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 6,
                             CommentHeader = "CommentHeader 6",
                             CommentText = "CommentText 6",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5959),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5183),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 6@gmail.com",
                             Name = "comment name 6",
-                            PostId = 7,
+                            PostId = 26,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -392,11 +392,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 7,
                             CommentHeader = "CommentHeader 7",
                             CommentText = "CommentText 7",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5961),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5185),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 7@gmail.com",
                             Name = "comment name 7",
-                            PostId = 15,
+                            PostId = 49,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -405,11 +405,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 8,
                             CommentHeader = "CommentHeader 8",
                             CommentText = "CommentText 8",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5962),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5186),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 8@gmail.com",
                             Name = "comment name 8",
-                            PostId = 17,
+                            PostId = 44,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -418,11 +418,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 9,
                             CommentHeader = "CommentHeader 9",
                             CommentText = "CommentText 9",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5964),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5188),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 9@gmail.com",
                             Name = "comment name 9",
-                            PostId = 1,
+                            PostId = 45,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -431,11 +431,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 10,
                             CommentHeader = "CommentHeader 10",
                             CommentText = "CommentText 10",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5967),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5192),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 10@gmail.com",
                             Name = "comment name 10",
-                            PostId = 19,
+                            PostId = 27,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -444,11 +444,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 11,
                             CommentHeader = "CommentHeader 11",
                             CommentText = "CommentText 11",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5969),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5194),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 11@gmail.com",
                             Name = "comment name 11",
-                            PostId = 20,
+                            PostId = 12,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -457,11 +457,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 12,
                             CommentHeader = "CommentHeader 12",
                             CommentText = "CommentText 12",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5971),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5196),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 12@gmail.com",
                             Name = "comment name 12",
-                            PostId = 36,
+                            PostId = 47,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -470,11 +470,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 13,
                             CommentHeader = "CommentHeader 13",
                             CommentText = "CommentText 13",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5973),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5197),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 13@gmail.com",
                             Name = "comment name 13",
-                            PostId = 30,
+                            PostId = 39,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -483,11 +483,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 14,
                             CommentHeader = "CommentHeader 14",
                             CommentText = "CommentText 14",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5975),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5199),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 14@gmail.com",
                             Name = "comment name 14",
-                            PostId = 23,
+                            PostId = 10,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -496,11 +496,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 15,
                             CommentHeader = "CommentHeader 15",
                             CommentText = "CommentText 15",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5976),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5201),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 15@gmail.com",
                             Name = "comment name 15",
-                            PostId = 27,
+                            PostId = 6,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -509,11 +509,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 16,
                             CommentHeader = "CommentHeader 16",
                             CommentText = "CommentText 16",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5978),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5203),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 16@gmail.com",
                             Name = "comment name 16",
-                            PostId = 31,
+                            PostId = 41,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -522,7 +522,7 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 17,
                             CommentHeader = "CommentHeader 17",
                             CommentText = "CommentText 17",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5980),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5204),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 17@gmail.com",
                             Name = "comment name 17",
@@ -535,11 +535,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 18,
                             CommentHeader = "CommentHeader 18",
                             CommentText = "CommentText 18",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5982),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5207),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 18@gmail.com",
                             Name = "comment name 18",
-                            PostId = 1,
+                            PostId = 13,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -548,11 +548,11 @@ namespace FA.JustBlog.Core.Migrations
                             Id = 19,
                             CommentHeader = "CommentHeader 19",
                             CommentText = "CommentText 19",
-                            CommentTime = new DateTime(2022, 12, 26, 8, 0, 3, 329, DateTimeKind.Local).AddTicks(5984),
+                            CommentTime = new DateTime(2022, 12, 26, 10, 10, 10, 146, DateTimeKind.Local).AddTicks(5209),
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "commentemail 19@gmail.com",
                             Name = "comment name 19",
-                            PostId = 25,
+                            PostId = 30,
                             Status = 0,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -632,74 +632,74 @@ namespace FA.JustBlog.Core.Migrations
                         new
                         {
                             Id = 1,
-                            CategoryId = 7,
+                            CategoryId = 4,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(2020, 11, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "WASHINGTON/KYIV, Dec 22 (Reuters) - President Volodymyr Zelenskiy told the U.S. Congress that aid to Ukraine was an investment in democracy and \"not charity\" as he invoked American battles against the Nazis in World War Two to press for more assistance for his country's war effort.\r\n\r\nZelenskiy's comments on Wednesday come as Republicans - some of whom have voiced increasing scepticism about sending so much aid to Ukraine - are set to take control of the U.S. House of Representatives from Democrats on Jan. 3.",
                             PostedOn = new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 83,
+                            RateCount = 94,
                             ShortDescription = "President Volodymyr Zelenskiy told the U.S. Congress that aid to Ukraine was an investment in democracy and \"not charity\" as he invoked American battles against the Nazis in World War Two to press for more assistance for his country's war effort.",
                             Status = 0,
                             Title = "Ukraine's Zelenskiy tells U.S. Congress aid is 'not charity', urges more support",
-                            TotalRate = 61,
+                            TotalRate = 9,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo1",
-                            ViewCount = 14
+                            ViewCount = 5
                         },
                         new
                         {
                             Id = 2,
-                            CategoryId = 7,
+                            CategoryId = 5,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(2020, 11, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "LONDON, Dec 22 (Reuters) - Trillions of dollars wiped off world stocks, bond market tantrums, whip-sawing currency and commodities and the collapse of a few crypto empires - 2022 has been perhaps the most turbulent year investors have ever seen, and for good reason.\r\n\r\nTallying the final numbers is useful but doesn't even come close to telling the whole story.\r\n\r\nYes, global equities are down $14 trillion and heading for their second worst year on record, but there have been nearly 300 interest rate hikes and a trio of 10%-plus rallies in that time making the volatility freakish.",
                             PostedOn = new DateTime(2020, 1, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 46,
+                            RateCount = 5,
                             ShortDescription = "LONDON, Dec 22 (Reuters) - Trillions of dollars wiped off world stocks, bond market tantrums, whip-sawing currency and commodities and the collapse of a few crypto empires - 2022 has been perhaps the most turbulent year investors have ever seen, and for good reason",
                             Status = 0,
                             Title = "How 2022 shocked, rocked and rolled global markets",
-                            TotalRate = 6,
+                            TotalRate = 45,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo2",
-                            ViewCount = 14
+                            ViewCount = 12
                         },
                         new
                         {
                             Id = 3,
-                            CategoryId = 5,
+                            CategoryId = 8,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(2020, 11, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:",
                             PostedOn = new DateTime(2020, 2, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 18,
+                            RateCount = 63,
                             ShortDescription = "NEW YORK/LONDON, Dec 22 (Reuters) - Bankers in New York and London are bracing for year-end bonuses that recruiters estimate are 30% to 50% lower, while some may receive none at all as dealmaking sputters and economic gloom sets takes hold.",
                             Status = 0,
                             Title = "Banker bonuses go from boom to bust in jarring reversal",
-                            TotalRate = 66,
+                            TotalRate = 137,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo3",
-                            ViewCount = 82
+                            ViewCount = 1
                         },
                         new
                         {
                             Id = 4,
-                            CategoryId = 2,
+                            CategoryId = 9,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(2020, 11, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "A general view of hydrogen electrolysis plant called 'REFHYNE', one of the world's first green hydrogen plants, during a launch event at Shell's Rhineland refinery in Wesseling near Cologne, Germany, July 2, 2021. REUTERS/Thilo Schmuelgen.A general view of hydrogen electrolysis plant called 'REFHYNE', one of the world's first green hydrogen plants, during a launch event at Shell's Rhineland refinery in Wesseling near Cologne, Germany, July 2, 2021. REUTERS/Thilo Schmuelgen",
                             PostedOn = new DateTime(2020, 3, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 11,
+                            RateCount = 87,
                             ShortDescription = "A general view of hydrogen electrolysis plant called 'REFHYNE', one of the world's first green hydrogen plants, during a launch event at Shell's Rhineland refinery in Wesseling near Cologne, Germany, July 2, 2021. REUTERS/Thilo Schmuelgen",
                             Status = 0,
                             Title = "Has green hydrogen sprung a leak?",
-                            TotalRate = 22,
+                            TotalRate = 149,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo4",
-                            ViewCount = 83
+                            ViewCount = 3
                         },
                         new
                         {
@@ -710,32 +710,32 @@ namespace FA.JustBlog.Core.Migrations
                             PostContent = "President Volodymyr Zelenskiy told the U.S. Congress that aid to Ukraine was an investment in democracy and \"not charity\" as he invoked American battles against the Nazis in World War Two to press for more assistance for his country's war effort.",
                             PostedOn = new DateTime(2020, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 43,
+                            RateCount = 22,
                             ShortDescription = "President Volodymyr Zelenskiy told the U.S. Congress that aid to Ukraine was an investment in democracy and \"not charity\" as he invoked American battles against the Nazis in World War Two to press for more assistance for his country's war effort.",
                             Status = 0,
                             Title = "Toshiba's preferred bidder to seal $10.6 bln loan deal this week -Yomiuri",
-                            TotalRate = 116,
+                            TotalRate = 144,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo5",
-                            ViewCount = 41
+                            ViewCount = 21
                         },
                         new
                         {
                             Id = 6,
-                            CategoryId = 9,
+                            CategoryId = 5,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:6",
-                            PostedOn = new DateTime(2003, 3, 18, 16, 19, 23, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2011, 5, 25, 23, 41, 37, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 68,
+                            RateCount = 72,
                             ShortDescription = "Post ShortDescription demo:6",
                             Status = 0,
                             Title = "Post Title demo:6",
-                            TotalRate = 58,
+                            TotalRate = 9,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo6",
-                            ViewCount = 36
+                            ViewCount = 58
                         },
                         new
                         {
@@ -744,574 +744,574 @@ namespace FA.JustBlog.Core.Migrations
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:7",
-                            PostedOn = new DateTime(2006, 4, 20, 1, 12, 42, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2007, 5, 6, 22, 47, 6, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 35,
+                            RateCount = 5,
                             ShortDescription = "Post ShortDescription demo:7",
                             Status = 0,
                             Title = "Post Title demo:7",
-                            TotalRate = 70,
+                            TotalRate = 60,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo7",
-                            ViewCount = 92
+                            ViewCount = 67
                         },
                         new
                         {
                             Id = 8,
-                            CategoryId = 6,
+                            CategoryId = 3,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:8",
-                            PostedOn = new DateTime(2019, 5, 15, 2, 30, 1, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2001, 10, 18, 23, 8, 50, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 86,
+                            RateCount = 18,
                             ShortDescription = "Post ShortDescription demo:8",
                             Status = 0,
                             Title = "Post Title demo:8",
-                            TotalRate = 16,
+                            TotalRate = 170,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo8",
-                            ViewCount = 10
+                            ViewCount = 82
                         },
                         new
                         {
                             Id = 9,
-                            CategoryId = 3,
+                            CategoryId = 7,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:9",
-                            PostedOn = new DateTime(2018, 2, 14, 3, 19, 19, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2000, 5, 8, 22, 16, 27, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 6,
+                            RateCount = 37,
                             ShortDescription = "Post ShortDescription demo:9",
                             Status = 0,
                             Title = "Post Title demo:9",
-                            TotalRate = 159,
+                            TotalRate = 36,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo9",
-                            ViewCount = 8
+                            ViewCount = 7
                         },
                         new
                         {
                             Id = 10,
-                            CategoryId = 5,
+                            CategoryId = 7,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:10",
-                            PostedOn = new DateTime(2001, 1, 25, 13, 3, 42, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2000, 11, 9, 5, 32, 10, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 68,
+                            RateCount = 63,
                             ShortDescription = "Post ShortDescription demo:10",
                             Status = 0,
                             Title = "Post Title demo:10",
-                            TotalRate = 122,
+                            TotalRate = 18,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo10",
-                            ViewCount = 31
+                            ViewCount = 50
                         },
                         new
                         {
                             Id = 11,
-                            CategoryId = 8,
+                            CategoryId = 6,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:11",
-                            PostedOn = new DateTime(2000, 5, 1, 17, 51, 32, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2014, 5, 10, 9, 7, 35, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 95,
+                            RateCount = 25,
                             ShortDescription = "Post ShortDescription demo:11",
                             Status = 0,
                             Title = "Post Title demo:11",
-                            TotalRate = 97,
+                            TotalRate = 108,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo11",
-                            ViewCount = 43
+                            ViewCount = 74
                         },
                         new
                         {
                             Id = 12,
-                            CategoryId = 5,
+                            CategoryId = 1,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:12",
-                            PostedOn = new DateTime(2007, 1, 23, 13, 30, 0, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2001, 3, 22, 23, 36, 0, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 25,
+                            RateCount = 96,
                             ShortDescription = "Post ShortDescription demo:12",
                             Status = 0,
                             Title = "Post Title demo:12",
-                            TotalRate = 173,
+                            TotalRate = 80,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo12",
-                            ViewCount = 48
+                            ViewCount = 42
                         },
                         new
                         {
                             Id = 13,
-                            CategoryId = 6,
+                            CategoryId = 1,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:13",
-                            PostedOn = new DateTime(2022, 3, 15, 8, 20, 18, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2016, 10, 11, 9, 14, 35, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 30,
+                            RateCount = 86,
                             ShortDescription = "Post ShortDescription demo:13",
                             Status = 0,
                             Title = "Post Title demo:13",
-                            TotalRate = 71,
+                            TotalRate = 60,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo13",
-                            ViewCount = 66
+                            ViewCount = 79
                         },
                         new
                         {
                             Id = 14,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:14",
-                            PostedOn = new DateTime(2005, 2, 13, 1, 1, 52, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2006, 7, 7, 14, 17, 53, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 10,
+                            RateCount = 39,
                             ShortDescription = "Post ShortDescription demo:14",
                             Status = 0,
                             Title = "Post Title demo:14",
-                            TotalRate = 127,
+                            TotalRate = 45,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo14",
-                            ViewCount = 3
+                            ViewCount = 65
                         },
                         new
                         {
                             Id = 15,
-                            CategoryId = 2,
+                            CategoryId = 8,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:15",
-                            PostedOn = new DateTime(2006, 6, 7, 1, 12, 7, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2020, 6, 20, 20, 15, 26, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 61,
+                            RateCount = 29,
                             ShortDescription = "Post ShortDescription demo:15",
                             Status = 0,
                             Title = "Post Title demo:15",
-                            TotalRate = 31,
+                            TotalRate = 92,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo15",
-                            ViewCount = 57
+                            ViewCount = 74
                         },
                         new
                         {
                             Id = 16,
-                            CategoryId = 4,
+                            CategoryId = 1,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:16",
-                            PostedOn = new DateTime(2001, 9, 7, 12, 23, 2, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2005, 4, 26, 7, 24, 24, 0, DateTimeKind.Unspecified),
                             Published = 0,
                             RateCount = 50,
                             ShortDescription = "Post ShortDescription demo:16",
                             Status = 0,
                             Title = "Post Title demo:16",
-                            TotalRate = 16,
+                            TotalRate = 51,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo16",
-                            ViewCount = 22
+                            ViewCount = 82
                         },
                         new
                         {
                             Id = 17,
-                            CategoryId = 1,
+                            CategoryId = 7,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:17",
-                            PostedOn = new DateTime(2022, 4, 15, 14, 27, 0, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2006, 8, 10, 13, 20, 47, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 19,
+                            RateCount = 99,
                             ShortDescription = "Post ShortDescription demo:17",
                             Status = 0,
                             Title = "Post Title demo:17",
-                            TotalRate = 49,
+                            TotalRate = 193,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo17",
-                            ViewCount = 2
-                        },
-                        new
-                        {
-                            Id = 18,
-                            CategoryId = 4,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:18",
-                            PostedOn = new DateTime(2012, 8, 1, 15, 23, 54, 0, DateTimeKind.Unspecified),
-                            Published = 0,
-                            RateCount = 66,
-                            ShortDescription = "Post ShortDescription demo:18",
-                            Status = 0,
-                            Title = "Post Title demo:18",
-                            TotalRate = 125,
-                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo18",
-                            ViewCount = 77
-                        },
-                        new
-                        {
-                            Id = 19,
-                            CategoryId = 9,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:19",
-                            PostedOn = new DateTime(2017, 3, 2, 15, 26, 47, 0, DateTimeKind.Unspecified),
-                            Published = 0,
-                            RateCount = 80,
-                            ShortDescription = "Post ShortDescription demo:19",
-                            Status = 0,
-                            Title = "Post Title demo:19",
-                            TotalRate = 83,
-                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo19",
-                            ViewCount = 63
-                        },
-                        new
-                        {
-                            Id = 20,
-                            CategoryId = 1,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:20",
-                            PostedOn = new DateTime(2004, 3, 11, 22, 22, 41, 0, DateTimeKind.Unspecified),
-                            Published = 0,
-                            RateCount = 88,
-                            ShortDescription = "Post ShortDescription demo:20",
-                            Status = 0,
-                            Title = "Post Title demo:20",
-                            TotalRate = 3,
-                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo20",
-                            ViewCount = 31
-                        },
-                        new
-                        {
-                            Id = 21,
-                            CategoryId = 1,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:21",
-                            PostedOn = new DateTime(2013, 6, 21, 15, 23, 0, 0, DateTimeKind.Unspecified),
-                            Published = 0,
-                            RateCount = 29,
-                            ShortDescription = "Post ShortDescription demo:21",
-                            Status = 0,
-                            Title = "Post Title demo:21",
-                            TotalRate = 167,
-                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo21",
-                            ViewCount = 69
-                        },
-                        new
-                        {
-                            Id = 22,
-                            CategoryId = 2,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:22",
-                            PostedOn = new DateTime(2020, 1, 14, 1, 22, 18, 0, DateTimeKind.Unspecified),
-                            Published = 0,
-                            RateCount = 8,
-                            ShortDescription = "Post ShortDescription demo:22",
-                            Status = 0,
-                            Title = "Post Title demo:22",
-                            TotalRate = 105,
-                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo22",
-                            ViewCount = 51
-                        },
-                        new
-                        {
-                            Id = 23,
-                            CategoryId = 8,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:23",
-                            PostedOn = new DateTime(2006, 6, 26, 23, 38, 4, 0, DateTimeKind.Unspecified),
-                            Published = 0,
-                            RateCount = 7,
-                            ShortDescription = "Post ShortDescription demo:23",
-                            Status = 0,
-                            Title = "Post Title demo:23",
-                            TotalRate = 51,
-                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo23",
-                            ViewCount = 39
-                        },
-                        new
-                        {
-                            Id = 24,
-                            CategoryId = 5,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:24",
-                            PostedOn = new DateTime(2019, 9, 2, 8, 19, 15, 0, DateTimeKind.Unspecified),
-                            Published = 0,
-                            RateCount = 7,
-                            ShortDescription = "Post ShortDescription demo:24",
-                            Status = 0,
-                            Title = "Post Title demo:24",
-                            TotalRate = 33,
-                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo24",
-                            ViewCount = 24
-                        },
-                        new
-                        {
-                            Id = 25,
-                            CategoryId = 4,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:25",
-                            PostedOn = new DateTime(2020, 7, 5, 18, 0, 11, 0, DateTimeKind.Unspecified),
-                            Published = 0,
-                            RateCount = 71,
-                            ShortDescription = "Post ShortDescription demo:25",
-                            Status = 0,
-                            Title = "Post Title demo:25",
-                            TotalRate = 101,
-                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo25",
-                            ViewCount = 78
-                        },
-                        new
-                        {
-                            Id = 26,
-                            CategoryId = 5,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:26",
-                            PostedOn = new DateTime(2003, 6, 20, 10, 38, 1, 0, DateTimeKind.Unspecified),
-                            Published = 0,
-                            RateCount = 45,
-                            ShortDescription = "Post ShortDescription demo:26",
-                            Status = 0,
-                            Title = "Post Title demo:26",
-                            TotalRate = 59,
-                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo26",
-                            ViewCount = 35
-                        },
-                        new
-                        {
-                            Id = 27,
-                            CategoryId = 6,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:27",
-                            PostedOn = new DateTime(2014, 9, 26, 9, 2, 1, 0, DateTimeKind.Unspecified),
-                            Published = 0,
-                            RateCount = 1,
-                            ShortDescription = "Post ShortDescription demo:27",
-                            Status = 0,
-                            Title = "Post Title demo:27",
-                            TotalRate = 74,
-                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo27",
-                            ViewCount = 23
-                        },
-                        new
-                        {
-                            Id = 28,
-                            CategoryId = 2,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:28",
-                            PostedOn = new DateTime(2013, 11, 26, 13, 34, 24, 0, DateTimeKind.Unspecified),
-                            Published = 0,
-                            RateCount = 83,
-                            ShortDescription = "Post ShortDescription demo:28",
-                            Status = 0,
-                            Title = "Post Title demo:28",
-                            TotalRate = 2,
-                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo28",
                             ViewCount = 28
                         },
                         new
                         {
-                            Id = 29,
-                            CategoryId = 8,
+                            Id = 18,
+                            CategoryId = 1,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:29",
-                            PostedOn = new DateTime(2015, 10, 23, 18, 37, 11, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:18",
+                            PostedOn = new DateTime(2021, 4, 10, 19, 42, 46, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 70,
-                            ShortDescription = "Post ShortDescription demo:29",
+                            RateCount = 54,
+                            ShortDescription = "Post ShortDescription demo:18",
                             Status = 0,
-                            Title = "Post Title demo:29",
-                            TotalRate = 119,
+                            Title = "Post Title demo:18",
+                            TotalRate = 37,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo29",
-                            ViewCount = 14
+                            UrlSlug = "post-urlslug-demo18",
+                            ViewCount = 74
                         },
                         new
                         {
-                            Id = 30,
-                            CategoryId = 3,
+                            Id = 19,
+                            CategoryId = 4,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:30",
-                            PostedOn = new DateTime(2010, 6, 17, 5, 59, 57, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:19",
+                            PostedOn = new DateTime(2018, 5, 19, 4, 53, 52, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 9,
-                            ShortDescription = "Post ShortDescription demo:30",
+                            RateCount = 52,
+                            ShortDescription = "Post ShortDescription demo:19",
                             Status = 0,
-                            Title = "Post Title demo:30",
-                            TotalRate = 192,
+                            Title = "Post Title demo:19",
+                            TotalRate = 91,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo30",
-                            ViewCount = 34
+                            UrlSlug = "post-urlslug-demo19",
+                            ViewCount = 94
                         },
                         new
                         {
-                            Id = 31,
+                            Id = 20,
                             CategoryId = 6,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:31",
-                            PostedOn = new DateTime(2018, 4, 11, 16, 18, 55, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:20",
+                            PostedOn = new DateTime(2021, 8, 19, 10, 49, 14, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 70,
-                            ShortDescription = "Post ShortDescription demo:31",
+                            RateCount = 99,
+                            ShortDescription = "Post ShortDescription demo:20",
                             Status = 0,
-                            Title = "Post Title demo:31",
-                            TotalRate = 114,
+                            Title = "Post Title demo:20",
+                            TotalRate = 148,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UrlSlug = "post-urlslug-demo31",
+                            UrlSlug = "post-urlslug-demo20",
+                            ViewCount = 74
+                        },
+                        new
+                        {
+                            Id = 21,
+                            CategoryId = 4,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:21",
+                            PostedOn = new DateTime(2013, 6, 22, 13, 12, 25, 0, DateTimeKind.Unspecified),
+                            Published = 0,
+                            RateCount = 60,
+                            ShortDescription = "Post ShortDescription demo:21",
+                            Status = 0,
+                            Title = "Post Title demo:21",
+                            TotalRate = 26,
+                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UrlSlug = "post-urlslug-demo21",
+                            ViewCount = 79
+                        },
+                        new
+                        {
+                            Id = 22,
+                            CategoryId = 4,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:22",
+                            PostedOn = new DateTime(2004, 10, 18, 4, 4, 31, 0, DateTimeKind.Unspecified),
+                            Published = 0,
+                            RateCount = 15,
+                            ShortDescription = "Post ShortDescription demo:22",
+                            Status = 0,
+                            Title = "Post Title demo:22",
+                            TotalRate = 176,
+                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UrlSlug = "post-urlslug-demo22",
+                            ViewCount = 18
+                        },
+                        new
+                        {
+                            Id = 23,
+                            CategoryId = 6,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:23",
+                            PostedOn = new DateTime(2002, 5, 21, 13, 42, 13, 0, DateTimeKind.Unspecified),
+                            Published = 0,
+                            RateCount = 25,
+                            ShortDescription = "Post ShortDescription demo:23",
+                            Status = 0,
+                            Title = "Post Title demo:23",
+                            TotalRate = 123,
+                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UrlSlug = "post-urlslug-demo23",
+                            ViewCount = 35
+                        },
+                        new
+                        {
+                            Id = 24,
+                            CategoryId = 7,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:24",
+                            PostedOn = new DateTime(2011, 2, 19, 20, 27, 9, 0, DateTimeKind.Unspecified),
+                            Published = 0,
+                            RateCount = 72,
+                            ShortDescription = "Post ShortDescription demo:24",
+                            Status = 0,
+                            Title = "Post Title demo:24",
+                            TotalRate = 9,
+                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UrlSlug = "post-urlslug-demo24",
                             ViewCount = 15
                         },
                         new
                         {
-                            Id = 32,
+                            Id = 25,
+                            CategoryId = 3,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:25",
+                            PostedOn = new DateTime(2021, 11, 13, 6, 8, 29, 0, DateTimeKind.Unspecified),
+                            Published = 0,
+                            RateCount = 25,
+                            ShortDescription = "Post ShortDescription demo:25",
+                            Status = 0,
+                            Title = "Post Title demo:25",
+                            TotalRate = 48,
+                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UrlSlug = "post-urlslug-demo25",
+                            ViewCount = 16
+                        },
+                        new
+                        {
+                            Id = 26,
+                            CategoryId = 6,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:26",
+                            PostedOn = new DateTime(2014, 4, 25, 20, 46, 15, 0, DateTimeKind.Unspecified),
+                            Published = 0,
+                            RateCount = 10,
+                            ShortDescription = "Post ShortDescription demo:26",
+                            Status = 0,
+                            Title = "Post Title demo:26",
+                            TotalRate = 70,
+                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UrlSlug = "post-urlslug-demo26",
+                            ViewCount = 97
+                        },
+                        new
+                        {
+                            Id = 27,
+                            CategoryId = 1,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:27",
+                            PostedOn = new DateTime(2009, 5, 22, 13, 9, 31, 0, DateTimeKind.Unspecified),
+                            Published = 0,
+                            RateCount = 8,
+                            ShortDescription = "Post ShortDescription demo:27",
+                            Status = 0,
+                            Title = "Post Title demo:27",
+                            TotalRate = 78,
+                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UrlSlug = "post-urlslug-demo27",
+                            ViewCount = 22
+                        },
+                        new
+                        {
+                            Id = 28,
+                            CategoryId = 4,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:28",
+                            PostedOn = new DateTime(2005, 2, 14, 0, 13, 59, 0, DateTimeKind.Unspecified),
+                            Published = 0,
+                            RateCount = 37,
+                            ShortDescription = "Post ShortDescription demo:28",
+                            Status = 0,
+                            Title = "Post Title demo:28",
+                            TotalRate = 152,
+                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UrlSlug = "post-urlslug-demo28",
+                            ViewCount = 49
+                        },
+                        new
+                        {
+                            Id = 29,
+                            CategoryId = 4,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:29",
+                            PostedOn = new DateTime(2022, 4, 11, 22, 56, 52, 0, DateTimeKind.Unspecified),
+                            Published = 0,
+                            RateCount = 76,
+                            ShortDescription = "Post ShortDescription demo:29",
+                            Status = 0,
+                            Title = "Post Title demo:29",
+                            TotalRate = 54,
+                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UrlSlug = "post-urlslug-demo29",
+                            ViewCount = 2
+                        },
+                        new
+                        {
+                            Id = 30,
+                            CategoryId = 4,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:30",
+                            PostedOn = new DateTime(2006, 11, 2, 17, 36, 32, 0, DateTimeKind.Unspecified),
+                            Published = 0,
+                            RateCount = 45,
+                            ShortDescription = "Post ShortDescription demo:30",
+                            Status = 0,
+                            Title = "Post Title demo:30",
+                            TotalRate = 37,
+                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UrlSlug = "post-urlslug-demo30",
+                            ViewCount = 68
+                        },
+                        new
+                        {
+                            Id = 31,
                             CategoryId = 5,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            PostContent = "Post PostContent demo:32",
-                            PostedOn = new DateTime(2003, 8, 24, 1, 52, 32, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:31",
+                            PostedOn = new DateTime(2015, 2, 3, 13, 57, 56, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 63,
+                            RateCount = 62,
+                            ShortDescription = "Post ShortDescription demo:31",
+                            Status = 0,
+                            Title = "Post Title demo:31",
+                            TotalRate = 56,
+                            UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UrlSlug = "post-urlslug-demo31",
+                            ViewCount = 78
+                        },
+                        new
+                        {
+                            Id = 32,
+                            CategoryId = 2,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            PostContent = "Post PostContent demo:32",
+                            PostedOn = new DateTime(2017, 3, 17, 16, 37, 26, 0, DateTimeKind.Unspecified),
+                            Published = 0,
+                            RateCount = 39,
                             ShortDescription = "Post ShortDescription demo:32",
                             Status = 0,
                             Title = "Post Title demo:32",
-                            TotalRate = 190,
+                            TotalRate = 145,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo32",
-                            ViewCount = 92
+                            ViewCount = 36
                         },
                         new
                         {
                             Id = 33,
-                            CategoryId = 8,
+                            CategoryId = 6,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:33",
-                            PostedOn = new DateTime(2014, 4, 18, 10, 7, 2, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2015, 9, 22, 1, 19, 57, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 8,
+                            RateCount = 70,
                             ShortDescription = "Post ShortDescription demo:33",
                             Status = 0,
                             Title = "Post Title demo:33",
-                            TotalRate = 60,
+                            TotalRate = 12,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo33",
-                            ViewCount = 98
+                            ViewCount = 87
                         },
                         new
                         {
                             Id = 34,
-                            CategoryId = 2,
+                            CategoryId = 5,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:34",
-                            PostedOn = new DateTime(2004, 9, 10, 0, 24, 19, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2004, 9, 22, 5, 16, 9, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 67,
+                            RateCount = 32,
                             ShortDescription = "Post ShortDescription demo:34",
                             Status = 0,
                             Title = "Post Title demo:34",
-                            TotalRate = 28,
+                            TotalRate = 47,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo34",
-                            ViewCount = 52
+                            ViewCount = 19
                         },
                         new
                         {
                             Id = 35,
-                            CategoryId = 8,
+                            CategoryId = 6,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:35",
-                            PostedOn = new DateTime(2005, 3, 4, 21, 33, 44, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2011, 3, 30, 9, 34, 12, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 44,
+                            RateCount = 13,
                             ShortDescription = "Post ShortDescription demo:35",
                             Status = 0,
                             Title = "Post Title demo:35",
-                            TotalRate = 169,
+                            TotalRate = 104,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo35",
-                            ViewCount = 66
+                            ViewCount = 33
                         },
                         new
                         {
                             Id = 36,
-                            CategoryId = 1,
+                            CategoryId = 6,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:36",
-                            PostedOn = new DateTime(2013, 5, 28, 17, 14, 12, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2001, 4, 1, 7, 49, 43, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 31,
+                            RateCount = 57,
                             ShortDescription = "Post ShortDescription demo:36",
                             Status = 0,
                             Title = "Post Title demo:36",
-                            TotalRate = 181,
+                            TotalRate = 56,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo36",
-                            ViewCount = 80
+                            ViewCount = 77
                         },
                         new
                         {
                             Id = 37,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:37",
-                            PostedOn = new DateTime(2021, 11, 23, 16, 2, 25, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2006, 6, 18, 14, 8, 59, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 77,
+                            RateCount = 19,
                             ShortDescription = "Post ShortDescription demo:37",
                             Status = 0,
                             Title = "Post Title demo:37",
-                            TotalRate = 193,
+                            TotalRate = 36,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo37",
-                            ViewCount = 37
+                            ViewCount = 80
                         },
                         new
                         {
                             Id = 38,
-                            CategoryId = 1,
+                            CategoryId = 5,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:38",
-                            PostedOn = new DateTime(2015, 10, 18, 9, 50, 28, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2018, 11, 7, 12, 5, 27, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 66,
+                            RateCount = 70,
                             ShortDescription = "Post ShortDescription demo:38",
                             Status = 0,
                             Title = "Post Title demo:38",
-                            TotalRate = 153,
+                            TotalRate = 127,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo38",
-                            ViewCount = 8
+                            ViewCount = 11
                         },
                         new
                         {
@@ -1320,106 +1320,106 @@ namespace FA.JustBlog.Core.Migrations
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:39",
-                            PostedOn = new DateTime(2010, 5, 20, 0, 57, 12, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2013, 8, 10, 8, 40, 38, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 6,
+                            RateCount = 25,
                             ShortDescription = "Post ShortDescription demo:39",
                             Status = 0,
                             Title = "Post Title demo:39",
-                            TotalRate = 76,
+                            TotalRate = 48,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo39",
-                            ViewCount = 17
+                            ViewCount = 81
                         },
                         new
                         {
                             Id = 40,
-                            CategoryId = 3,
+                            CategoryId = 9,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:40",
-                            PostedOn = new DateTime(2019, 3, 9, 0, 4, 6, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2022, 9, 2, 9, 39, 45, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 51,
+                            RateCount = 7,
                             ShortDescription = "Post ShortDescription demo:40",
                             Status = 0,
                             Title = "Post Title demo:40",
-                            TotalRate = 192,
+                            TotalRate = 84,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo40",
-                            ViewCount = 17
+                            ViewCount = 74
                         },
                         new
                         {
                             Id = 41,
-                            CategoryId = 8,
+                            CategoryId = 9,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:41",
-                            PostedOn = new DateTime(2014, 11, 19, 5, 35, 54, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2000, 1, 28, 3, 50, 0, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 92,
+                            RateCount = 15,
                             ShortDescription = "Post ShortDescription demo:41",
                             Status = 0,
                             Title = "Post Title demo:41",
-                            TotalRate = 156,
+                            TotalRate = 55,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo41",
-                            ViewCount = 59
+                            ViewCount = 68
                         },
                         new
                         {
                             Id = 42,
-                            CategoryId = 7,
+                            CategoryId = 1,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:42",
-                            PostedOn = new DateTime(2003, 4, 20, 2, 14, 5, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2012, 7, 9, 22, 25, 1, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 79,
+                            RateCount = 54,
                             ShortDescription = "Post ShortDescription demo:42",
                             Status = 0,
                             Title = "Post Title demo:42",
-                            TotalRate = 149,
+                            TotalRate = 145,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo42",
-                            ViewCount = 82
+                            ViewCount = 18
                         },
                         new
                         {
                             Id = 43,
-                            CategoryId = 8,
+                            CategoryId = 5,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:43",
-                            PostedOn = new DateTime(2007, 5, 6, 7, 30, 38, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2000, 4, 11, 5, 27, 59, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 17,
+                            RateCount = 97,
                             ShortDescription = "Post ShortDescription demo:43",
                             Status = 0,
                             Title = "Post Title demo:43",
-                            TotalRate = 190,
+                            TotalRate = 196,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo43",
-                            ViewCount = 32
+                            ViewCount = 84
                         },
                         new
                         {
                             Id = 44,
-                            CategoryId = 3,
+                            CategoryId = 8,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:44",
-                            PostedOn = new DateTime(2016, 11, 17, 8, 18, 28, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2022, 10, 26, 0, 21, 21, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 34,
+                            RateCount = 80,
                             ShortDescription = "Post ShortDescription demo:44",
                             Status = 0,
                             Title = "Post Title demo:44",
-                            TotalRate = 58,
+                            TotalRate = 63,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo44",
-                            ViewCount = 88
+                            ViewCount = 72
                         },
                         new
                         {
@@ -1428,178 +1428,178 @@ namespace FA.JustBlog.Core.Migrations
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:45",
-                            PostedOn = new DateTime(2020, 9, 20, 6, 6, 35, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2016, 11, 19, 1, 0, 16, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 64,
+                            RateCount = 37,
                             ShortDescription = "Post ShortDescription demo:45",
                             Status = 0,
                             Title = "Post Title demo:45",
-                            TotalRate = 73,
+                            TotalRate = 195,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo45",
-                            ViewCount = 67
+                            ViewCount = 26
                         },
                         new
                         {
                             Id = 46,
-                            CategoryId = 7,
+                            CategoryId = 8,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:46",
-                            PostedOn = new DateTime(2014, 9, 21, 6, 1, 15, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2017, 12, 26, 16, 16, 55, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 82,
+                            RateCount = 39,
                             ShortDescription = "Post ShortDescription demo:46",
                             Status = 0,
                             Title = "Post Title demo:46",
-                            TotalRate = 95,
+                            TotalRate = 5,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo46",
-                            ViewCount = 33
+                            ViewCount = 27
                         },
                         new
                         {
                             Id = 47,
-                            CategoryId = 4,
+                            CategoryId = 9,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:47",
-                            PostedOn = new DateTime(2018, 6, 10, 2, 49, 22, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2011, 10, 22, 17, 29, 28, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 50,
+                            RateCount = 28,
                             ShortDescription = "Post ShortDescription demo:47",
                             Status = 0,
                             Title = "Post Title demo:47",
-                            TotalRate = 62,
+                            TotalRate = 111,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo47",
-                            ViewCount = 17
+                            ViewCount = 23
                         },
                         new
                         {
                             Id = 48,
-                            CategoryId = 9,
+                            CategoryId = 2,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:48",
-                            PostedOn = new DateTime(2012, 4, 11, 18, 9, 17, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2004, 9, 15, 23, 11, 45, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 46,
+                            RateCount = 88,
                             ShortDescription = "Post ShortDescription demo:48",
                             Status = 0,
                             Title = "Post Title demo:48",
-                            TotalRate = 91,
+                            TotalRate = 73,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo48",
-                            ViewCount = 19
+                            ViewCount = 99
                         },
                         new
                         {
                             Id = 49,
-                            CategoryId = 5,
+                            CategoryId = 9,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:49",
-                            PostedOn = new DateTime(2013, 10, 10, 9, 58, 36, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2012, 3, 27, 16, 16, 50, 0, DateTimeKind.Unspecified),
                             Published = 0,
-                            RateCount = 61,
+                            RateCount = 87,
                             ShortDescription = "Post ShortDescription demo:49",
                             Status = 0,
                             Title = "Post Title demo:49",
-                            TotalRate = 173,
+                            TotalRate = 179,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo49",
-                            ViewCount = 6
+                            ViewCount = 1
                         },
                         new
                         {
                             Id = 50,
-                            CategoryId = 9,
+                            CategoryId = 1,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:50",
-                            PostedOn = new DateTime(2016, 8, 6, 19, 31, 35, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2014, 10, 13, 4, 52, 20, 0, DateTimeKind.Unspecified),
                             Published = 1,
-                            RateCount = 84,
+                            RateCount = 11,
                             ShortDescription = "Post ShortDescription demo:50",
                             Status = 0,
                             Title = "Post Title demo:50",
-                            TotalRate = 164,
+                            TotalRate = 75,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo50",
-                            ViewCount = 79
+                            ViewCount = 31
                         },
                         new
                         {
                             Id = 51,
-                            CategoryId = 7,
+                            CategoryId = 3,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:51",
-                            PostedOn = new DateTime(2017, 5, 23, 10, 28, 8, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2011, 1, 25, 13, 51, 38, 0, DateTimeKind.Unspecified),
                             Published = 1,
-                            RateCount = 85,
+                            RateCount = 80,
                             ShortDescription = "Post ShortDescription demo:51",
                             Status = 0,
                             Title = "Post Title demo:51",
-                            TotalRate = 177,
+                            TotalRate = 47,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo51",
-                            ViewCount = 69
+                            ViewCount = 94
                         },
                         new
                         {
                             Id = 52,
-                            CategoryId = 5,
+                            CategoryId = 2,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:52",
-                            PostedOn = new DateTime(2018, 10, 25, 2, 30, 11, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2008, 10, 23, 0, 9, 27, 0, DateTimeKind.Unspecified),
                             Published = 1,
-                            RateCount = 5,
+                            RateCount = 30,
                             ShortDescription = "Post ShortDescription demo:52",
                             Status = 0,
                             Title = "Post Title demo:52",
-                            TotalRate = 20,
+                            TotalRate = 120,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo52",
-                            ViewCount = 14
+                            ViewCount = 13
                         },
                         new
                         {
                             Id = 53,
-                            CategoryId = 4,
+                            CategoryId = 6,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:53",
-                            PostedOn = new DateTime(2006, 8, 23, 5, 48, 59, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2000, 9, 28, 20, 0, 41, 0, DateTimeKind.Unspecified),
                             Published = 1,
-                            RateCount = 94,
+                            RateCount = 49,
                             ShortDescription = "Post ShortDescription demo:53",
                             Status = 0,
                             Title = "Post Title demo:53",
-                            TotalRate = 190,
+                            TotalRate = 149,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo53",
-                            ViewCount = 45
+                            ViewCount = 61
                         },
                         new
                         {
                             Id = 54,
-                            CategoryId = 1,
+                            CategoryId = 9,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Modified = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PostContent = "Post PostContent demo:54",
-                            PostedOn = new DateTime(2009, 7, 29, 2, 17, 29, 0, DateTimeKind.Unspecified),
+                            PostedOn = new DateTime(2014, 12, 12, 3, 27, 20, 0, DateTimeKind.Unspecified),
                             Published = 1,
-                            RateCount = 62,
+                            RateCount = 22,
                             ShortDescription = "Post ShortDescription demo:54",
                             Status = 0,
                             Title = "Post Title demo:54",
-                            TotalRate = 100,
+                            TotalRate = 54,
                             UpdateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             UrlSlug = "post-urlslug-demo54",
-                            ViewCount = 72
+                            ViewCount = 84
                         });
                 });
 
@@ -1630,71 +1630,225 @@ namespace FA.JustBlog.Core.Migrations
                     b.HasData(
                         new
                         {
-                            TagId = 6,
-                            PostId = 13,
+                            TagId = 10,
+                            PostId = 9,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 6,
-                            PostId = 15,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 6,
-                            PostId = 29,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 2,
-                            PostId = 38,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 3,
-                            PostId = 2,
+                            TagId = 12,
+                            PostId = 10,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
                             TagId = 1,
+                            PostId = 37,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 12,
+                            PostId = 12,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 6,
+                            PostId = 30,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 4,
+                            PostId = 13,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 13,
+                            PostId = 46,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 7,
+                            PostId = 1,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 13,
+                            PostId = 36,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 13,
+                            PostId = 31,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 3,
+                            PostId = 33,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 10,
+                            PostId = 41,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 5,
+                            PostId = 36,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 9,
+                            PostId = 20,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 1,
+                            PostId = 21,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 6,
+                            PostId = 18,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 12,
                             PostId = 3,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 9,
-                            PostId = 32,
+                            TagId = 7,
+                            PostId = 11,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 13,
-                            PostId = 4,
+                            TagId = 10,
+                            PostId = 20,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 13,
-                            PostId = 35,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 9,
+                            TagId = 4,
                             PostId = 46,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 5,
+                            PostId = 25,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 2,
+                            PostId = 1,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 4,
+                            PostId = 20,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 12,
+                            PostId = 14,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 6,
+                            PostId = 5,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 5,
+                            PostId = 49,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 3,
+                            PostId = 19,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 14,
+                            PostId = 24,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 13,
+                            PostId = 18,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 7,
+                            PostId = 42,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 13,
+                            PostId = 10,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 10,
+                            PostId = 4,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
@@ -1707,161 +1861,49 @@ namespace FA.JustBlog.Core.Migrations
                         },
                         new
                         {
-                            TagId = 11,
-                            PostId = 5,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 11,
-                            PostId = 7,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 5,
-                            PostId = 21,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 10,
-                            PostId = 19,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 14,
-                            PostId = 15,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 12,
-                            PostId = 25,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 5,
-                            PostId = 13,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 14,
-                            PostId = 38,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 1,
-                            PostId = 7,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 14,
-                            PostId = 2,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 7,
-                            PostId = 10,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 10,
-                            PostId = 9,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 11,
-                            PostId = 14,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 2,
-                            PostId = 3,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 2,
-                            PostId = 9,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 10,
-                            PostId = 4,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 13,
+                            TagId = 9,
                             PostId = 8,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 10,
-                            PostId = 21,
+                            TagId = 5,
+                            PostId = 11,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 12,
-                            PostId = 14,
+                            TagId = 13,
+                            PostId = 19,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 7,
-                            PostId = 18,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 2,
-                            PostId = 25,
+                            TagId = 5,
+                            PostId = 39,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
                             TagId = 8,
-                            PostId = 38,
+                            PostId = 18,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 6,
+                            TagId = 10,
+                            PostId = 6,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 11,
                             PostId = 24,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
@@ -1869,14 +1911,154 @@ namespace FA.JustBlog.Core.Migrations
                         new
                         {
                             TagId = 1,
-                            PostId = 49,
+                            PostId = 34,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 6,
+                            PostId = 11,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 9,
+                            PostId = 42,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 1,
+                            PostId = 6,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 9,
+                            PostId = 38,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 7,
+                            PostId = 34,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 12,
+                            PostId = 41,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 9,
+                            PostId = 13,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 4,
+                            PostId = 41,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 3,
+                            PostId = 29,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 5,
+                            PostId = 19,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 7,
+                            PostId = 30,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 9,
+                            PostId = 11,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 4,
+                            PostId = 2,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 11,
+                            PostId = 12,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 10,
+                            PostId = 24,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 3,
+                            PostId = 42,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 6,
+                            PostId = 3,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 14,
+                            PostId = 34,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
                             TagId = 8,
-                            PostId = 28,
+                            PostId = 5,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 5,
+                            PostId = 32,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 13,
+                            PostId = 24,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
@@ -1889,29 +2071,71 @@ namespace FA.JustBlog.Core.Migrations
                         },
                         new
                         {
+                            TagId = 10,
+                            PostId = 29,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 12,
+                            PostId = 6,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 4,
+                            PostId = 45,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
                             TagId = 11,
-                            PostId = 30,
+                            PostId = 7,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 6,
-                            PostId = 37,
+                            TagId = 2,
+                            PostId = 48,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 14,
-                            PostId = 35,
+                            TagId = 10,
+                            PostId = 7,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 5,
-                            PostId = 23,
+                            TagId = 12,
+                            PostId = 13,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 7,
+                            PostId = 10,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 2,
+                            PostId = 27,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 12,
+                            PostId = 16,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
@@ -1924,28 +2148,77 @@ namespace FA.JustBlog.Core.Migrations
                         },
                         new
                         {
-                            TagId = 8,
-                            PostId = 10,
+                            TagId = 9,
+                            PostId = 23,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 10,
+                            PostId = 30,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
                             TagId = 8,
-                            PostId = 31,
+                            PostId = 49,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
                             TagId = 7,
-                            PostId = 29,
+                            PostId = 23,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 6,
+                            PostId = 22,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 1,
+                            PostId = 4,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 11,
+                            PostId = 41,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 13,
+                            PostId = 25,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 9,
+                            PostId = 27,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
                             TagId = 14,
+                            PostId = 41,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 6,
                             PostId = 37,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
@@ -1953,168 +2226,35 @@ namespace FA.JustBlog.Core.Migrations
                         new
                         {
                             TagId = 5,
-                            PostId = 9,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 10,
-                            PostId = 44,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 8,
-                            PostId = 22,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 11,
-                            PostId = 21,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 5,
-                            PostId = 32,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 1,
-                            PostId = 32,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 4,
-                            PostId = 9,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 12,
-                            PostId = 20,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 14,
                             PostId = 29,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
+                            TagId = 6,
+                            PostId = 14,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
                             TagId = 4,
-                            PostId = 21,
+                            PostId = 8,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
                             TagId = 9,
-                            PostId = 26,
+                            PostId = 37,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 5,
-                            PostId = 40,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 5,
-                            PostId = 1,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 11,
-                            PostId = 49,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 14,
-                            PostId = 24,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 6,
-                            PostId = 45,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 1,
-                            PostId = 10,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 3,
-                            PostId = 28,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 7,
-                            PostId = 24,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 6,
-                            PostId = 34,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 10,
-                            PostId = 29,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 14,
-                            PostId = 46,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 3,
-                            PostId = 7,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 1,
-                            PostId = 29,
+                            TagId = 2,
+                            PostId = 3,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
@@ -2127,6 +2267,55 @@ namespace FA.JustBlog.Core.Migrations
                         },
                         new
                         {
+                            TagId = 5,
+                            PostId = 27,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 10,
+                            PostId = 3,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 2,
+                            PostId = 38,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 10,
+                            PostId = 25,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 1,
+                            PostId = 35,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 4,
+                            PostId = 12,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 8,
+                            PostId = 15,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
                             TagId = 11,
                             PostId = 33,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -2134,43 +2323,22 @@ namespace FA.JustBlog.Core.Migrations
                         },
                         new
                         {
-                            TagId = 5,
-                            PostId = 22,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 5,
-                            PostId = 6,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 13,
-                            PostId = 34,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 6,
-                            PostId = 6,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
                             TagId = 1,
-                            PostId = 4,
+                            PostId = 49,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 13,
-                            PostId = 11,
+                            TagId = 10,
+                            PostId = 42,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 2,
+                            PostId = 40,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
@@ -2183,98 +2351,14 @@ namespace FA.JustBlog.Core.Migrations
                         },
                         new
                         {
-                            TagId = 14,
-                            PostId = 22,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 4,
-                            PostId = 4,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 13,
-                            PostId = 18,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 5,
-                            PostId = 46,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 13,
-                            PostId = 49,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 5,
-                            PostId = 4,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 13,
-                            PostId = 46,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 13,
-                            PostId = 13,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 6,
-                            PostId = 21,
+                            TagId = 2,
+                            PostId = 31,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
                             TagId = 14,
-                            PostId = 48,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 9,
-                            PostId = 25,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 8,
-                            PostId = 45,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 12,
-                            PostId = 29,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 9,
                             PostId = 4,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
@@ -2282,42 +2366,49 @@ namespace FA.JustBlog.Core.Migrations
                         new
                         {
                             TagId = 3,
-                            PostId = 49,
+                            PostId = 21,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 7,
-                            PostId = 49,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 2,
-                            PostId = 37,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 7,
+                            TagId = 12,
                             PostId = 30,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 8,
-                            PostId = 29,
+                            TagId = 6,
+                            PostId = 38,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 13,
-                            PostId = 33,
+                            TagId = 9,
+                            PostId = 4,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 4,
+                            PostId = 48,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 14,
+                            PostId = 26,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 9,
+                            PostId = 40,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
@@ -2331,343 +2422,252 @@ namespace FA.JustBlog.Core.Migrations
                         new
                         {
                             TagId = 2,
-                            PostId = 14,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 10,
-                            PostId = 24,
+                            PostId = 19,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
                             TagId = 9,
-                            PostId = 45,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 1,
-                            PostId = 31,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 12,
-                            PostId = 24,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 11,
-                            PostId = 2,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 1,
-                            PostId = 14,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 12,
-                            PostId = 21,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 3,
-                            PostId = 46,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 4,
-                            PostId = 45,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 2,
-                            PostId = 35,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 5,
-                            PostId = 48,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 13,
-                            PostId = 31,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 14,
-                            PostId = 1,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 12,
-                            PostId = 39,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 11,
-                            PostId = 15,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 7,
-                            PostId = 37,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 6,
-                            PostId = 18,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 2,
-                            PostId = 46,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 14,
-                            PostId = 18,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 11,
-                            PostId = 29,
+                            PostId = 6,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
                             TagId = 8,
-                            PostId = 44,
+                            PostId = 10,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 3,
-                            PostId = 14,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 4,
-                            PostId = 11,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 11,
-                            PostId = 24,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 11,
-                            PostId = 38,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 13,
-                            PostId = 16,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 14,
-                            PostId = 16,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 13,
-                            PostId = 40,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 2,
-                            PostId = 20,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 2,
-                            PostId = 41,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 14,
-                            PostId = 13,
+                            TagId = 8,
+                            PostId = 12,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
                             TagId = 5,
-                            PostId = 2,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 7,
-                            PostId = 47,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 1,
-                            PostId = 39,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 14,
                             PostId = 23,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
-                            TagId = 7,
-                            PostId = 22,
+                            TagId = 9,
+                            PostId = 18,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 9,
+                            PostId = 43,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 5,
+                            PostId = 5,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 13,
+                            PostId = 39,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 1,
+                            PostId = 7,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
                             TagId = 10,
-                            PostId = 49,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 4,
-                            PostId = 44,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 6,
-                            PostId = 27,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 8,
-                            PostId = 1,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 4,
-                            PostId = 22,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 12,
-                            PostId = 13,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 1,
-                            PostId = 21,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 1,
-                            PostId = 1,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 9,
-                            PostId = 1,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 8,
-                            PostId = 2,
-                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Status = 0
-                        },
-                        new
-                        {
-                            TagId = 9,
                             PostId = 11,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         },
                         new
                         {
+                            TagId = 2,
+                            PostId = 33,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 14,
+                            PostId = 46,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 14,
+                            PostId = 21,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 12,
+                            PostId = 4,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 3,
+                            PostId = 28,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 7,
+                            PostId = 39,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 6,
+                            PostId = 42,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 11,
+                            PostId = 27,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 10,
+                            PostId = 36,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
                             TagId = 8,
-                            PostId = 30,
+                            PostId = 28,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 9,
+                            PostId = 47,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 6,
+                            PostId = 32,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 14,
+                            PostId = 36,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 7,
+                            PostId = 41,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 9,
+                            PostId = 32,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 11,
+                            PostId = 6,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 9,
+                            PostId = 28,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 10,
+                            PostId = 26,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 9,
+                            PostId = 36,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 3,
+                            PostId = 36,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 2,
+                            PostId = 12,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 4,
+                            PostId = 4,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 13,
+                            PostId = 35,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 6,
+                            PostId = 35,
+                            CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Status = 0
+                        },
+                        new
+                        {
+                            TagId = 1,
+                            PostId = 31,
                             CreateAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0
                         });
@@ -2886,6 +2886,424 @@ namespace FA.JustBlog.Core.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex")
+                        .HasFilter("[NormalizedName] IS NOT NULL");
+
+                    b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "12fc2c0e-99bf-447d-9b4d-45996a250f16",
+                            ConcurrencyStamp = "67e3381c-824b-4a90-8795-286c587d6286",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        },
+                        new
+                        {
+                            Id = "0e01b5da-60a1-426e-b306-edbecd1aa228",
+                            ConcurrencyStamp = "b668f1e9-7fca-4905-ae8b-bf302b6bded0",
+                            Name = "Contributor",
+                            NormalizedName = "CONTRIBUTOR"
+                        },
+                        new
+                        {
+                            Id = "d6039682-54c4-434a-920a-d91b3888d18d",
+                            ConcurrencyStamp = "78b7ee87-0d0a-49bf-9f6b-23154bc25f49",
+                            Name = "BlogOwner",
+                            NormalizedName = "BLOGOWNER"
+                        });
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoleId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetRoleClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "dd10f17b-6c30-43c8-b326-c69a807ba2c5",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "e341665b-5926-444e-aade-2663bac13a9f",
+                            Email = "thanhs1@user.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "THANHS1@USER.COM",
+                            NormalizedUserName = "THANHS1@USER.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEB1xX/pwJhrNfvvjN6W9Gk4WgeOnl0sGoc+RdLGbrHL5kfjctTYBW2RSBnbTa59xVw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "53bad9fd-62c1-48b4-9bcf-60833b204eea",
+                            TwoFactorEnabled = false,
+                            UserName = "thanhs1@user.com"
+                        },
+                        new
+                        {
+                            Id = "5c286ddc-e0fd-4a35-bada-c33ba1dc90ed",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "c56105d2-01ea-432d-8be3-32dc5395f4a6",
+                            Email = "thanhs2@user.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "THANHS2@USER.COM",
+                            NormalizedUserName = "THANHS2@USER.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDbpDtu8loa2ihz2QPRURoiYaAE221rc9YGb54g3SBXpkgyKNI5I7LcUPlFYGuNL3A==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "00f38fc8-4d8f-4aed-b61d-0e3a22dd1af0",
+                            TwoFactorEnabled = false,
+                            UserName = "thanhs2@user.com"
+                        },
+                        new
+                        {
+                            Id = "29a1edd8-8a04-4ad4-9cc3-a0402f533017",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "9973b51e-fd8a-43f1-bab1-a8b538d42c1f",
+                            Email = "thanhs3@user.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "THANHS3@USER.COM",
+                            NormalizedUserName = "THANHS3@USER.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAebTgobL4j6C2LhtH+JU9obZtH8MLIZ5MEDZAc2mv6arnKSIS0Vy+vEaXgk6AFC3Q==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "3a117c50-b0ee-49e4-b183-fb7f5534d8ea",
+                            TwoFactorEnabled = false,
+                            UserName = "thanhs3@user.com"
+                        },
+                        new
+                        {
+                            Id = "7d1cb70a-6c6f-4920-b353-30f5a97e9767",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "55da2c2b-6d53-4cc8-9b40-1e7b495b2612",
+                            Email = "thanhc2@contributor.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "THANHC2@CONTRIBUTOR.COM",
+                            NormalizedUserName = "THANHC2@CONTRIBUTOR.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFCG9V/d82qqTDWsd5F3a4sOxTfF5T8Mq/7N/PnlOlavrYn5NWqqtJgb35Mijg+I5A==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "9fbb9074-3a5d-4ff8-b4b2-b0ff17910c92",
+                            TwoFactorEnabled = false,
+                            UserName = "thanhc2@contributor.com"
+                        },
+                        new
+                        {
+                            Id = "e6e01470-3dcd-41b3-9eac-b11cdc461330",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "128aeb09-a59f-4581-af2e-4c730701cfa4",
+                            Email = "thanhc3@contributor.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "THANHC3@CONTRIBUTOR.COM",
+                            NormalizedUserName = "THANHC3@CONTRIBUTOR.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAENBrQlPX+kvyY8APyeb98jy5FYnlQoe3CLZWQUCX2DcDxesyJ5WJUyWFQS1NxL8o1Q==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "30d4d5dd-caf5-450d-9676-363f474a7927",
+                            TwoFactorEnabled = false,
+                            UserName = "thanhc3@contributor.com"
+                        },
+                        new
+                        {
+                            Id = "a2d6f7a5-7249-407c-8518-effb9df83f4d",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "eb12e880-505d-4d2e-a176-a0ebc8e1bea8",
+                            Email = "thanhc1@contributor.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "THANHC1@CONTRIBUTOR.COM",
+                            NormalizedUserName = "THANHC1@CONTRIBUTOR.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEChtvqp7j2q/5umGSuRv/IIYGfzZ8i0wwdX3mQ2sfx5KoLOd7W5a1Kss+KU3r32drg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "f2265368-de18-481f-bb1f-840f92b80b6e",
+                            TwoFactorEnabled = false,
+                            UserName = "thanhc1@contributor.com"
+                        },
+                        new
+                        {
+                            Id = "350a7ff5-dddc-4642-b377-52bfb6ad30e8",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "ad005304-fc05-4646-b067-6e03085da90b",
+                            Email = "thanhb1@blogOwner.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "THANHB1@BLOGOWNER.COM",
+                            NormalizedUserName = "THANHB1@BLOGOWNER.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMXNRSWRNmx//jd8mbwE5ACuczt26YryCB58e+fdTqttYTaOnLQmHXXTE0YwILfGDw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "c62a02a1-1fa0-45fa-822e-467c072a8947",
+                            TwoFactorEnabled = false,
+                            UserName = "thanhb1@blogOwner.com"
+                        },
+                        new
+                        {
+                            Id = "9f09f22c-2b9a-4899-90bf-9772e03edb55",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "56189149-3750-458b-8620-c3fd8e069112",
+                            Email = "thanhb2@blogOwner.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "THANHB2@BLOGOWNER.COM",
+                            NormalizedUserName = "THANHB2@BLOGOWNER.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIwCLADoHv1fypcOR5fci49X6Uce3kyPUV8x8sYxbKOPZaoRXW9wA8sOOyNeRres1w==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "a7302ad2-0fbf-4fc9-acc3-3bef51782ce4",
+                            TwoFactorEnabled = false,
+                            UserName = "thanhb2@blogOwner.com"
+                        },
+                        new
+                        {
+                            Id = "e99efd43-0141-4f63-bae0-c4b1a772fbf4",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "03f9ac92-d65c-4d93-ad50-2a9848cf63ba",
+                            Email = "thanhb3@blogOwner.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "THANHB3@BLOGOWNER.COM",
+                            NormalizedUserName = "THANHB3@BLOGOWNER.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAED02j//xiVOkzJSDIALzRzoVEKcLp9aBUhrW/e9czoHzkxNkyxNwzJnA4KgAK7I7Sg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "729ff3f0-a753-45f0-bf53-ece3613afb55",
+                            TwoFactorEnabled = false,
+                            UserName = "thanhb3@blogOwner.com"
+                        });
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+                {
+                    b.Property<string>("LoginProvider")
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
+
+                    b.Property<string>("ProviderKey")
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
+
+                    b.Property<string>("ProviderDisplayName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("LoginProvider", "ProviderKey");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserLogins", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "dd10f17b-6c30-43c8-b326-c69a807ba2c5",
+                            RoleId = "12fc2c0e-99bf-447d-9b4d-45996a250f16"
+                        },
+                        new
+                        {
+                            UserId = "5c286ddc-e0fd-4a35-bada-c33ba1dc90ed",
+                            RoleId = "12fc2c0e-99bf-447d-9b4d-45996a250f16"
+                        },
+                        new
+                        {
+                            UserId = "29a1edd8-8a04-4ad4-9cc3-a0402f533017",
+                            RoleId = "12fc2c0e-99bf-447d-9b4d-45996a250f16"
+                        },
+                        new
+                        {
+                            UserId = "7d1cb70a-6c6f-4920-b353-30f5a97e9767",
+                            RoleId = "0e01b5da-60a1-426e-b306-edbecd1aa228"
+                        },
+                        new
+                        {
+                            UserId = "e6e01470-3dcd-41b3-9eac-b11cdc461330",
+                            RoleId = "0e01b5da-60a1-426e-b306-edbecd1aa228"
+                        },
+                        new
+                        {
+                            UserId = "a2d6f7a5-7249-407c-8518-effb9df83f4d",
+                            RoleId = "0e01b5da-60a1-426e-b306-edbecd1aa228"
+                        },
+                        new
+                        {
+                            UserId = "350a7ff5-dddc-4642-b377-52bfb6ad30e8",
+                            RoleId = "d6039682-54c4-434a-920a-d91b3888d18d"
+                        },
+                        new
+                        {
+                            UserId = "9f09f22c-2b9a-4899-90bf-9772e03edb55",
+                            RoleId = "d6039682-54c4-434a-920a-d91b3888d18d"
+                        },
+                        new
+                        {
+                            UserId = "e99efd43-0141-4f63-bae0-c4b1a772fbf4",
+                            RoleId = "d6039682-54c4-434a-920a-d91b3888d18d"
+                        });
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("LoginProvider")
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId", "LoginProvider", "Name");
+
+                    b.ToTable("AspNetUserTokens", (string)null);
+                });
+
             modelBuilder.Entity("FA.JustBlog.Core.Models.Comment", b =>
                 {
                     b.HasOne("FA.JustBlog.Core.Models.Post", "Post")
@@ -2925,6 +3343,57 @@ namespace FA.JustBlog.Core.Migrations
                     b.Navigation("Post");
 
                     b.Navigation("Tag");
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("FA.JustBlog.Core.Models.Category", b =>

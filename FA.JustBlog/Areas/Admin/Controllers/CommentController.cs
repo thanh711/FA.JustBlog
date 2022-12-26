@@ -1,12 +1,15 @@
 ﻿using AutoMapper;
+using FA.JustBlog.Core.Constants;
 using FA.JustBlog.Core.Infrastructures;
 using FA.JustBlog.Core.Models;
 using FA.JustBlog.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FA.JustBlog.Areas.Admin.Controllers
 {
     [Area("Admin")]
+   
     public class CommentController : AdminController
     {
         private readonly IUnitOfWork unitOfWork;

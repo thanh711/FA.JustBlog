@@ -34,15 +34,7 @@
                 <span asp-validation-for="PostedOn" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <label asp-for="Published" class="control-label"></label>
-                @Html.DropDownListFor(u => u.Published,  new SelectList(new List<SelectListItem> {
-                new SelectListItem { Value = Publish.Publised.ToString() , Text = "Publised" },
-                new SelectListItem { Value = Publish.Unpublised.ToString() , Text = "Unpublised" },
-                }, "Value", "Text"),
-                new { @class = "form-control" })
-                <span asp-validation-for="Published" class="text-danger"></span>
-            </div>
+           
             <div class="form-group">
                 <label asp-for="CategoryId" class="control-label">Category</label>
                 @Html.DropDownListFor(u => u.CategoryId, 

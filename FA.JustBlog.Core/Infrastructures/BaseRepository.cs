@@ -42,7 +42,7 @@ namespace FA.JustBlog.Core.Infrastructures
         public IEnumerable<TEntity> Find(Func<TEntity, bool> predicate)
         {
             return DbSet.Where(t=>t.Status==Status.Actived)
-                .Where(predicate);
+                .Where(predicate).ToList();
         }
 
         public IEnumerable<TEntity> GetAll()
@@ -66,11 +66,11 @@ namespace FA.JustBlog.Core.Infrastructures
             {
                 return DbSet.Where(t => t.Status == Status.Actived)
                                .Skip((currentPage - 1) * pageSize)
-                               .Take(pageSize);
+                               .Take(pageSize).ToList();
             }
             return orderBy.Where(t => t.Status == Status.Actived)
                 .Skip((currentPage-1)* pageSize)
-                .Take(pageSize);
+                .Take(pageSize).ToList();
         }
 
         public void Update(TEntity entity)

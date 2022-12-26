@@ -1,5 +1,7 @@
 ﻿using FA.JustBlog.Core.FluentConfig;
 using FA.JustBlog.Core.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,7 +12,7 @@ using System.Threading.Tasks;
 namespace FA.JustBlog.Core.Data
 {
     
-    public class JustBlogContext : DbContext
+    public class JustBlogContext : IdentityDbContext<IdentityUser>
     {
 
         public JustBlogContext(DbContextOptions<JustBlogContext> options)
@@ -24,21 +26,24 @@ namespace FA.JustBlog.Core.Data
         public DbSet<PostTagMap> PostTagMaps { get; set; }
         public DbSet<Comment> Comments { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            string connectionString = @"Server=THANHNC0711;Database=JustBlog;Integrated security=True;Encrypt=false";
-            base.OnConfiguring(optionsBuilder);
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseLazyLoadingProxies().UseSqlServer(connectionString);
-            }
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    string connectionString = @"Server=THANHNC0711;Database=JustBlog;Integrated security=True;Encrypt=false";
+        //    base.OnConfiguring(optionsBuilder);
+        //    if (!optionsBuilder.IsConfigured)
+        //    {
+        //        optionsBuilder.UseLazyLoadingProxies().UseSqlServer(connectionString);
+        //    }
+        //}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(PostTagMapConfig).Assembly);
 
+            //modelBuilder.ApplyConfiguration(new RoleSeedConfiguration());
+          //  modelBuilder.ApplyConfiguration(new UserSeedConfiguration());
+            //modelBuilder.ApplyConfiguration(new UserRoleSeedConfiguration());
             modelBuilder.Seed();
         }
     }

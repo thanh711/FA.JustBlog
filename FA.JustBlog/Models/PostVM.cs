@@ -44,6 +44,5 @@ namespace FA.JustBlog.Models
         }
         public string CategoryName { get; set; }
         public IEnumerable<SelectListItem> CategoryList { get; set; }
-        public IEnumerable<SelectListItem> PublishedList { get; set; }
     }
 }

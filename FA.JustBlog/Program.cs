@@ -2,7 +2,6 @@ using FA.JustBlog.Core.Infrastructures;
 using FA.JustBlog.Core.IRepositories;
 using FA.JustBlog.MapperConfig;
 using FA.JustBlog.Core.Repositories;
-using FA.JustBlog.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using FA.JustBlog.Core.Data;
@@ -11,19 +10,25 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseSqlServer(connectionString));
+//builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+//    .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddDbContext<JustBlogContext>(options =>
     options.UseLazyLoadingProxies().UseSqlServer(connectionString));
+builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<JustBlogContext>();
+
+
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddAutoMapper(typeof(MapperConfig));
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddControllersWithViews();
 
@@ -58,12 +63,12 @@ app.MapControllerRoute(
     name: "MyArea",
     pattern: "{area:exists}/{controller=Posts}/{action=Index}/{id?}");
 
-//app.MapControllerRoute(
-//    name: "default",
-//    pattern: "{controller=Posts}/{action=Index}/{id?}");
 app.MapControllerRoute(
     name: "default",
-    pattern: "{area=Admin}/{controller=Posts}/{action=Index}/{id?}");
+    pattern: "{controller=Posts}/{action=Index}/{id?}");
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{area=Admin}/{controller=Posts}/{action=Index}/{id?}");
 app.MapRazorPages();
 
 app.Run();

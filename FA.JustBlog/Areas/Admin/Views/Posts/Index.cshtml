@@ -1,9 +1,13 @@
-﻿@model IEnumerable<PostVM>
+﻿@using FA.JustBlog.Core.Constants
+@model IEnumerable<PostVM>
 @{
     ViewData["Title"] = "Post List";
 }
-<a asp-action="Create" class="btn btn-success">Create</a>
 
+@if (User.IsInRole(Roles.Contributor) || User.IsInRole(Roles.BlogOwner))
+{
+    <a asp-action="Create" class="btn btn-success">Create</a>
+}
 <table class="table">
     <thead>
         <tr>
@@ -49,18 +53,40 @@
                     <a class="btn btn-info" asp-action="Details"
                    asp-route-year="@item.PostedOn.Year"
                    asp-route-month="@item.PostedOn.Month"
-                   asp-route-UrlSlug="@item.UrlSlug"><i class="fa-solid fa-circle-info"></i> Details</a>  
-                   <br />
-                    <a class="btn btn-warning" asp-action="Update"
+                   asp-route-UrlSlug="@item.UrlSlug"><i class="fa-solid fa-circle-info"></i> Details</a>
+                    <br />
+
+                    @if (User.IsInRole(Roles.Contributor) || User.IsInRole(Roles.BlogOwner))
+                    {
+                        <a class="btn btn-warning" asp-action="Update"
                    asp-route-year="@item.PostedOn.Year"
                    asp-route-month="@item.PostedOn.Month"
-                   asp-route-UrlSlug="@item.UrlSlug"><i class="fa-solid fa-pencil"></i> Update</a> 
-                   <br/>
-                    <form asp-action="Delete" asp-route-id="@item.Id"
-                      onclick="return confirm('Are you sure you want to delete this?')">
-                        <button type="submit" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i> Delete</button>
-                    </form>
+                   asp-route-UrlSlug="@item.UrlSlug"><i class="fa-solid fa-pencil"></i> Update</a>
 
+                    }
+                    @if (User.IsInRole(Roles.BlogOwner))
+                    {
+                        <br />
+                        <form asp-action="Delete" asp-route-id="@item.Id"
+                      onclick="return confirm('Are you sure you want to delete this?')">
+                            <button type="submit" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i> Delete</button>
+                        </form>
+                        @if (item.Published == Publish.Publised)
+                        {
+                            <form asp-action="PostPublish" asp-route-id="@item.Id" asp-route-changeto="@Publish.Unpublised"
+                      onclick="return confirm('Are you sure you want to unpublish this?')">
+                                <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-xmark"></i> Unpublish</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <form asp-action="PostPublish" asp-route-id="@item.Id" asp-route-changeto="@Publish.Publised"
+                      onclick="return confirm('Are you sure you want to publish this?')">
+                                <button type="submit" class="btn btn-success"><i class="fa-solid fa-check"></i> Publish</button>
+                            </form>
+                        }
+
+                    }
                 </td>
             </tr>
         }
@@ -72,6 +98,6 @@
     <script>
         $(function () {
             $('.table').DataTable();
-                })
+        })
     </script>
 }

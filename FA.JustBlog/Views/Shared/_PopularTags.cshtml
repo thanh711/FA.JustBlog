@@ -1,6 +1,8 @@
 ﻿@model IEnumerable<TagVM>
 @foreach (var item in Model)
 {
-    <span class="badge bg-primary">@item.Name</span>
-
+    <a  asp-action="GetPostByTag"
+   asp-route-name="@item.Name">
+        <span class="badge bg-primary">@item.Name</span>
+    </a>
 }
