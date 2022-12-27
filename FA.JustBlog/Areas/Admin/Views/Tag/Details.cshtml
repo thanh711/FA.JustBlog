@@ -1,7 +1,7 @@
-﻿@model CategoryVM
+﻿@model TagVM
 
 @{
-    ViewData["Title"] = "Category Details";
+    ViewData["Title"] = "Tag Details";
 }
 
 <h1> @Model.Name</h1>
@@ -24,27 +24,10 @@
         <dd class="col-sm-9">
             @Html.DisplayFor(model => model.Description)<hr />
         </dd>
-        <dt class="col-sm-3">
-            @Html.DisplayNameFor(model => model.Posts)
-        </dt>
-        <dd class="col-sm-9">
-            <div class="list-group">
-                @foreach (var item in Model.Posts)
-                {
-                    <a class="list-group-item list-group-item-action"
-                   asp-controller="Posts"
-                   asp-action="Details"
-                   asp-route-year="@item.PostedOn.Year"
-                   asp-route-month="@item.PostedOn.Month"
-                   asp-route-UrlSlug="@item.UrlSlug">@item.Title</a>
-
-                }
-            </div>
-        </dd>
-
     </dl>
 </div>
 <div>
+  
     @if (User.IsInRole(Roles.Contributor) || User.IsInRole(Roles.BlogOwner))
     {
         <a class="btn btn-warning" asp-action="Update"

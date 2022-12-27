@@ -77,9 +77,12 @@
     </dl>
 </div>
 <div>
-    <a class="btn btn-warning" asp-action="Update"
+    @if (User.IsInRole(Roles.Contributor) || User.IsInRole(Roles.BlogOwner))
+    {
+        <a class="btn btn-warning" asp-action="Update"
        asp-route-year="@Model.PostedOn.Year"
        asp-route-month="@Model.PostedOn.Month"
        asp-route-UrlSlug="@Model.UrlSlug"><i class="fa-solid fa-pencil"></i> Update</a>
+    }
     <a asp-action="Index" class="btn btn-primary">Back to List</a>
 </div>
