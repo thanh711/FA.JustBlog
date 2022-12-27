@@ -1,4 +1,6 @@
-﻿namespace FA.JustBlog.Common.ViewModels
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+
+namespace FA.JustBlog.Common.ViewModels
 {
     public class CommentVM
     {
@@ -8,5 +10,6 @@
         public string CommentHeader { get; set; }
         public string CommentText { get; set; }
         public DateTime CommentTime { get; set; }
+        public int PostId { get; set; }
     }
 }

@@ -1,0 +1,58 @@
+﻿@model CommentVM
+
+@{
+    ViewData["Title"] = "Comment Details";
+}
+
+<h1> @Model.Name</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Name)
+
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Name)
+            <hr />
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Email)
+            <hr />
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.CommentHeader)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.CommentHeader)
+            <hr />
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.CommentText)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.CommentText)
+            <hr />
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.CommentTime)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.CommentTime)
+            <hr />
+        </dd>
+    </dl>
+</div>
+<div>
+    @if (User.IsInRole(Roles.Contributor) || User.IsInRole(Roles.BlogOwner))
+    {
+        <a class="btn btn-warning" asp-action="Update"
+       asp-route-id="@Model.Id"><i class="fa-solid fa-pencil"></i> Update</a>
+    }
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</div>

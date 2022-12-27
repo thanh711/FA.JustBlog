@@ -97,7 +97,11 @@
 @section Scripts{
     <script>
         $(function () {
-            $('.table').DataTable();
+            $('.table').DataTable({
+                "columnDefs": [
+                    { "width": "100px", "targets": 5 }
+                ]
+            });
         })
     </script>
 }

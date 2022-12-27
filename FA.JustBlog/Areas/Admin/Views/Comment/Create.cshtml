@@ -1,0 +1,56 @@
+﻿@model CommentVM
+@{
+    ViewData["Title"] = "Create Comment";
+}
+
+<h1>Create</h1>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <textarea asp-for="Email" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CommentHeader" class="control-label"></label>
+                <textarea asp-for="CommentHeader" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="CommentHeader" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CommentText" class="control-label"></label>
+                <textarea asp-for="CommentText" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="CommentText" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PostId" class="control-label">Category</label>
+                @Html.DropDownListFor(u => u.PostId,
+                new SelectList(unitOfWork.PostRepository.GetAll().Select(t => new SelectListItem
+                {
+                Text = t.Title,
+                Value = t.Id.ToString()
+                }), "Value", "Text"),
+                new { @class = "form-control" })
+                <span asp-validation-for="PostId" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div>
+
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</div>
+

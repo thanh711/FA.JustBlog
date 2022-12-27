@@ -43,7 +43,7 @@ namespace FA.JustBlog.Areas.Admin.Controllers
                 tag.UrlSlug = model.Name + Guid.NewGuid();
                 unitOfWork.TagRepository.Create(tag);
                 unitOfWork.SaveChanges();
-                return RedirectToAction(nameof(Index));
+                return View(nameof(Details), mapper.Map<TagVM>(tag));
             }
         }
 
@@ -74,9 +74,8 @@ namespace FA.JustBlog.Areas.Admin.Controllers
                 tag.Description = model.Description;
                 unitOfWork.TagRepository.Update(tag);
                 unitOfWork.SaveChanges();
-                return RedirectToAction(nameof(Index));
+                return View(nameof(Details), mapper.Map<TagVM>(tag));
             }
-            return View();
         }
 
         [Authorize(Roles = Roles.Contributor + "," + Roles.BlogOwner + "," + Roles.User)]
